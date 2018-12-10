@@ -1,0 +1,147 @@
+#!/usr/bin/env bash
+
+set -ueo pipefail
+
+TOP_PROJECTS=()
+
+# SIRIUS_DIAG
+SIRIUS_DIAG_PREFIX="SIRIUS_DIAG"
+SIRIUS_DIAG_GIT_URL="https://github.com"
+SIRIUS_DIAG_ORG="lnls-dig"
+SIRIUS_DIAG_PROJECT="sirius-diagnostics-epics-screens"
+SIRIUS_DIAG_TAG="master"
+SIRIUS_DIAG_OPI_FOLDER="op/opi"
+
+TOP_PROJECTS+=("${SIRIUS_DIAG_PREFIX}")
+
+PROJECTS=()
+
+# BPM
+BPM_PREFIX="BPM"
+BPM_GIT_URL="https://github.com"
+BPM_ORG="lnls-dig"
+BPM_PROJECT="bpm-epics-ioc"
+BPM_TAG="master"
+BPM_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${BPM_PREFIX}")
+
+# Timing RX
+TIM_RX_PREFIX="TIM_RX"
+TIM_RX_GIT_URL="https://github.com"
+TIM_RX_ORG="lnls-dig"
+TIM_RX_PROJECT="tim-rx-epics-ioc"
+TIM_RX_TAG="master"
+TIM_RX_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${TIM_RX_PREFIX}")
+
+# RSFSX
+RSFSX_PREFIX="RSFSX"
+RSFSX_GIT_URL="https://github.com"
+RSFSX_ORG="lnls-dig"
+RSFSX_PROJECT="rsfsx-epics-ioc"
+RSFSX_TAG="devel"
+RSFSX_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${RSFSX_PREFIX}")
+
+# VALON5009
+VALON5009_PREFIX="VALON5009"
+VALON5009_GIT_URL="https://github.com"
+VALON5009_ORG="lnls-dig"
+VALON5009_PROJECT="valon5009-epics-ioc"
+VALON5009_TAG="devel"
+VALON5009_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${VALON5009_PREFIX}")
+
+# INJ_EFF
+INJ_EFF_PREFIX="INJ_EFF"
+INJ_EFF_GIT_URL="https://github.com"
+INJ_EFF_ORG="lnls-dig"
+INJ_EFF_PROJECT="inj-efficiency-epics-ioc"
+INJ_EFF_TAG="devel"
+INJ_EFF_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${INJ_EFF_PREFIX}")
+
+# TUNE
+TUNE_PREFIX="TUNE"
+TUNE_GIT_URL="https://github.com"
+TUNE_ORG="lnls-dig"
+TUNE_PROJECT="tune-epics-ioc"
+TUNE_TAG="devel"
+TUNE_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${TUNE_PREFIX}")
+
+# SCREEN
+SCREEN_PREFIX="SCREEN"
+SCREEN_GIT_URL="https://github.com"
+SCREEN_ORG="lnls-dig"
+SCREEN_PROJECT="screen-epics-ioc"
+SCREEN_TAG="devel"
+SCREEN_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${SCREEN_PREFIX}")
+
+# ARAMP
+ARAMP_PREFIX="ARAMP"
+ARAMP_GIT_URL="https://github.com"
+ARAMP_ORG="lnls-dig"
+ARAMP_PROJECT="ar-amp-epics-ioc"
+ARAMP_TAG="devel"
+ARAMP_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${ARAMP_PREFIX}")
+
+# DIFF_CTRL
+DIFF_CTRL_PREFIX="DIFF_CTRL"
+DIFF_CTRL_GIT_URL="https://github.com"
+DIFF_CTRL_ORG="lnls-dig"
+DIFF_CTRL_PROJECT="diff-ctrl-epics-ioc"
+DIFF_CTRL_TAG="devel"
+DIFF_CTRL_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${DIFF_CTRL_PREFIX}")
+
+# DMM7510
+DMM7510_PREFIX="DMM7510"
+DMM7510_GIT_URL="https://github.com"
+DMM7510_ORG="lnls-dig"
+DMM7510_PROJECT="dmm7510-epics-ioc"
+DMM7510_TAG="devel"
+DMM7510_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${DMM7510_PREFIX}")
+
+# DMC30017
+DMC30017_PREFIX="DMC30017"
+DMC30017_GIT_URL="https://github.com"
+DMC30017_ORG="lnls-dig"
+DMC30017_PROJECT="galil-dmc30017-epics-ioc"
+DMC30017_TAG="devel"
+DMC30017_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${DMC30017_PREFIX}")
+
+# AGILENT33521A
+AGILENT33521A_PREFIX="AGILENT33521A"
+AGILENT33521A_GIT_URL="https://github.com"
+AGILENT33521A_ORG="lnls-dig"
+AGILENT33521A_PROJECT="agilent33521a-epics-ioc"
+AGILENT33521A_TAG="devel"
+AGILENT33521A_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${AGILENT33521A_PREFIX}")
+
+# SINAP_TIMING
+SINAP_TIMING_PREFIX="SINAP_TIMING"
+SINAP_TIMING_GIT_URL="https://github.com"
+SINAP_TIMING_ORG="lnls-dig"
+SINAP_TIMING_PROJECT="sinap-timing-epics-ioc"
+SINAP_TIMING_TAG="proposed-master"
+SINAP_TIMING_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${SINAP_TIMING_PREFIX}")
