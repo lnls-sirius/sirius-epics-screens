@@ -107,7 +107,7 @@ for proj in "${TOP_PROJECTS[@]}"; do
     # Copy only OPI to target folder
     mkdir -p ${OPI_FOLDER}/${git_proj}
     cp -r ${TOP_DIR}/${opi_folder}/* \
-        ${TOP_DIR}/${OPI_FOLDER}/${git_proj}
+        ${TOP_DIR}/${OPI_FOLDER}
 done
 
 set -u
