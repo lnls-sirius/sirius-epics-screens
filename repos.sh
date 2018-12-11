@@ -26,6 +26,16 @@ BPM_OPI_FOLDER="op/opi"
 
 PROJECTS+=("${BPM_PREFIX}")
 
+# Sirius BPM
+SIRIUS_BPM_PREFIX="SIRIUS_BPM"
+SIRIUS_BPM_GIT_URL="https://github.com"
+SIRIUS_BPM_ORG="lnls-dig"
+SIRIUS_BPM_PROJECT="sirius-bpm-epics-screens"
+SIRIUS_BPM_TAG="master"
+SIRIUS_BPM_OPI_FOLDER="op/opi"
+
+PROJECTS+=("${SIRIUS_BPM_PREFIX}")
+
 # Timing RX
 TIM_RX_PREFIX="TIM_RX"
 TIM_RX_GIT_URL="https://github.com"
