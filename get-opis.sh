@@ -14,8 +14,8 @@ source ${SCRIPTPATH}/functions.sh
 source ${SCRIPTPATH}/repos.sh
 
 # Common paths
-IOC_REPOS=${TOP}/${IOC_REPO_FOLDER}
-DEST_OPI_FOLDER=${TOP}/${OPI_FOLDER}
+IOC_REPOS=${TOP}/${IOC_REPO_DIR}
+DEST_OPI_DIR=${TOP}/${OPI_DIR}
 
 usage () {
     echo "Usage:" >&2
@@ -61,7 +61,7 @@ fi
 
 # Create folders
 mkdir -p ${IOC_REPOS}
-mkdir -p ${DEST_OPI_FOLDER}
+mkdir -p ${DEST_OPI_DIR}
 
 set +u
 
@@ -71,7 +71,7 @@ for proj in "${PROJECTS[@]}"; do
     _git_org="${proj}_ORG"
     _git_proj="${proj}_PROJECT"
     _git_tag="${proj}_TAG"
-    _opi_folder="${proj}_OPI_FOLDER"
+    _opi_folder="${proj}_OPI_DIR"
 
     git_url=${!_git_url}
     git_org=${!_git_org}
@@ -84,9 +84,9 @@ for proj in "${PROJECTS[@]}"; do
     get_repo ${git_url} ${git_org} ${git_proj} ${git_tag} ${IOC_REPOS}
 
     # Copy only OPI to target folder
-    mkdir -p ${DEST_OPI_FOLDER}/${git_proj}
+    mkdir -p ${DEST_OPI_DIR}/${git_proj}
     cp -r ${IOC_REPOS}/${dest_proj_name}/${opi_folder}/* \
-        ${DEST_OPI_FOLDER}/${git_proj}
+        ${DEST_OPI_DIR}/${git_proj}
 done
 
 # Get repos
@@ -95,7 +95,7 @@ for proj in "${TOP_PROJECTS[@]}"; do
     _git_org="${proj}_ORG"
     _git_proj="${proj}_PROJECT"
     _git_tag="${proj}_TAG"
-    _opi_folder="${proj}_OPI_FOLDER"
+    _opi_folder="${proj}_OPI_DIR"
 
     git_url=${!_git_url}
     git_org=${!_git_org}
@@ -106,9 +106,9 @@ for proj in "${TOP_PROJECTS[@]}"; do
     DEST_PROJ_NAME=$(dest_proj_name ${git_proj} ${git_tag})
 
     # Copy only OPI to target folder
-    mkdir -p ${DEST_OPI_FOLDER}/${git_proj}
+    mkdir -p ${DEST_OPI_DIR}/${git_proj}
     cp -r ${TOP}/${opi_folder}/* \
-        ${DEST_OPI_FOLDER}
+        ${DEST_OPI_DIR}
 done
 
 set -u
