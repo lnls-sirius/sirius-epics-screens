@@ -200,7 +200,7 @@ $(pv_value)</tooltip>
     </line_color>
     <line_style>0</line_style>
     <line_width>0</line_width>
-    <name>TB</name>
+    <name>Linac to Booster</name>
     <pv_name></pv_name>
     <pv_value />
     <rules />
@@ -258,7 +258,7 @@ $(pv_value)</tooltip>
     </line_color>
     <line_style>0</line_style>
     <line_width>0</line_width>
-    <name>LI</name>
+    <name>Linac</name>
     <pv_name></pv_name>
     <pv_value />
     <rules />
@@ -905,7 +905,7 @@ $(pv_value)</tooltip>
     </line_color>
     <line_style>0</line_style>
     <line_width>0</line_width>
-    <name>TS</name>
+    <name>Booster to Storage Ring</name>
     <pv_name></pv_name>
     <pv_value />
     <rules />

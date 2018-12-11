@@ -196,7 +196,7 @@ $(pv_value)</tooltip>
     </line_color>
     <line_style>0</line_style>
     <line_width>0</line_width>
-    <name>TB-01:</name>
+    <name>Linac to Booster</name>
     <pv_name></pv_name>
     <pv_value />
     <rules />
