@@ -10,7 +10,7 @@
   <background_color>
     <color red="240" green="240" blue="240" />
   </background_color>
-  <boy_version>5.1.0.201711290101</boy_version>
+  <boy_version>5.1.0.201708041818</boy_version>
   <foreground_color>
     <color red="192" green="192" blue="192" />
   </foreground_color>
@@ -451,7 +451,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius_main_scraper.opi</path>
+        <path>sirius_main_scrapper.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -492,7 +492,7 @@ $(pv_value)</tooltip>
     </scale_options>
     <scripts />
     <style>0</style>
-    <text>Scraper</text>
+    <text>Scrapper</text>
     <toggle_button>false</toggle_button>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
