@@ -72054,7 +72054,7 @@ $(pv_value)</tooltip>
     </scale_options>
     <scripts />
     <show_scrollbar>false</show_scrollbar>
-    <text>LTB Trasnfer Line</text>
+    <text>LTB Transfer Line</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
