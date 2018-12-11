@@ -10,7 +10,7 @@
   <background_color>
     <color red="240" green="240" blue="240" />
   </background_color>
-  <boy_version>5.1.0.201711290101</boy_version>
+  <boy_version>5.1.0.201708041818</boy_version>
   <foreground_color>
     <color red="192" green="192" blue="192" />
   </foreground_color>
@@ -18,42 +18,6 @@
   <height>210</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
-    <P_SCRN_1>TB-01:</P_SCRN_1>
-    <R_SCRN_1>DI-Scrn-1:</R_SCRN_1>
-    <CTRL_PREFIX_SCRN_1>TB-01:DI-ScrnCtrl-1:</CTRL_PREFIX_SCRN_1>
-    <CAM_PREFIX_SCRN_1>TB-01:DI-ScrnCam1:</CAM_PREFIX_SCRN_1>
-    <P_SCRN_2>TB-01:</P_SCRN_2>
-    <R_SCRN_2>DI-Scrn-2:</R_SCRN_2>
-    <CTRL_PREFIX_SCRN_2>TB-01:DI-ScrnCtrl-2:</CTRL_PREFIX_SCRN_2>
-    <CAM_PREFIX_SCRN_2>TB-01:DI-ScrnCam2:</CAM_PREFIX_SCRN_2>
-    <P_SCRN_3>TB-02:</P_SCRN_3>
-    <R_SCRN_3>DI-Scrn-1:</R_SCRN_3>
-    <CTRL_PREFIX_SCRN_3>TB-02:DI-ScrnCtrl-1:</CTRL_PREFIX_SCRN_3>
-    <CAM_PREFIX_SCRN_3>TB-02:DI-ScrnCam-1:</CAM_PREFIX_SCRN_3>
-    <P_SCRN_4>TB-02:</P_SCRN_4>
-    <R_SCRN_4>DI-Scrn-2:</R_SCRN_4>
-    <CTRL_PREFIX_SCRN_4>TB-02:DI-ScrnCtrl-2:</CTRL_PREFIX_SCRN_4>
-    <CAM_PREFIX_SCRN_4>TB-02:DI-ScrnCam-2:</CAM_PREFIX_SCRN_4>
-    <P_SCRN_5>TB-03:</P_SCRN_5>
-    <R_SCRN_5>DI-Scrn:</R_SCRN_5>
-    <CTRL_PREFIX_SCRN_5>TB-03:DI-ScrnCtrl:</CTRL_PREFIX_SCRN_5>
-    <CAM_PREFIX_SCRN_5>TB-03:DI-ScrnCam:</CAM_PREFIX_SCRN_5>
-    <P_SCRN_6>TB-04:</P_SCRN_6>
-    <R_SCRN_6>DI-Scrn:</R_SCRN_6>
-    <CTRL_PREFIX_SCRN_6>TB-04:DI-ScrnCtrl:</CTRL_PREFIX_SCRN_6>
-    <CAM_PREFIX_SCRN_6>TB-04:DI-ScrnCam:</CAM_PREFIX_SCRN_6>
-    <P_SCRN_7>BO-01D:</P_SCRN_7>
-    <R_SCRN_7>DI-Scrn-1:</R_SCRN_7>
-    <CTRL_PREFIX_SCRN_7>BO-01D:DI-ScrnCtrl-1:</CTRL_PREFIX_SCRN_7>
-    <CAM_PREFIX_SCRN_7>BO-01D:DI-ScrnCam-1:</CAM_PREFIX_SCRN_7>
-    <P_SCRN_8>BO-01D:</P_SCRN_8>
-    <R_SCRN_8>DI-Scrn-2:</R_SCRN_8>
-    <CTRL_PREFIX_SCRN_8>BO-01D:DI-ScrnCtrl-2:</CTRL_PREFIX_SCRN_8>
-    <CAM_PREFIX_SCRN_8>BO-01D:DI-ScrnCam-2:</CAM_PREFIX_SCRN_8>
-    <P_SCRN_9>BO-02U:</P_SCRN_9>
-    <R_SCRN_9>DI-Scrn:</R_SCRN_9>
-    <CTRL_PREFIX_SCRN_9>BO-02U:DI-ScrnCtrl:</CTRL_PREFIX_SCRN_9>
-    <CAM_PREFIX_SCRN_9>BO-02U:DI-ScrnCam:</CAM_PREFIX_SCRN_9>
     <P_SLIT_1>TB-01:</P_SLIT_1>
     <R_SLIT_1>DI-SlitH:</R_SLIT_1>
     <CTRL_NEG_PREFIX_SLIT_1>TB-01:DI-SlitHCtrl-O:</CTRL_NEG_PREFIX_SLIT_1>
