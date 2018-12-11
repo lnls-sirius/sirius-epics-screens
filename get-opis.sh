@@ -4,6 +4,7 @@ shopt -s expand_aliases
 set -ueo pipefail
 
 SCRIPTPATH="$( cd "$( dirname "${BASH_SOURCE[0]}"  )" && pwd  )"
+TOP="${SCRIPTPATH}"
 
 # Environment variables
 source ${SCRIPTPATH}/env-vars.sh
@@ -11,6 +12,10 @@ source ${SCRIPTPATH}/env-vars.sh
 source ${SCRIPTPATH}/functions.sh
 # Get all repositories
 source ${SCRIPTPATH}/repos.sh
+
+# Common paths
+IOC_REPOS=${TOP}/${IOC_REPO_FOLDER}
+DEST_OPI_FOLDER=${TOP}/${OPI_FOLDER}
 
 usage () {
     echo "Usage:" >&2
@@ -54,9 +59,9 @@ if [ "${FULL_GIT_REPO}" == "yes" ]; then
 	alias get_repo='full_repo'
 fi
 
-# Download folder
-mkdir -p ${IOC_REPO_FOLDER}
-mkdir -p ${OPI_FOLDER}
+# Create folders
+mkdir -p ${IOC_REPOS}
+mkdir -p ${DEST_OPI_FOLDER}
 
 set +u
 
@@ -74,17 +79,14 @@ for proj in "${PROJECTS[@]}"; do
     git_tag=${!_git_tag}
     opi_folder=${!_opi_folder}
 
-    TOP_DIR=${PWD}
-    cd ${TOP_DIR}/${IOC_REPO_FOLDER} && \
-    get_repo ${git_url} ${git_org} ${git_proj} ${git_tag} && \
-    cd ${TOP_DIR}
+    dest_proj_name=$(dest_proj_name ${git_proj} ${git_tag})
 
-    DEST_PROJ_NAME=$(dest_proj_name ${git_proj} ${git_tag})
+    get_repo ${git_url} ${git_org} ${git_proj} ${git_tag}
 
     # Copy only OPI to target folder
-    mkdir -p ${OPI_FOLDER}/${git_proj}
-    cp -r ${TOP_DIR}/${IOC_REPO_FOLDER}/${DEST_PROJ_NAME}/${opi_folder}/* \
-        ${TOP_DIR}/${OPI_FOLDER}/${git_proj}
+    mkdir -p ${DEST_OPI_FOLDER}/${git_proj}
+    cp -r ${IOC_REPOS}/${dest_proj_name}/${opi_folder}/* \
+        ${DEST_OPI_FOLDER}/${git_proj}
 done
 
 # Get repos
@@ -101,13 +103,12 @@ for proj in "${TOP_PROJECTS[@]}"; do
     git_tag=${!_git_tag}
     opi_folder=${!_opi_folder}
 
-    TOP_DIR=${PWD}
     DEST_PROJ_NAME=$(dest_proj_name ${git_proj} ${git_tag})
 
     # Copy only OPI to target folder
-    mkdir -p ${OPI_FOLDER}/${git_proj}
-    cp -r ${TOP_DIR}/${opi_folder}/* \
-        ${TOP_DIR}/${OPI_FOLDER}
+    mkdir -p ${DEST_OPI_FOLDER}/${git_proj}
+    cp -r ${TOP}/${opi_folder}/* \
+        ${DEST_OPI_FOLDER}
 done
 
 set -u
