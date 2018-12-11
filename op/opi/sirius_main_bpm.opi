@@ -53249,8 +53249,7 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>(SA|SB|SP)
-      -1</text>
+    <text>SA|SB|SP-1</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
@@ -71265,7 +71264,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>30</height>
+    <height>28</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_73</name>
     <rules />
@@ -71275,8 +71274,7 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>(SA|SB|SP)
-      -2</text>
+    <text>SA|SB|SP-2</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
@@ -71286,7 +71284,7 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <wuid>-11e5154c:15f4f97da04:6708</wuid>
     <x>93</x>
-    <y>252</y>
+    <y>253</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
     <actions hook="false" hook_all="false" />
