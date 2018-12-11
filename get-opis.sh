@@ -81,7 +81,7 @@ for proj in "${PROJECTS[@]}"; do
 
     dest_proj_name=$(dest_proj_name ${git_proj} ${git_tag})
 
-    get_repo ${git_url} ${git_org} ${git_proj} ${git_tag}
+    get_repo ${git_url} ${git_org} ${git_proj} ${git_tag} ${IOC_REPOS}
 
     # Copy only OPI to target folder
     mkdir -p ${DEST_OPI_FOLDER}/${git_proj}

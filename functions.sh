@@ -18,12 +18,13 @@ shallow_repo()
     GIT_ORG=$2
     PROJECT_NAME=$3
     TAG=$4
+    DEST_FOLDER=$5
 
     DEST_PROJ_NAME=$(dest_proj_name ${PROJECT_NAME} ${TAG})
 
     echo "Grabbing ${PROJECT_NAME} at tag: ${TAG}"
 
-    git clone -q --branch ${TAG} --depth 1 ${GIT_URL}/${GIT_ORG}/${PROJECT_NAME} ${DEST_PROJ_NAME}
+    git clone -q --branch ${TAG} --depth 1 ${GIT_URL}/${GIT_ORG}/${PROJECT_NAME} ${DEST_FOLDER}/${DEST_PROJ_NAME}
 }
 
 full_repo()
@@ -32,12 +33,13 @@ full_repo()
     GIT_ORG=$2
     PROJECT_NAME=$3
     TAG=$4
+    DEST_FOLDER=$5
 
     DEST_PROJ_NAME=$(dest_proj_name ${PROJECT_NAME} ${TAG})
 
     echo "Grabbing ${PROJECT_NAME} at tag: ${TAG}"
 
-    git clone -q ${GIT_URL}/${GIT_ORG}/${PROJECT_NAME} ${DEST_PROJ_NAME}
+    git clone -q ${GIT_URL}/${GIT_ORG}/${PROJECT_NAME} ${DEST_FOLDER}/${DEST_PROJ_NAME}
 
     CURR=$(pwd)
 
