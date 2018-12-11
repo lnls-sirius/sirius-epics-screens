@@ -300,6 +300,7 @@ $(pv_value)</tooltip>
       <R>$(R_SCRAP_1)</R>
       <CTRL_NEG_PREFIX>$(CTRL_NEG_PREFIX_SCRAP_1)</CTRL_NEG_PREFIX>
       <CTRL_POS_PREFIX>$(CTRL_POS_PREFIX_SCRAP_1)</CTRL_POS_PREFIX>
+      <TITLE>Scrapper</TITLE>
     </macros>
     <name>scrapper_1_container</name>
     <rules />
@@ -400,6 +401,7 @@ $(pv_value)</tooltip>
       <R>$(R_SCRAP_2)</R>
       <CTRL_NEG_PREFIX>$(CTRL_NEG_PREFIX_SCRAP_2)</CTRL_NEG_PREFIX>
       <CTRL_POS_PREFIX>$(CTRL_POS_PREFIX_SCRAP_2)</CTRL_POS_PREFIX>
+      <TITLE>Scrapper</TITLE>
     </macros>
     <name>scrapper_2_container</name>
     <rules />
