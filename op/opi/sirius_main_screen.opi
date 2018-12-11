@@ -99,7 +99,7 @@
       <color red="255" green="0" blue="0" />
     </foreground_color>
     <gradient>false</gradient>
-    <height>775</height>
+    <height>553</height>
     <horizontal_fill>true</horizontal_fill>
     <line_color>
       <color red="128" green="0" blue="255" />
@@ -121,7 +121,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>595</width>
+    <width>565</width>
     <wuid>-28b86bd1:164b769ca79:-79b2</wuid>
     <x>12</x>
     <y>6</y>
@@ -181,7 +181,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rounded Rectangle</widget_type>
-    <width>595</width>
+    <width>565</width>
     <wuid>-779c1d6f:16788fec1f8:-6cc3</wuid>
     <x>12</x>
     <y>6</y>
@@ -241,8 +241,8 @@ $(pv_value)</tooltip>
     <widget_type>Rectangle</widget_type>
     <width>535</width>
     <wuid>-779c1d6f:16788fec1f8:-77b8</wuid>
-    <x>42</x>
-    <y>204</y>
+    <x>24</x>
+    <y>150</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -299,8 +299,8 @@ $(pv_value)</tooltip>
     <widget_type>Rectangle</widget_type>
     <width>535</width>
     <wuid>-779c1d6f:16788fec1f8:-7880</wuid>
-    <x>42</x>
-    <y>90</y>
+    <x>24</x>
+    <y>72</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -344,8 +344,8 @@ $(pv_value)</tooltip>
     <widget_type>Grouping Container</widget_type>
     <width>191</width>
     <wuid>-779c1d6f:16788fec1f8:-7b63</wuid>
-    <x>102</x>
-    <y>114</y>
+    <x>84</x>
+    <y>96</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -444,8 +444,8 @@ $(pv_value)</tooltip>
     <widget_type>Grouping Container</widget_type>
     <width>191</width>
     <wuid>-779c1d6f:16788fec1f8:-7a4e</wuid>
-    <x>324</x>
-    <y>114</y>
+    <x>306</x>
+    <y>96</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -544,8 +544,8 @@ $(pv_value)</tooltip>
     <widget_type>Grouping Container</widget_type>
     <width>191</width>
     <wuid>-779c1d6f:16788fec1f8:-7a45</wuid>
-    <x>102</x>
-    <y>228</y>
+    <x>84</x>
+    <y>174</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -644,8 +644,8 @@ $(pv_value)</tooltip>
     <widget_type>Grouping Container</widget_type>
     <width>191</width>
     <wuid>-779c1d6f:16788fec1f8:-7a3f</wuid>
-    <x>324</x>
-    <y>228</y>
+    <x>306</x>
+    <y>174</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -757,8 +757,8 @@ $(pv_value)</tooltip>
     <widget_type>Rectangle</widget_type>
     <width>535</width>
     <wuid>-779c1d6f:16788fec1f8:-76fe</wuid>
-    <x>42</x>
-    <y>318</y>
+    <x>24</x>
+    <y>228</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -815,8 +815,8 @@ $(pv_value)</tooltip>
     <widget_type>Rectangle</widget_type>
     <width>535</width>
     <wuid>-779c1d6f:16788fec1f8:-7660</wuid>
-    <x>42</x>
-    <y>432</y>
+    <x>24</x>
+    <y>306</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -860,8 +860,8 @@ $(pv_value)</tooltip>
     <widget_type>Grouping Container</widget_type>
     <width>191</width>
     <wuid>-779c1d6f:16788fec1f8:-7a39</wuid>
-    <x>102</x>
-    <y>342</y>
+    <x>84</x>
+    <y>252</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -960,8 +960,8 @@ $(pv_value)</tooltip>
     <widget_type>Grouping Container</widget_type>
     <width>191</width>
     <wuid>-779c1d6f:16788fec1f8:-7a33</wuid>
-    <x>102</x>
-    <y>456</y>
+    <x>84</x>
+    <y>330</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -1073,8 +1073,8 @@ $(pv_value)</tooltip>
     <widget_type>Rectangle</widget_type>
     <width>535</width>
     <wuid>-779c1d6f:16788fec1f8:-7656</wuid>
-    <x>42</x>
-    <y>552</y>
+    <x>24</x>
+    <y>384</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -1118,8 +1118,8 @@ $(pv_value)</tooltip>
     <widget_type>Grouping Container</widget_type>
     <width>191</width>
     <wuid>-779c1d6f:16788fec1f8:-7a2d</wuid>
-    <x>102</x>
-    <y>576</y>
+    <x>84</x>
+    <y>408</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -1218,8 +1218,8 @@ $(pv_value)</tooltip>
     <widget_type>Grouping Container</widget_type>
     <width>191</width>
     <wuid>-779c1d6f:16788fec1f8:-798b</wuid>
-    <x>324</x>
-    <y>576</y>
+    <x>306</x>
+    <y>408</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -1331,8 +1331,8 @@ $(pv_value)</tooltip>
     <widget_type>Rectangle</widget_type>
     <width>535</width>
     <wuid>-779c1d6f:16788fec1f8:-764a</wuid>
-    <x>42</x>
-    <y>666</y>
+    <x>24</x>
+    <y>462</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -1376,8 +1376,8 @@ $(pv_value)</tooltip>
     <widget_type>Grouping Container</widget_type>
     <width>191</width>
     <wuid>-779c1d6f:16788fec1f8:-7966</wuid>
-    <x>102</x>
-    <y>690</y>
+    <x>84</x>
+    <y>486</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -1510,7 +1510,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Grouping Container</widget_type>
-    <width>595</width>
+    <width>565</width>
     <wuid>-779c1d6f:16788fec1f8:-6b92</wuid>
     <x>12</x>
     <y>52</y>
@@ -1567,7 +1567,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <visible>true</visible>
       <widget_type>Rectangle</widget_type>
-      <width>595</width>
+      <width>565</width>
       <wuid>-779c1d6f:16788fec1f8:-738a</wuid>
       <x>0</x>
       <y>2</y>
@@ -1625,7 +1625,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <visible>true</visible>
       <widget_type>Rectangle</widget_type>
-      <width>595</width>
+      <width>565</width>
       <wuid>-779c1d6f:16788fec1f8:-6be9</wuid>
       <x>0</x>
       <y>0</y>
