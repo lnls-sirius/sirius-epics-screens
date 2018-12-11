@@ -7,7 +7,7 @@ dest_proj_name()
     PROJECT_NAME=$1
     TAG=$2
 
-    DEST_PROJ_NAME=${PROJECT_NAME}-${TAG//./-}
+    DEST_PROJ_NAME=${PROJECT_NAME}
 
     echo ${DEST_PROJ_NAME}
 }

@@ -79,13 +79,11 @@ for proj in "${PROJECTS[@]}"; do
     git_tag=${!_git_tag}
     opi_folder=${!_opi_folder}
 
-    dest_proj_name=$(dest_proj_name ${git_proj} ${git_tag})
-
     get_repo ${git_url} ${git_org} ${git_proj} ${git_tag} ${IOC_REPOS}
 
     # Copy only OPI to target folder
     mkdir -p ${DEST_OPI_DIR}/${git_proj}
-    cp -r ${IOC_REPOS}/${dest_proj_name}/${opi_folder}/* \
+    cp -r ${IOC_REPOS}/${git_proj}/${opi_folder}/* \
         ${DEST_OPI_DIR}/${git_proj}
 done
 
@@ -102,8 +100,6 @@ for proj in "${TOP_PROJECTS[@]}"; do
     git_proj=${!_git_proj}
     git_tag=${!_git_tag}
     opi_folder=${!_opi_folder}
-
-    DEST_PROJ_NAME=$(dest_proj_name ${git_proj} ${git_tag})
 
     # Copy only OPI to target folder
     mkdir -p ${DEST_OPI_DIR}/${git_proj}
