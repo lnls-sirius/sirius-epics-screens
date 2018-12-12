@@ -14,7 +14,7 @@ source ${SCRIPTPATH}/functions.sh
 source ${SCRIPTPATH}/repos.sh
 
 # Common paths
-IOC_REPOS=${TOP}/${IOC_REPO_DIR}
+DEST_REPO_DIR=${TOP}/${IOC_REPO_DIR}
 DEST_OPI_DIR=${TOP}/${OPI_DIR}
 
 usage () {
@@ -60,19 +60,19 @@ if [ "${FULL_GIT_REPO}" == "yes" ]; then
 fi
 
 # Create folders
-mkdir -p ${IOC_REPOS}
+mkdir -p ${DEST_REPO_DIR}
 mkdir -p ${DEST_OPI_DIR}
 
 set +u
 
 # Get repos
 for proj in "${PROJECTS[@]}"; do
-    copy_repo_opis ${proj} ${IOC_REPOS} ${DEST_OPI_DIR}
+    copy_repo_opis ${proj} ${DEST_REPO_DIR} ${DEST_OPI_DIR}
 done
 
 # Get local repos
 for proj in "${TOP_PROJECTS[@]}"; do
-    copy_local_opis ${proj} ${IOC_REPOS} ${DEST_OPI_DIR} ${TOP}
+    copy_local_opis ${proj} ${TOP} ${DEST_OPI_DIR}
 done
 
 set -u
