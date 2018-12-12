@@ -16,7 +16,7 @@ TOP_PROJECTS+=("${SIRIUS_DIAG_PREFIX}")
 
 PROJECTS=()
 
-# BPM
+# BPM will me merged to SIRIUS_BPM
 BPM_PREFIX="BPM"
 BPM_GIT_URL="https://github.com"
 BPM_ORG="lnls-dig"
@@ -24,7 +24,13 @@ BPM_PROJECT="bpm-epics-ioc"
 BPM_TAG="master"
 BPM_OPI_DIR="op/opi"
 
-PROJECTS+=("${BPM_PREFIX}")
+# Timing RX will me merged to SIRIUS_BPM
+TIM_RX_PREFIX="TIM_RX"
+TIM_RX_GIT_URL="https://github.com"
+TIM_RX_ORG="lnls-dig"
+TIM_RX_PROJECT="tim-rx-epics-ioc"
+TIM_RX_TAG="master"
+TIM_RX_OPI_DIR="op/opi"
 
 # Sirius BPM
 SIRIUS_BPM_PREFIX="SIRIUS_BPM"
@@ -35,16 +41,6 @@ SIRIUS_BPM_TAG="master"
 SIRIUS_BPM_OPI_DIR="op/opi"
 
 PROJECTS+=("${SIRIUS_BPM_PREFIX}")
-
-# Timing RX
-TIM_RX_PREFIX="TIM_RX"
-TIM_RX_GIT_URL="https://github.com"
-TIM_RX_ORG="lnls-dig"
-TIM_RX_PROJECT="tim-rx-epics-ioc"
-TIM_RX_TAG="master"
-TIM_RX_OPI_DIR="op/opi"
-
-PROJECTS+=("${TIM_RX_PREFIX}")
 
 # RSFSX
 RSFSX_PREFIX="RSFSX"
@@ -175,3 +171,15 @@ RSSMX100A_TAG="master"
 RSSMX100A_OPI_DIR="op/opi"
 
 PROJECTS+=("${RSSMX100A_PREFIX}")
+
+##################### Merge OPI Folders
+
+MERGE_PROJECTS=()
+
+BPM_MERGE_PREFIX="BPM_MERGE"
+BPM_MERGE_REPOS_PREFIX=()
+BPM_MERGE_REPOS_PREFIX+=("BPM")
+BPM_MERGE_REPOS_PREFIX+=("TIM_RX")
+BPM_MERGE_DEST_PREFIX="SIRIUS_BPM"
+
+MERGE_PROJECTS+=("${BPM_MERGE_PREFIX}")

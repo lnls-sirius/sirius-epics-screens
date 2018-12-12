@@ -75,4 +75,27 @@ for proj in "${TOP_PROJECTS[@]}"; do
     copy_local_opis ${proj} ${TOP} ${DEST_OPI_DIR}
 done
 
+# Merge OPI folders
+for merge in "${MERGE_PROJECTS[@]}"; do
+    _merge_repos_prefix="${merge}_REPOS_PREFIX[@]"
+    _merge_dest_prefix="${merge}_DEST_PREFIX"
+
+    merge_repos_prefix=(${!_merge_repos_prefix})
+    merge_dest_prefix=${!_merge_dest_prefix}
+
+    _merge_dest_opi_dir="${merge_dest_prefix}_OPI_DIR"
+    _merge_dest_proj="${merge_dest_prefix}_PROJECT"
+    merge_dest_opi_dir="${!_merge_dest_opi_dir}"
+    merge_dest_proj="${!_merge_dest_proj}"
+
+    # Get repos
+    for proj in "${merge_repos_prefix[@]}"; do
+        # Get repo
+        copy_repo ${proj} ${DEST_REPO_DIR}
+
+        # Copy source OPI into destination project
+        copy_repo_opis_2_top ${proj} ${DEST_REPO_DIR} ${DEST_OPI_DIR}/${merge_dest_proj}
+    done
+done
+
 set -u
