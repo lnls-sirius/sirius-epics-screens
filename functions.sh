@@ -4,8 +4,8 @@ set -ueo pipefail
 
 dest_proj_name()
 {
-    PROJECT_NAME=$1
-    TAG=$2
+    local PROJECT_NAME=$1
+    local TAG=$2
 
     DEST_PROJ_NAME=${PROJECT_NAME}
 
@@ -14,16 +14,16 @@ dest_proj_name()
 
 get_repo()
 {
-    GIT_URL=$1
-    GIT_ORG=$2
-    PROJECT_NAME=$3
-    TAG=$4
-    DEST_DIR=$5
-    TYPE=$6
+    local GIT_URL=$1
+    local GIT_ORG=$2
+    local PROJECT_NAME=$3
+    local TAG=$4
+    local DEST_DIR=$5
+    local TYPE=$6
 
-    DEST_PROJ_NAME=$(dest_proj_name ${PROJECT_NAME} ${TAG})
-    FULL_GIT_URL=${GIT_URL}/${GIT_ORG}/${PROJECT_NAME}
-    DEST=${DEST_DIR}/${DEST_PROJ_NAME}
+    local DEST_PROJ_NAME=$(dest_proj_name ${PROJECT_NAME} ${TAG})
+    local FULL_GIT_URL=${GIT_URL}/${GIT_ORG}/${PROJECT_NAME}
+    local DEST=${DEST_DIR}/${DEST_PROJ_NAME}
 
     # Do git submodule init/update if not available
     if [ -z "$(find ${DEST} -type d -name ".git" 2>/dev/null)" ]; then
@@ -62,8 +62,8 @@ get_full_repo()
 
 copy_opis()
 {
-    SRC_OPI_PROJ_DIR=$1
-    DEST_OPI_PROJ_DIR=$2
+    local SRC_OPI_PROJ_DIR=$1
+    local DEST_OPI_PROJ_DIR=$2
 
     mkdir -p ${DEST_OPI_PROJ_DIR}
     cp -r ${SRC_OPI_PROJ_DIR}/* \
@@ -72,21 +72,21 @@ copy_opis()
 
 copy_repo_opis()
 {
-    PROJ_NAME=$1
-    DEST_REPO_DIR=$2
+    local PROJ_NAME=$1
+    local DEST_REPO_DIR=$2
     DEST_OPI_DIR=$3
 
-    _git_url="${PROJ_NAME}_GIT_URL"
-    _git_org="${PROJ_NAME}_ORG"
-    _git_proj="${PROJ_NAME}_PROJECT"
-    _git_tag="${PROJ_NAME}_TAG"
-    _opi_folder="${PROJ_NAME}_OPI_DIR"
+    local _git_url="${PROJ_NAME}_GIT_URL"
+    local _git_org="${PROJ_NAME}_ORG"
+    local _git_proj="${PROJ_NAME}_PROJECT"
+    local _git_tag="${PROJ_NAME}_TAG"
+    local _opi_folder="${PROJ_NAME}_OPI_DIR"
 
-    git_url=${!_git_url}
-    git_org=${!_git_org}
-    git_proj=${!_git_proj}
-    git_tag=${!_git_tag}
-    opi_folder=${!_opi_folder}
+    local git_url=${!_git_url}
+    local git_org=${!_git_org}
+    local git_proj=${!_git_proj}
+    local git_tag=${!_git_tag}
+    local opi_folder=${!_opi_folder}
 
     # Get repo
     get_shallow_repo ${git_url} ${git_org} ${git_proj} ${git_tag} ${DEST_REPO_DIR}
@@ -97,9 +97,9 @@ copy_repo_opis()
 
 copy_local_opis()
 {
-    PROJ_NAME=$1
-    DEST_REPO_DIR=$2
-    DEST_OPI_DIR=$3
+    local PROJ_NAME=$1
+    local DEST_REPO_DIR=$2
+    local DEST_OPI_DIR=$3
     SRC_OPI_DIR=$4
 
     _git_url="${PROJ_NAME}_GIT_URL"
