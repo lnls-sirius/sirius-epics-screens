@@ -90,9 +90,6 @@ for merge in "${MERGE_PROJECTS[@]}"; do
 
     # Get repos
     for proj in "${merge_repos_prefix[@]}"; do
-        # Get repo
-        copy_repo ${proj} ${DEST_REPO_DIR}
-
         # Copy source OPI into destination project
         copy_repo_opis_2_top ${proj} ${DEST_REPO_DIR} ${DEST_OPI_DIR}/${merge_dest_proj}
     done
