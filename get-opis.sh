@@ -67,44 +67,12 @@ set +u
 
 # Get repos
 for proj in "${PROJECTS[@]}"; do
-    _git_url="${proj}_GIT_URL"
-    _git_org="${proj}_ORG"
-    _git_proj="${proj}_PROJECT"
-    _git_tag="${proj}_TAG"
-    _opi_folder="${proj}_OPI_DIR"
-
-    git_url=${!_git_url}
-    git_org=${!_git_org}
-    git_proj=${!_git_proj}
-    git_tag=${!_git_tag}
-    opi_folder=${!_opi_folder}
-
-    get_repo ${git_url} ${git_org} ${git_proj} ${git_tag} ${IOC_REPOS}
-
-    # Copy only OPI to target folder
-    mkdir -p ${DEST_OPI_DIR}/${git_proj}
-    cp -r ${IOC_REPOS}/${git_proj}/${opi_folder}/* \
-        ${DEST_OPI_DIR}/${git_proj}
+    copy_repo_opis ${proj} ${IOC_REPOS} ${DEST_OPI_DIR}
 done
 
-# Get repos
+# Get local repos
 for proj in "${TOP_PROJECTS[@]}"; do
-    _git_url="${proj}_GIT_URL"
-    _git_org="${proj}_ORG"
-    _git_proj="${proj}_PROJECT"
-    _git_tag="${proj}_TAG"
-    _opi_folder="${proj}_OPI_DIR"
-
-    git_url=${!_git_url}
-    git_org=${!_git_org}
-    git_proj=${!_git_proj}
-    git_tag=${!_git_tag}
-    opi_folder=${!_opi_folder}
-
-    # Copy only OPI to target folder
-    mkdir -p ${DEST_OPI_DIR}/${git_proj}
-    cp -r ${TOP}/${opi_folder}/* \
-        ${DEST_OPI_DIR}
+    copy_local_opis ${proj} ${IOC_REPOS} ${DEST_OPI_DIR} ${TOP}
 done
 
 set -u

@@ -50,12 +50,70 @@ get_repo()
 }
 
 
-shallow_repo()
+get_shallow_repo()
 {
     get_repo "${@:1:5}" "shallow"
 }
 
-full_repo()
+get_full_repo()
 {
     get_repo "${@:1:5}" "full"
+}
+
+copy_opis()
+{
+    SRC_OPI_PROJ_DIR=$1
+    DEST_OPI_PROJ_DIR=$2
+
+    mkdir -p ${DEST_OPI_PROJ_DIR}
+    cp -r ${SRC_OPI_PROJ_DIR}/* \
+        ${DEST_OPI_PROJ_DIR}
+}
+
+copy_repo_opis()
+{
+    PROJ_NAME=$1
+    DEST_REPO_DIR=$2
+    DEST_OPI_DIR=$3
+
+    _git_url="${PROJ_NAME}_GIT_URL"
+    _git_org="${PROJ_NAME}_ORG"
+    _git_proj="${PROJ_NAME}_PROJECT"
+    _git_tag="${PROJ_NAME}_TAG"
+    _opi_folder="${PROJ_NAME}_OPI_DIR"
+
+    git_url=${!_git_url}
+    git_org=${!_git_org}
+    git_proj=${!_git_proj}
+    git_tag=${!_git_tag}
+    opi_folder=${!_opi_folder}
+
+    # Get repo
+    get_shallow_repo ${git_url} ${git_org} ${git_proj} ${git_tag} ${DEST_REPO_DIR}
+
+    # Copy only OPI to target folder
+    copy_opis "${DEST_REPO_DIR}/${git_proj}/${opi_folder}" "${DEST_OPI_DIR}/${git_proj}"
+}
+
+copy_local_opis()
+{
+    PROJ_NAME=$1
+    DEST_REPO_DIR=$2
+    DEST_OPI_DIR=$3
+    SRC_OPI_DIR=$4
+
+    _git_url="${PROJ_NAME}_GIT_URL"
+    _git_org="${PROJ_NAME}_ORG"
+    _git_proj="${PROJ_NAME}_PROJECT"
+    _git_tag="${PROJ_NAME}_TAG"
+    _opi_folder="${PROJ_NAME}_OPI_DIR"
+
+    git_url=${!_git_url}
+    git_org=${!_git_org}
+    git_proj=${!_git_proj}
+    git_tag=${!_git_tag}
+    opi_folder=${!_opi_folder}
+
+    # Copy only OPI to target folder
+    copy_opis "${SRC_OPI_DIR}/${opi_folder}" "${DEST_OPI_DIR}"
 }
