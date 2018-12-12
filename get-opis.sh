@@ -66,16 +66,19 @@ mkdir -p ${DEST_OPI_DIR}
 set +u
 
 # Get repos
+[[ ! -z "${PROJECTS}" ]] && echo "Building target OPI directory with remote repositories"
 for proj in "${PROJECTS[@]}"; do
     copy_repo_opis ${proj} ${DEST_REPO_DIR} ${DEST_OPI_DIR}
 done
 
 # Get local repos
+[[ ! -z "${TOP_PROJECTS}" ]] && echo "Building target OPI directory with local files"
 for proj in "${TOP_PROJECTS[@]}"; do
     copy_local_opis ${proj} ${TOP} ${DEST_OPI_DIR}
 done
 
 # Merge OPI folders
+[[ ! -z "${MERGE_PROJECTS}" ]] && echo "Merging tagged projects into target OPI directory"
 for merge in "${MERGE_PROJECTS[@]}"; do
     _merge_repos_prefix="${merge}_REPOS_PREFIX[@]"
     _merge_dest_prefix="${merge}_DEST_PREFIX"
