@@ -60,7 +60,7 @@ get_full_repo()
     get_repo "${@:1:5}" "full"
 }
 
-copy_opis()
+copy_and_create_dest()
 {
     local SRC_OPI_PROJ_DIR=$1
     local DEST_OPI_PROJ_DIR=$2
@@ -70,6 +70,37 @@ copy_opis()
         ${DEST_OPI_PROJ_DIR}
 }
 
+copy_opis()
+{
+    local PROJ_NAME=$1
+    local BASE_DIR=$2
+    local DEST_OPI_DIR=$3
+    local COPY_TYPE=$4
+
+    local _git_url="${PROJ_NAME}_GIT_URL"
+    local _git_org="${PROJ_NAME}_ORG"
+    local _git_proj="${PROJ_NAME}_PROJECT"
+    local _git_tag="${PROJ_NAME}_TAG"
+    local _opi_folder="${PROJ_NAME}_OPI_DIR"
+
+    local git_url=${!_git_url}
+    local git_org=${!_git_org}
+    local git_proj=${!_git_proj}
+    local git_tag=${!_git_tag}
+    local opi_folder=${!_opi_folder}
+
+    if [ "${COPY_TYPE}" == "raw" ]; then
+        copy_and_create_dest "${BASE_DIR}" "${DEST_OPI_DIR}"
+    elif [ "${COPY_TYPE}" == "remote_project" ]; then
+        copy_and_create_dest "${BASE_DIR}/${git_proj}/${opi_folder}" "${DEST_OPI_DIR}/${git_proj}"
+    elif [ "${COPY_TYPE}" == "remote_project_raw" ]; then
+        copy_and_create_dest "${BASE_DIR}/${git_proj}/${opi_folder}" "${DEST_OPI_DIR}"
+    elif [ "${COPY_TYPE}" == "local_project" ]; then
+        copy_and_create_dest "${BASE_DIR}/${opi_folder}" "${DEST_OPI_DIR}"
+    else
+        copy_and_create_dest "${BASE_DIR}" "${DEST_OPI_DIR}"
+    fi
+}
 copy_repo_opis()
 {
     local PROJ_NAME=$1
