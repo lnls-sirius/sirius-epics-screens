@@ -73860,7 +73860,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE01-SLOT01_AREA)</P>
@@ -73948,7 +73948,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT01_AREA)</P>
@@ -74036,7 +74036,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE03-SLOT01_AREA)</P>
@@ -74124,7 +74124,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT01_AREA)</P>
@@ -74212,7 +74212,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-SLOT01_AREA)</P>
@@ -74300,7 +74300,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT01_AREA)</P>
@@ -74388,7 +74388,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-SLOT01_AREA)</P>
@@ -74476,7 +74476,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT01_AREA)</P>
@@ -74564,7 +74564,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-SLOT01_AREA)</P>
@@ -74652,7 +74652,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT01_AREA)</P>
@@ -74740,7 +74740,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-SLOT01_AREA)</P>
@@ -74828,7 +74828,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT01_AREA)</P>
@@ -74916,7 +74916,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-SLOT01_AREA)</P>
@@ -75004,7 +75004,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT01_AREA)</P>
@@ -75092,7 +75092,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-SLOT01_AREA)</P>
@@ -75180,7 +75180,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT01_AREA)</P>
@@ -75268,7 +75268,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-SLOT01_AREA)</P>
@@ -75356,7 +75356,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT01_AREA)</P>
@@ -75444,7 +75444,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-SLOT01_AREA)</P>
@@ -75532,7 +75532,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT01_AREA)</P>
@@ -75620,7 +75620,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>AFC-EVR.opi</path>
+        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-SLOT01_AREA)</P>
