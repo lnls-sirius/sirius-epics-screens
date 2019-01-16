@@ -31618,7 +31618,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE01-SLOT13_AREA)</P>
@@ -31706,7 +31706,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE01-SLOT14_AREA)</P>
@@ -31794,7 +31794,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE01-SLOT15_AREA)</P>
@@ -31882,7 +31882,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE01-SLOT16_AREA)</P>
@@ -31970,7 +31970,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE01-SLOT17_AREA)</P>
@@ -32058,7 +32058,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE01-SLOT18_AREA)</P>
@@ -32146,7 +32146,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE01-SLOT19_AREA)</P>
@@ -32234,7 +32234,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE01-SLOT20_AREA)</P>
@@ -32322,7 +32322,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE01-SLOT21_AREA)</P>
@@ -32410,7 +32410,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE01-SLOT22_AREA)</P>
@@ -32498,7 +32498,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT11_AREA)</P>
@@ -32566,7 +32566,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT12_AREA)</P>
@@ -32634,7 +32634,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT13_AREA)</P>
@@ -32722,7 +32722,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT14_AREA)</P>
@@ -32810,7 +32810,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT15_AREA)</P>
@@ -32898,7 +32898,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT16_AREA)</P>
@@ -32986,7 +32986,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT17_AREA)</P>
@@ -33074,7 +33074,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT18_AREA)</P>
@@ -33162,7 +33162,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT19_AREA)</P>
@@ -33250,7 +33250,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT20_AREA)</P>
@@ -33338,7 +33338,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT21_AREA)</P>
@@ -33426,7 +33426,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT22_AREA)</P>
@@ -33514,7 +33514,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE03-SLOT13_AREA)</P>
@@ -33602,7 +33602,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE03-SLOT14_AREA)</P>
@@ -33690,7 +33690,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE03-SLOT15_AREA)</P>
@@ -33778,7 +33778,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE03-SLOT16_AREA)</P>
@@ -33866,7 +33866,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE03-SLOT17_AREA)</P>
@@ -33954,7 +33954,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE03-SLOT18_AREA)</P>
@@ -34042,7 +34042,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE03-SLOT19_AREA)</P>
@@ -34130,7 +34130,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE03-SLOT20_AREA)</P>
@@ -34218,7 +34218,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE03-SLOT21_AREA)</P>
@@ -34306,7 +34306,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE03-SLOT22_AREA)</P>
@@ -34394,7 +34394,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT11_AREA)</P>
@@ -34462,7 +34462,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT12_AREA)</P>
@@ -34530,7 +34530,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT13_AREA)</P>
@@ -34618,7 +34618,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT14_AREA)</P>
@@ -34706,7 +34706,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT15_AREA)</P>
@@ -34794,7 +34794,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT16_AREA)</P>
@@ -34882,7 +34882,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT17_AREA)</P>
@@ -34970,7 +34970,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT18_AREA)</P>
@@ -35058,7 +35058,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT19_AREA)</P>
@@ -35146,7 +35146,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT20_AREA)</P>
@@ -35234,7 +35234,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT21_AREA)</P>
@@ -35322,7 +35322,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT22_AREA)</P>
@@ -35410,7 +35410,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-SLOT11_AREA)</P>
@@ -35478,7 +35478,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-SLOT12_AREA)</P>
@@ -35546,7 +35546,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-SLOT13_AREA)</P>
@@ -35634,7 +35634,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-SLOT14_AREA)</P>
@@ -35722,7 +35722,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-SLOT15_AREA)</P>
@@ -35810,7 +35810,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-SLOT16_AREA)</P>
@@ -35898,7 +35898,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-SLOT17_AREA)</P>
@@ -35986,7 +35986,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-SLOT18_AREA)</P>
@@ -36074,7 +36074,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-SLOT19_AREA)</P>
@@ -36162,7 +36162,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-SLOT20_AREA)</P>
@@ -36250,7 +36250,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-SLOT21_AREA)</P>
@@ -36338,7 +36338,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-SLOT22_AREA)</P>
@@ -36426,7 +36426,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT11_AREA)</P>
@@ -36514,7 +36514,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT12_AREA)</P>
@@ -36602,7 +36602,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT13_AREA)</P>
@@ -36690,7 +36690,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT14_AREA)</P>
@@ -36778,7 +36778,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT15_AREA)</P>
@@ -36866,7 +36866,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT16_AREA)</P>
@@ -36954,7 +36954,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT17_AREA)</P>
@@ -37042,7 +37042,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT18_AREA)</P>
@@ -37130,7 +37130,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT19_AREA)</P>
@@ -37218,7 +37218,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT20_AREA)</P>
@@ -37306,7 +37306,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT21_AREA)</P>
@@ -37394,7 +37394,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT22_AREA)</P>
@@ -37482,7 +37482,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-SLOT11_AREA)</P>
@@ -37570,7 +37570,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-SLOT12_AREA)</P>
@@ -37658,7 +37658,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-SLOT13_AREA)</P>
@@ -37746,7 +37746,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-SLOT14_AREA)</P>
@@ -37834,7 +37834,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-SLOT15_AREA)</P>
@@ -37922,7 +37922,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-SLOT16_AREA)</P>
@@ -38010,7 +38010,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-SLOT17_AREA)</P>
@@ -38098,7 +38098,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-SLOT18_AREA)</P>
@@ -38186,7 +38186,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-SLOT19_AREA)</P>
@@ -38274,7 +38274,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-SLOT20_AREA)</P>
@@ -38362,7 +38362,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-SLOT21_AREA)</P>
@@ -38450,7 +38450,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-SLOT22_AREA)</P>
@@ -38538,7 +38538,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT11_AREA)</P>
@@ -38626,7 +38626,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT12_AREA)</P>
@@ -38714,7 +38714,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT13_AREA)</P>
@@ -38802,7 +38802,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT14_AREA)</P>
@@ -38890,7 +38890,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT15_AREA)</P>
@@ -38978,7 +38978,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT16_AREA)</P>
@@ -39066,7 +39066,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT17_AREA)</P>
@@ -39154,7 +39154,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT18_AREA)</P>
@@ -39242,7 +39242,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT19_AREA)</P>
@@ -39330,7 +39330,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT20_AREA)</P>
@@ -39418,7 +39418,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT21_AREA)</P>
@@ -39506,7 +39506,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT22_AREA)</P>
@@ -39594,7 +39594,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-SLOT11_AREA)</P>
@@ -39682,7 +39682,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-SLOT12_AREA)</P>
@@ -39770,7 +39770,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-SLOT13_AREA)</P>
@@ -39858,7 +39858,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-SLOT14_AREA)</P>
@@ -39946,7 +39946,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-SLOT15_AREA)</P>
@@ -40034,7 +40034,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-SLOT16_AREA)</P>
@@ -40122,7 +40122,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-SLOT17_AREA)</P>
@@ -40210,7 +40210,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-SLOT18_AREA)</P>
@@ -40298,7 +40298,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-SLOT19_AREA)</P>
@@ -40386,7 +40386,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-SLOT20_AREA)</P>
@@ -40474,7 +40474,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-SLOT21_AREA)</P>
@@ -40562,7 +40562,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-SLOT22_AREA)</P>
@@ -40650,7 +40650,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT11_AREA)</P>
@@ -40718,7 +40718,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT12_AREA)</P>
@@ -40786,7 +40786,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT13_AREA)</P>
@@ -40874,7 +40874,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT14_AREA)</P>
@@ -40962,7 +40962,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT15_AREA)</P>
@@ -41050,7 +41050,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT16_AREA)</P>
@@ -41138,7 +41138,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT17_AREA)</P>
@@ -41226,7 +41226,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT18_AREA)</P>
@@ -41314,7 +41314,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT19_AREA)</P>
@@ -41402,7 +41402,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT20_AREA)</P>
@@ -41490,7 +41490,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT21_AREA)</P>
@@ -41578,7 +41578,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT22_AREA)</P>
@@ -41666,7 +41666,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-SLOT11_AREA)</P>
@@ -41754,7 +41754,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-SLOT12_AREA)</P>
@@ -41842,7 +41842,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-SLOT13_AREA)</P>
@@ -41930,7 +41930,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-SLOT14_AREA)</P>
@@ -42018,7 +42018,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-SLOT15_AREA)</P>
@@ -42106,7 +42106,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-SLOT16_AREA)</P>
@@ -42194,7 +42194,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-SLOT17_AREA)</P>
@@ -42282,7 +42282,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-SLOT18_AREA)</P>
@@ -42370,7 +42370,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-SLOT19_AREA)</P>
@@ -42458,7 +42458,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-SLOT20_AREA)</P>
@@ -42546,7 +42546,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-SLOT21_AREA)</P>
@@ -42634,7 +42634,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-SLOT22_AREA)</P>
@@ -42722,7 +42722,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT11_AREA)</P>
@@ -42810,7 +42810,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT12_AREA)</P>
@@ -42898,7 +42898,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT13_AREA)</P>
@@ -42986,7 +42986,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT14_AREA)</P>
@@ -43074,7 +43074,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT15_AREA)</P>
@@ -43162,7 +43162,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT16_AREA)</P>
@@ -43250,7 +43250,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT17_AREA)</P>
@@ -43338,7 +43338,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT18_AREA)</P>
@@ -43426,7 +43426,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT19_AREA)</P>
@@ -43514,7 +43514,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT20_AREA)</P>
@@ -43602,7 +43602,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT21_AREA)</P>
@@ -43690,7 +43690,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT22_AREA)</P>
@@ -43778,7 +43778,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-SLOT11_AREA)</P>
@@ -43846,7 +43846,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-SLOT12_AREA)</P>
@@ -43914,7 +43914,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-SLOT13_AREA)</P>
@@ -44002,7 +44002,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-SLOT14_AREA)</P>
@@ -44090,7 +44090,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-SLOT15_AREA)</P>
@@ -44178,7 +44178,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-SLOT16_AREA)</P>
@@ -44266,7 +44266,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-SLOT17_AREA)</P>
@@ -44354,7 +44354,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-SLOT18_AREA)</P>
@@ -44442,7 +44442,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-SLOT19_AREA)</P>
@@ -44530,7 +44530,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-SLOT20_AREA)</P>
@@ -44618,7 +44618,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-SLOT21_AREA)</P>
@@ -44706,7 +44706,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-SLOT22_AREA)</P>
@@ -44794,7 +44794,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT11_AREA)</P>
@@ -44882,7 +44882,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT12_AREA)</P>
@@ -44970,7 +44970,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT13_AREA)</P>
@@ -45058,7 +45058,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT14_AREA)</P>
@@ -45146,7 +45146,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT15_AREA)</P>
@@ -45234,7 +45234,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT16_AREA)</P>
@@ -45322,7 +45322,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT17_AREA)</P>
@@ -45410,7 +45410,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT18_AREA)</P>
@@ -45498,7 +45498,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT19_AREA)</P>
@@ -45586,7 +45586,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT20_AREA)</P>
@@ -45674,7 +45674,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT21_AREA)</P>
@@ -45762,7 +45762,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT22_AREA)</P>
@@ -45850,7 +45850,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-SLOT11_AREA)</P>
@@ -45938,7 +45938,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-SLOT12_AREA)</P>
@@ -46026,7 +46026,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-SLOT13_AREA)</P>
@@ -46114,7 +46114,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-SLOT14_AREA)</P>
@@ -46202,7 +46202,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-SLOT15_AREA)</P>
@@ -46290,7 +46290,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-SLOT16_AREA)</P>
@@ -46378,7 +46378,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-SLOT17_AREA)</P>
@@ -46466,7 +46466,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-SLOT18_AREA)</P>
@@ -46554,7 +46554,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-SLOT19_AREA)</P>
@@ -46642,7 +46642,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-SLOT20_AREA)</P>
@@ -46730,7 +46730,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-SLOT21_AREA)</P>
@@ -46818,7 +46818,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-SLOT22_AREA)</P>
@@ -46906,7 +46906,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT11_AREA)</P>
@@ -46974,7 +46974,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT12_AREA)</P>
@@ -47042,7 +47042,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT13_AREA)</P>
@@ -47130,7 +47130,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT14_AREA)</P>
@@ -47218,7 +47218,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT15_AREA)</P>
@@ -47306,7 +47306,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT16_AREA)</P>
@@ -47394,7 +47394,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT17_AREA)</P>
@@ -47482,7 +47482,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT18_AREA)</P>
@@ -47570,7 +47570,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT19_AREA)</P>
@@ -47658,7 +47658,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT20_AREA)</P>
@@ -47746,7 +47746,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT21_AREA)</P>
@@ -47834,7 +47834,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT22_AREA)</P>
@@ -47922,7 +47922,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-SLOT11_AREA)</P>
@@ -47990,7 +47990,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-SLOT12_AREA)</P>
@@ -48058,7 +48058,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-SLOT13_AREA)</P>
@@ -48146,7 +48146,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-SLOT14_AREA)</P>
@@ -48234,7 +48234,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-SLOT15_AREA)</P>
@@ -48322,7 +48322,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-SLOT16_AREA)</P>
@@ -48410,7 +48410,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-SLOT17_AREA)</P>
@@ -48498,7 +48498,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-SLOT18_AREA)</P>
@@ -48586,7 +48586,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-SLOT19_AREA)</P>
@@ -48674,7 +48674,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-SLOT20_AREA)</P>
@@ -48762,7 +48762,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-SLOT21_AREA)</P>
@@ -48850,7 +48850,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-SLOT22_AREA)</P>
@@ -48938,7 +48938,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT11_AREA)</P>
@@ -49006,7 +49006,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT12_AREA)</P>
@@ -49074,7 +49074,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT13_AREA)</P>
@@ -49162,7 +49162,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT14_AREA)</P>
@@ -49250,7 +49250,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT15_AREA)</P>
@@ -49338,7 +49338,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT16_AREA)</P>
@@ -49426,7 +49426,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT17_AREA)</P>
@@ -49514,7 +49514,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT18_AREA)</P>
@@ -49602,7 +49602,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT19_AREA)</P>
@@ -49690,7 +49690,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT20_AREA)</P>
@@ -49778,7 +49778,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT21_AREA)</P>
@@ -49866,7 +49866,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT22_AREA)</P>
@@ -49954,7 +49954,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-SLOT11_AREA)</P>
@@ -50022,7 +50022,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-SLOT12_AREA)</P>
@@ -50090,7 +50090,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-SLOT13_AREA)</P>
@@ -50178,7 +50178,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-SLOT14_AREA)</P>
@@ -50266,7 +50266,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-SLOT15_AREA)</P>
@@ -50354,7 +50354,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-SLOT16_AREA)</P>
@@ -50442,7 +50442,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-SLOT17_AREA)</P>
@@ -50530,7 +50530,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-SLOT18_AREA)</P>
@@ -50618,7 +50618,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-SLOT19_AREA)</P>
@@ -50706,7 +50706,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-SLOT20_AREA)</P>
@@ -50794,7 +50794,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-SLOT21_AREA)</P>
@@ -50882,7 +50882,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-SLOT22_AREA)</P>
@@ -50970,7 +50970,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT11_AREA)</P>
@@ -51038,7 +51038,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT12_AREA)</P>
@@ -51106,7 +51106,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT13_AREA)</P>
@@ -51194,7 +51194,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT14_AREA)</P>
@@ -51282,7 +51282,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT15_AREA)</P>
@@ -51370,7 +51370,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT16_AREA)</P>
@@ -51458,7 +51458,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT17_AREA)</P>
@@ -51546,7 +51546,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT18_AREA)</P>
@@ -51634,7 +51634,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT19_AREA)</P>
@@ -51722,7 +51722,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT20_AREA)</P>
@@ -51810,7 +51810,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT21_AREA)</P>
@@ -51898,7 +51898,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT22_AREA)</P>
@@ -51986,7 +51986,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-SLOT11_AREA)</P>
@@ -52074,7 +52074,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-SLOT12_AREA)</P>
@@ -52162,7 +52162,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-SLOT13_AREA)</P>
@@ -52250,7 +52250,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-SLOT14_AREA)</P>
@@ -52338,7 +52338,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-SLOT15_AREA)</P>
@@ -52426,7 +52426,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-SLOT16_AREA)</P>
@@ -52514,7 +52514,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-SLOT17_AREA)</P>
@@ -52602,7 +52602,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-SLOT18_AREA)</P>
@@ -52690,7 +52690,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-SLOT19_AREA)</P>
@@ -52778,7 +52778,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-SLOT20_AREA)</P>
@@ -52866,7 +52866,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-SLOT21_AREA)</P>
@@ -75532,7 +75532,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
+        <path>AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT01_AREA)</P>
@@ -75620,7 +75620,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/AFC-EVR.opi</path>
+        <path>AFC-EVR.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-SLOT01_AREA)</P>
@@ -76588,7 +76588,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-SLOT23_AREA)</P>
@@ -76676,7 +76676,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-SLOT23_AREA)</P>
@@ -76764,7 +76764,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-SLOT23_AREA)</P>
@@ -76852,7 +76852,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-SLOT23_AREA)</P>
@@ -76940,7 +76940,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-SLOT23_AREA)</P>
@@ -77028,7 +77028,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-SLOT23_AREA)</P>
@@ -77116,7 +77116,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-SLOT23_AREA)</P>
@@ -77204,7 +77204,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-SLOT23_AREA)</P>
@@ -77292,7 +77292,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-SLOT23_AREA)</P>
@@ -77380,7 +77380,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>BPMRFFEStatus.opi</path>
+        <path>sirius-bpm-epics-screens/BPMRFFEStatus.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-SLOT23_AREA)</P>
