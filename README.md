@@ -28,5 +28,5 @@ It's possible to open CSS with the Main OPI being opened via the command-line wi
 Example:
 
 ```bash
-./cs-studio/css -eata /home/lerwys/workspace-share -share_link /home/lerwys/Repos/sirius-diagnostics-epics-screens/build/op/opi=/displays --launcher.openFile "/displays/sirius_main_all.opi"
+./cs-studio/css -data /home/lerwys/workspace-share -share_link /home/lerwys/Repos/sirius-diagnostics-epics-screens/build/op/opi=/displays --launcher.openFile "/displays/sirius_main_all.opi"
 ```
