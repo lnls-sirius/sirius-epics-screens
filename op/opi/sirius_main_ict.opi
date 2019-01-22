@@ -10,7 +10,7 @@
   <background_color>
     <color red="240" green="240" blue="240" />
   </background_color>
-  <boy_version>5.1.0.201708041818</boy_version>
+  <boy_version>5.1.0.201711290101</boy_version>
   <foreground_color>
     <color red="192" green="192" blue="192" />
   </foreground_color>
@@ -18,6 +18,12 @@
   <height>380</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
+    <EFF1_AREA>LI-Glob:</EFF1_AREA>
+    <EFF1_DEV>DI-InjEff:</EFF1_DEV>
+    <EFF2_AREA>TB-Glob:</EFF2_AREA>
+    <EFF2_DEV>DI-InjEff:</EFF2_DEV>
+    <EFF3_AREA>TS-Glob:</EFF3_AREA>
+    <EFF3_DEV>DI-InjEff:</EFF3_DEV>
     <ICT1_AREA>LI-01:</ICT1_AREA>
     <ICT1_DEV>DI-ICT-1:</ICT1_DEV>
     <ICT2_AREA>LI-01:</ICT2_AREA>
@@ -68,7 +74,7 @@
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -97,7 +103,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>559</width>
+    <width>337</width>
     <wuid>-28b86bd1:164b769ca79:-79b2</wuid>
     <x>12</x>
     <y>6</y>
@@ -128,7 +134,7 @@ $(pv_value)</tooltip>
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -157,7 +163,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rounded Rectangle</widget_type>
-    <width>559</width>
+    <width>337</width>
     <wuid>-779c1d6f:16788fec1f8:-6cc3</wuid>
     <x>12</x>
     <y>6</y>
@@ -186,7 +192,7 @@ $(pv_value)</tooltip>
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="Sans" height="14" style="0" pixels="false">Monitor Small Data</opifont.name>
+      <opifont.name fontName="Ubuntu" height="14" style="0" pixels="false">Monitor Small Data</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -215,7 +221,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>535</width>
+    <width>313</width>
     <wuid>-779c1d6f:16788fec1f8:-77b8</wuid>
     <x>24</x>
     <y>150</y>
@@ -244,7 +250,7 @@ $(pv_value)</tooltip>
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="Sans" height="14" style="0" pixels="false">Monitor Small Data</opifont.name>
+      <opifont.name fontName="Ubuntu" height="14" style="0" pixels="false">Monitor Small Data</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -273,7 +279,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>535</width>
+    <width>313</width>
     <wuid>-779c1d6f:16788fec1f8:-7880</wuid>
     <x>24</x>
     <y>72</y>
@@ -291,7 +297,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -300,8 +306,12 @@ $(pv_value)</tooltip>
     <lock_children>true</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
-      <P>$(ICT1_AREA)</P>
-      <R>$(ICT1_DEV)</R>
+      <P>$(EFF1_AREA)</P>
+      <R>$(EFF1_DEV)</R>
+      <P_ICT1>$(ICT1_AREA)</P_ICT1>
+      <R_ICT1>$(ICT1_DEV)</R_ICT1>
+      <P_ICT2>$(ICT2_AREA)</P_ICT2>
+      <R_ICT2>$(ICT2_DEV)</R_ICT2>
     </macros>
     <name>ict_1_container</name>
     <rules />
@@ -323,7 +333,7 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
-          <path>dmm7510-epics-ioc/ict.opi</path>
+          <path>dmm7510-epics-ioc/injEfficiency.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
@@ -389,7 +399,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -398,106 +408,12 @@ $(pv_value)</tooltip>
     <lock_children>true</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
-      <P>$(ICT2_AREA)</P>
-      <R>$(ICT2_DEV)</R>
-    </macros>
-    <name>ict_2_container</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>true</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>false</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>191</width>
-    <wuid>-779c1d6f:16788fec1f8:-7a4e</wuid>
-    <x>306</x>
-    <y>96</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-      <actions hook="false" hook_all="false">
-        <action type="OPEN_DISPLAY">
-          <path>dmm7510-epics-ioc/ict.opi</path>
-          <macros>
-            <include_parent_macros>true</include_parent_macros>
-          </macros>
-          <mode>1</mode>
-          <description></description>
-        </action>
-      </actions>
-      <alarm_pulsing>false</alarm_pulsing>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Ubuntu" height="14" style="0" pixels="false" />
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>37</height>
-      <image></image>
-      <name>Action Button_18</name>
-      <push_action_index>0</push_action_index>
-      <pv_name></pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <style>0</style>
-      <text>$(P)$(R)</text>
-      <toggle_button>false</toggle_button>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <visible>true</visible>
-      <widget_type>Action Button</widget_type>
-      <width>191</width>
-      <wuid>-779c1d6f:16788fec1f8:-7a4d</wuid>
-      <x>0</x>
-      <y>0</y>
-    </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>37</height>
-    <lock_children>true</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-      <P>$(ICT3_AREA)</P>
-      <R>$(ICT3_DEV)</R>
+      <P>$(EFF2_AREA)</P>
+      <R>$(EFF2_DEV)</R>
+      <P_ICT1>$(ICT3_AREA)</P_ICT1>
+      <R_ICT1>$(ICT3_DEV)</R_ICT1>
+      <P_ICT2>$(ICT4_AREA)</P_ICT2>
+      <R_ICT2>$(ICT4_DEV)</R_ICT2>
     </macros>
     <name>ict_3_container</name>
     <rules />
@@ -519,7 +435,7 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
-          <path>dmm7510-epics-ioc/ict.opi</path>
+          <path>dmm7510-epics-ioc/injEfficiency.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
@@ -572,104 +488,6 @@ $(pv_value)</tooltip>
       <y>0</y>
     </widget>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>37</height>
-    <lock_children>true</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-      <P>$(ICT4_AREA)</P>
-      <R>$(ICT4_DEV)</R>
-    </macros>
-    <name>ict_4_container</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>true</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>false</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>191</width>
-    <wuid>-779c1d6f:16788fec1f8:-7a3f</wuid>
-    <x>306</x>
-    <y>174</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-      <actions hook="false" hook_all="false">
-        <action type="OPEN_DISPLAY">
-          <path>dmm7510-epics-ioc/ict.opi</path>
-          <macros>
-            <include_parent_macros>true</include_parent_macros>
-          </macros>
-          <mode>1</mode>
-          <description></description>
-        </action>
-      </actions>
-      <alarm_pulsing>false</alarm_pulsing>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Ubuntu" height="14" style="0" pixels="false" />
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>37</height>
-      <image></image>
-      <name>Action Button_18</name>
-      <push_action_index>0</push_action_index>
-      <pv_name></pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <style>0</style>
-      <text>$(P)$(R)</text>
-      <toggle_button>false</toggle_button>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <visible>true</visible>
-      <widget_type>Action Button</widget_type>
-      <width>191</width>
-      <wuid>-779c1d6f:16788fec1f8:-7a3e</wuid>
-      <x>0</x>
-      <y>0</y>
-    </widget>
-  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>false</auto_size>
@@ -683,7 +501,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="Sans" height="30" style="1" pixels="false">Monitor Title</opifont.name>
+      <opifont.name fontName="Ubuntu" height="30" style="1" pixels="false">Monitor Title</opifont.name>
     </font>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -707,7 +525,7 @@ $(pv_value)</tooltip>
     <width>295</width>
     <wrap_words>false</wrap_words>
     <wuid>-779c1d6f:16788fec1f8:-5fdc</wuid>
-    <x>144</x>
+    <x>32</x>
     <y>12</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -723,7 +541,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -746,7 +564,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Grouping Container</widget_type>
-    <width>559</width>
+    <width>337</width>
     <wuid>-779c1d6f:16788fec1f8:-6b92</wuid>
     <x>12</x>
     <y>52</y>
@@ -774,7 +592,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+        <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -803,7 +621,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <visible>true</visible>
       <widget_type>Rectangle</widget_type>
-      <width>559</width>
+      <width>337</width>
       <wuid>-779c1d6f:16788fec1f8:-738a</wuid>
       <x>0</x>
       <y>2</y>
@@ -832,7 +650,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+        <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -861,7 +679,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <visible>true</visible>
       <widget_type>Rectangle</widget_type>
-      <width>559</width>
+      <width>337</width>
       <wuid>-779c1d6f:16788fec1f8:-6be9</wuid>
       <x>0</x>
       <y>0</y>
@@ -891,7 +709,7 @@ $(pv_value)</tooltip>
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="Sans" height="14" style="0" pixels="false">Monitor Small Data</opifont.name>
+      <opifont.name fontName="Ubuntu" height="14" style="0" pixels="false">Monitor Small Data</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -920,7 +738,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>535</width>
+    <width>313</width>
     <wuid>-779c1d6f:16788fec1f8:-5e8c</wuid>
     <x>24</x>
     <y>228</y>
@@ -938,7 +756,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -947,8 +765,12 @@ $(pv_value)</tooltip>
     <lock_children>true</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
-      <P>$(ICT5_AREA)</P>
-      <R>$(ICT5_DEV)</R>
+      <P>$(EFF3_AREA)</P>
+      <R>$(EFF3_DEV)</R>
+      <P_ICT1>$(ICT5_AREA)</P_ICT1>
+      <R_ICT1>$(ICT5_DEV)</R_ICT1>
+      <P_ICT2>$(ICT6_AREA)</P_ICT2>
+      <R_ICT2>$(ICT6_DEV)</R_ICT2>
     </macros>
     <name>ict_5_container</name>
     <rules />
@@ -970,7 +792,7 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
-          <path>dmm7510-epics-ioc/ict.opi</path>
+          <path>dmm7510-epics-ioc/injEfficiency.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
@@ -1023,8 +845,10 @@ $(pv_value)</tooltip>
       <y>0</y>
     </widget>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+  <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
     <actions hook="false" hook_all="false" />
+    <align_to_nearest_second>false</align_to_nearest_second>
+    <auto_size>true</auto_size>
     <background_color>
       <color red="240" green="240" blue="240" />
     </background_color>
@@ -1033,22 +857,34 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <crop_bottom>0</crop_bottom>
+    <crop_left>0</crop_left>
+    <crop_right>0</crop_right>
+    <crop_top>0</crop_top>
+    <degree>0</degree>
     <enabled>true</enabled>
-    <fc>false</fc>
+    <flip_horizontal>false</flip_horizontal>
+    <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
-    <height>37</height>
-    <lock_children>true</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-      <P>$(ICT6_AREA)</P>
-      <R>$(ICT6_DEV)</R>
-    </macros>
-    <name>ict_6_container</name>
+    <height>100</height>
+    <image_file></image_file>
+    <name>Image</name>
+    <no_animation>false</no_animation>
+    <permutation_matrix>
+      <row>
+        <col>1.0</col>
+        <col>0.0</col>
+      </row>
+      <row>
+        <col>0.0</col>
+        <col>1.0</col>
+      </row>
+    </permutation_matrix>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1056,69 +892,14 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <show_scrollbar>true</show_scrollbar>
+    <stretch_to_fit>false</stretch_to_fit>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparency>false</transparency>
     <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>191</width>
-    <wuid>-779c1d6f:16788fec1f8:-5e89</wuid>
-    <x>306</x>
-    <y>252</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-      <actions hook="false" hook_all="false">
-        <action type="OPEN_DISPLAY">
-          <path>dmm7510-epics-ioc/ict.opi</path>
-          <macros>
-            <include_parent_macros>true</include_parent_macros>
-          </macros>
-          <mode>1</mode>
-          <description></description>
-        </action>
-      </actions>
-      <alarm_pulsing>false</alarm_pulsing>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Ubuntu" height="14" style="0" pixels="false" />
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>37</height>
-      <image></image>
-      <name>Action Button_18</name>
-      <push_action_index>0</push_action_index>
-      <pv_name></pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <style>0</style>
-      <text>$(P)$(R)</text>
-      <toggle_button>false</toggle_button>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <visible>true</visible>
-      <widget_type>Action Button</widget_type>
-      <width>191</width>
-      <wuid>-779c1d6f:16788fec1f8:-5e88</wuid>
-      <x>0</x>
-      <y>0</y>
-    </widget>
+    <widget_type>Image</widget_type>
+    <width>100</width>
+    <wuid>-1a9caa8e:16871a7c00c:-72c1</wuid>
+    <x>705</x>
+    <y>585</y>
   </widget>
 </display>
