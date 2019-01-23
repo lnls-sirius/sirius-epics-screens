@@ -70,6 +70,16 @@ copy_and_create_dest()
         ${DEST_OPI_PROJ_DIR}
 }
 
+simple_copy()
+{
+    local SRC_OPI_PROJ_DIR=$1
+    local DEST_OPI_PROJ_DIR=$2
+    local SRC_FILE=$3
+
+    cp ${SRC_OPI_PROJ_DIR}/${SRC_FILE} \
+        ${DEST_OPI_PROJ_DIR}
+}
+
 copy_opis()
 {
     local PROJ_NAME=$1
@@ -100,6 +110,27 @@ copy_opis()
     else
         copy_and_create_dest "${BASE_DIR}" "${DEST_OPI_DIR}"
     fi
+}
+
+copy_project()
+{
+    local PROJ_NAME=$1
+    local BASE_DIR=$2
+    local DEST_OPI_DIR=$3
+
+    local _git_url="${PROJ_NAME}_GIT_URL"
+    local _git_org="${PROJ_NAME}_ORG"
+    local _git_proj="${PROJ_NAME}_PROJECT"
+    local _git_tag="${PROJ_NAME}_TAG"
+    local _opi_folder="${PROJ_NAME}_OPI_DIR"
+
+    local git_url=${!_git_url}
+    local git_org=${!_git_org}
+    local git_proj=${!_git_proj}
+    local git_tag=${!_git_tag}
+    local opi_folder=${!_opi_folder}
+
+    simple_copy "${BASE_DIR}/${opi_folder}" "${DEST_OPI_DIR}" ".project"
 }
 
 copy_repo()
@@ -157,4 +188,14 @@ copy_local_opis()
 
     # Copy only OPI to target folder
     copy_opis ${PROJ_NAME} ${DEST_REPO_DIR} ${DEST_OPI_DIR} "local_project"
+}
+
+copy_project_file()
+{
+    local PROJ_NAME=$1
+    local DEST_REPO_DIR=$2
+    local DEST_OPI_DIR=$3
+
+    # Copy only OPI to target folder
+    copy_project ${PROJ_NAME} ${DEST_REPO_DIR} ${DEST_OPI_DIR}
 }
