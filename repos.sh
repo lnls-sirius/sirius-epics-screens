@@ -29,7 +29,7 @@ TIM_RX_PREFIX="TIM_RX"
 TIM_RX_GIT_URL="https://github.com"
 TIM_RX_ORG="lnls-dig"
 TIM_RX_PROJECT="tim-rx-epics-ioc"
-TIM_RX_TAG="master"
+TIM_RX_TAG="devel"
 TIM_RX_OPI_DIR="op/opi"
 
 # Sirius BPM
