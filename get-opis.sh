@@ -98,4 +98,8 @@ for merge in "${MERGE_PROJECTS[@]}"; do
     done
 done
 
+# Copy .project file as CSS on NFS apparently needs it, as it's read-only
+echo "Copying .project file to OPI directory"
+copy_project_file ${TOP_PROJECTS[0]} ${TOP} ${DEST_OPI_DIR}
+
 set -u
