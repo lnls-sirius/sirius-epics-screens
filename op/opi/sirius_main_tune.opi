@@ -744,6 +744,8 @@ $(pv_value)</tooltip>
       <include_parent_macros>true</include_parent_macros>
       <P>$(TUNE_SPEC_ANA_BO_H_AREA)</P>
       <R>$(TUNE_SPEC_ANA_BO_H_DEV)</R>
+      <P_TUNE>$(TUNE_BO_H_AREA)</P_TUNE>
+      <R_TUNE>$(TUNE_BO_H_DEV)</R_TUNE>
     </macros>
     <name>Grouping Container</name>
     <rules />
@@ -801,12 +803,12 @@ $(pv_value)</tooltip>
       <horizon_profile_x_pv_value />
       <horizon_profile_y_pv_name></horizon_profile_y_pv_name>
       <horizon_profile_y_pv_value />
-      <maximum>-95.0</maximum>
-      <minimum>-100.0</minimum>
+      <maximum>0.0</maximum>
+      <minimum>-120.0</minimum>
       <name>Intensity Graph</name>
       <pixel_info_pv_name></pixel_info_pv_name>
       <pixel_info_pv_value />
-      <pv_name>$(P)$(R)SpecArray-Mon.AVAL</pv_name>
+      <pv_name>$(P)$(R)SpecArray-Mon</pv_name>
       <pv_value />
       <rgb_mode>false</rgb_mode>
       <roi_color>
@@ -815,16 +817,26 @@ $(pv_value)</tooltip>
       <roi_count>0</roi_count>
       <rules>
         <rule name="X Min Rule" prop_id="x_axis_minimum" out_exp="true">
-          <exp bool_exp="1">
+          <exp bool_exp="pv2==0">
             <value>pv0</value>
           </exp>
-          <pv trig="true">$(P)$(R)FreqStart-RB</pv>
+          <exp bool_exp="pv2==1">
+            <value>pv1</value>
+          </exp>
+          <pv trig="true">$(P)$(R)FreqStartDisp-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneFracStart-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
         </rule>
         <rule name="X Max Rule" prop_id="x_axis_maximum" out_exp="true">
-          <exp bool_exp="pv0&gt;0">
+          <exp bool_exp="pv2==0">
             <value>pv0</value>
           </exp>
-          <pv trig="true">$(P)$(R)FreqStop-RB</pv>
+          <exp bool_exp="pv2==1">
+            <value>pv1</value>
+          </exp>
+          <pv trig="true">$(P)$(R)FreqStopDisp-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneFracStop-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
         </rule>
         <rule name="Data_Width Rule" prop_id="data_width" out_exp="true">
           <exp bool_exp="1">
@@ -838,6 +850,34 @@ $(pv_value)</tooltip>
           </exp>
           <pv trig="true">$(P)$(R)SwePts-RB</pv>
           <pv trig="true">$(P)$(R)SpecArray-Mon.NELM</pv>
+        </rule>
+        <rule name="Y Max Rule" prop_id="y_axis_maximum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P)$(R)TimeDelta-Mon</pv>
+        </rule>
+        <rule name="Max Rule" prop_id="maximum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P)$(R)RefLvl-RB</pv>
+        </rule>
+        <rule name="Min Rule" prop_id="minimum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv1-pv0</value>
+          </exp>
+          <pv trig="true">$(P)$(R)DispRange-RB</pv>
+          <pv trig="true">$(P)$(R)RefLvl-RB</pv>
+        </rule>
+        <rule name="X Label Rule" prop_id="x_axis_axis_title" out_exp="true">
+          <exp bool_exp="pv0==0">
+            <value>"Frequency [MHz]"</value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>"Fractional Tune"</value>
+          </exp>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
         </rule>
       </rules>
       <scale_options>
@@ -856,13 +896,13 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <widget_type>Intensity Graph</widget_type>
       <width>316</width>
-      <wuid>67bdec06:1675a718dc8:3d08</wuid>
+      <wuid>-a0c2284:1687b774723:-7a5d</wuid>
       <x>0</x>
       <x_axis_axis_color>
         <color red="0" green="0" blue="0" />
       </x_axis_axis_color>
       <x_axis_axis_title>Frequency</x_axis_axis_title>
-      <x_axis_major_tick_step_hint>50</x_axis_major_tick_step_hint>
+      <x_axis_major_tick_step_hint>100</x_axis_major_tick_step_hint>
       <x_axis_maximum>100.0</x_axis_maximum>
       <x_axis_minimum>50.0</x_axis_minimum>
       <x_axis_scale_font>
@@ -877,7 +917,7 @@ $(pv_value)</tooltip>
       <y_axis_axis_color>
         <color red="0" green="0" blue="0" />
       </y_axis_axis_color>
-      <y_axis_axis_title>Time</y_axis_axis_title>
+      <y_axis_axis_title>Time [ms]</y_axis_axis_title>
       <y_axis_major_tick_step_hint>50</y_axis_major_tick_step_hint>
       <y_axis_maximum>1000.0</y_axis_maximum>
       <y_axis_minimum>0.0</y_axis_minimum>
@@ -915,6 +955,8 @@ $(pv_value)</tooltip>
       <include_parent_macros>true</include_parent_macros>
       <P>$(TUNE_SPEC_ANA_BO_V_AREA)</P>
       <R>$(TUNE_SPEC_ANA_BO_V_DEV)</R>
+      <P_TUNE>$(TUNE_BO_V_AREA)</P_TUNE>
+      <R_TUNE>$(TUNE_BO_V_DEV)</R_TUNE>
     </macros>
     <name>Grouping Container_5</name>
     <rules />
@@ -972,12 +1014,12 @@ $(pv_value)</tooltip>
       <horizon_profile_x_pv_value />
       <horizon_profile_y_pv_name></horizon_profile_y_pv_name>
       <horizon_profile_y_pv_value />
-      <maximum>-95.0</maximum>
-      <minimum>-100.0</minimum>
+      <maximum>0.0</maximum>
+      <minimum>-120.0</minimum>
       <name>Intensity Graph</name>
       <pixel_info_pv_name></pixel_info_pv_name>
       <pixel_info_pv_value />
-      <pv_name>$(P)$(R)SpecArray-Mon.AVAL</pv_name>
+      <pv_name>$(P)$(R)SpecArray-Mon</pv_name>
       <pv_value />
       <rgb_mode>false</rgb_mode>
       <roi_color>
@@ -986,16 +1028,26 @@ $(pv_value)</tooltip>
       <roi_count>0</roi_count>
       <rules>
         <rule name="X Min Rule" prop_id="x_axis_minimum" out_exp="true">
-          <exp bool_exp="1">
+          <exp bool_exp="pv2==0">
             <value>pv0</value>
           </exp>
-          <pv trig="true">$(P)$(R)FreqStart-RB</pv>
+          <exp bool_exp="pv2==1">
+            <value>pv1</value>
+          </exp>
+          <pv trig="true">$(P)$(R)FreqStartDisp-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneFracStart-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
         </rule>
         <rule name="X Max Rule" prop_id="x_axis_maximum" out_exp="true">
-          <exp bool_exp="pv0&gt;0">
+          <exp bool_exp="pv2==0">
             <value>pv0</value>
           </exp>
-          <pv trig="true">$(P)$(R)FreqStop-RB</pv>
+          <exp bool_exp="pv2==1">
+            <value>pv1</value>
+          </exp>
+          <pv trig="true">$(P)$(R)FreqStopDisp-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneFracStop-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
         </rule>
         <rule name="Data_Width Rule" prop_id="data_width" out_exp="true">
           <exp bool_exp="1">
@@ -1009,6 +1061,34 @@ $(pv_value)</tooltip>
           </exp>
           <pv trig="true">$(P)$(R)SwePts-RB</pv>
           <pv trig="true">$(P)$(R)SpecArray-Mon.NELM</pv>
+        </rule>
+        <rule name="Y Max Rule" prop_id="y_axis_maximum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P)$(R)TimeDelta-Mon</pv>
+        </rule>
+        <rule name="Max Rule" prop_id="maximum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P)$(R)RefLvl-RB</pv>
+        </rule>
+        <rule name="Min Rule" prop_id="minimum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv1-pv0</value>
+          </exp>
+          <pv trig="true">$(P)$(R)DispRange-RB</pv>
+          <pv trig="true">$(P)$(R)RefLvl-RB</pv>
+        </rule>
+        <rule name="X Label Rule" prop_id="x_axis_axis_title" out_exp="true">
+          <exp bool_exp="pv0==0">
+            <value>"Frequency [MHz]"</value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>"Fractional Tune"</value>
+          </exp>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
         </rule>
       </rules>
       <scale_options>
@@ -1027,13 +1107,13 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <widget_type>Intensity Graph</widget_type>
       <width>316</width>
-      <wuid>67bdec06:1675a718dc8:3d64</wuid>
+      <wuid>-a0c2284:1687b774723:-7a39</wuid>
       <x>0</x>
       <x_axis_axis_color>
         <color red="0" green="0" blue="0" />
       </x_axis_axis_color>
       <x_axis_axis_title>Frequency</x_axis_axis_title>
-      <x_axis_major_tick_step_hint>50</x_axis_major_tick_step_hint>
+      <x_axis_major_tick_step_hint>100</x_axis_major_tick_step_hint>
       <x_axis_maximum>100.0</x_axis_maximum>
       <x_axis_minimum>50.0</x_axis_minimum>
       <x_axis_scale_font>
@@ -1048,7 +1128,7 @@ $(pv_value)</tooltip>
       <y_axis_axis_color>
         <color red="0" green="0" blue="0" />
       </y_axis_axis_color>
-      <y_axis_axis_title>Time</y_axis_axis_title>
+      <y_axis_axis_title>Time [ms]</y_axis_axis_title>
       <y_axis_major_tick_step_hint>50</y_axis_major_tick_step_hint>
       <y_axis_maximum>1000.0</y_axis_maximum>
       <y_axis_minimum>0.0</y_axis_minimum>
