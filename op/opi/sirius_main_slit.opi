@@ -10,7 +10,7 @@
   <background_color>
     <color red="240" green="240" blue="240" />
   </background_color>
-  <boy_version>5.1.0.201708041818</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color red="192" green="192" blue="192" />
   </foreground_color>
@@ -20,12 +20,12 @@
     <include_parent_macros>true</include_parent_macros>
     <P_SLIT_1>TB-01:</P_SLIT_1>
     <R_SLIT_1>DI-SlitH:</R_SLIT_1>
-    <CTRL_NEG_PREFIX_SLIT_1>TB-01:DI-SlitHCtrl-O:</CTRL_NEG_PREFIX_SLIT_1>
-    <CTRL_POS_PREFIX_SLIT_1>TB-01:DI-SlitHCtrl-I:</CTRL_POS_PREFIX_SLIT_1>
+    <CTRL_NEG_PREFIX_SLIT_1>TB-01:DI-SlitHCtrl-I:</CTRL_NEG_PREFIX_SLIT_1>
+    <CTRL_POS_PREFIX_SLIT_1>TB-01:DI-SlitHCtrl-O:</CTRL_POS_PREFIX_SLIT_1>
     <P_SLIT_2>TB-01:</P_SLIT_2>
     <R_SLIT_2>DI-SlitV:</R_SLIT_2>
-    <CTRL_NEG_PREFIX_SLIT_2>TB-01:DI-SlitHCtrl-O:</CTRL_NEG_PREFIX_SLIT_2>
-    <CTRL_POS_PREFIX_SLIT_2>TB-01:DI-SlitHCtrl-I:</CTRL_POS_PREFIX_SLIT_2>
+    <CTRL_NEG_PREFIX_SLIT_2>TB-01:DI-SlitVCtrl-B:</CTRL_NEG_PREFIX_SLIT_2>
+    <CTRL_POS_PREFIX_SLIT_2>TB-01:DI-SlitVCtrl-T:</CTRL_POS_PREFIX_SLIT_2>
   </macros>
   <name></name>
   <rules />
@@ -64,7 +64,7 @@
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -124,7 +124,7 @@ $(pv_value)</tooltip>
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -229,7 +229,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -330,7 +330,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -471,7 +471,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -522,7 +522,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+        <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -580,7 +580,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+        <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
