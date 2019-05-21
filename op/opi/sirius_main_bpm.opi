@@ -3396,7 +3396,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE01-AREA)</P>
@@ -3484,7 +3484,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE02-AREA)</P>
@@ -3572,7 +3572,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE03-AREA)</P>
@@ -3660,7 +3660,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE04-AREA)</P>
@@ -3748,7 +3748,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE05-AREA)</P>
@@ -3836,7 +3836,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE06-AREA)</P>
@@ -3924,7 +3924,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE07-AREA)</P>
@@ -4012,7 +4012,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE08-AREA)</P>
@@ -4100,7 +4100,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE09-AREA)</P>
@@ -4188,7 +4188,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE10-AREA)</P>
@@ -4276,7 +4276,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE11-AREA)</P>
@@ -4364,7 +4364,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE12-AREA)</P>
@@ -4452,7 +4452,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE13-AREA)</P>
@@ -4540,7 +4540,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE14-AREA)</P>
@@ -4628,7 +4628,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE15-AREA)</P>
@@ -4716,7 +4716,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE16-AREA)</P>
@@ -4804,7 +4804,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE17-AREA)</P>
@@ -4892,7 +4892,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE18-AREA)</P>
@@ -4980,7 +4980,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE19-AREA)</P>
@@ -5068,7 +5068,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE20-AREA)</P>
@@ -5156,7 +5156,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="true" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>sirius-bpm-epics-screens/crate_12slot.opi</path>
+        <path>ipmi-mgr-epics-ioc/crate_12slot.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>$(CRATE21-AREA)</P>
