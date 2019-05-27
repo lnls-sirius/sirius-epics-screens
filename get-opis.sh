@@ -13,6 +13,13 @@ source ${SCRIPTPATH}/functions.sh
 # Get all repositories
 source ${SCRIPTPATH}/repos.sh
 
+contains_element () {
+  local e match="$1"
+  shift
+  for e; do [[ "$e" == "$match" ]] && return 0; done
+  return 1
+}
+
 # Common paths
 DEST_REPO_DIR=${TOP}/${IOC_REPO_DIR}
 DEST_OPI_DIR=${TOP}/${OPI_DIR}
@@ -23,12 +30,16 @@ usage () {
     echo >&2
     echo " Options:" >&2
     echo "  -f          Get full git repository [yes|no]" >&2
+    echo "  -p          Project name to update OPIs [\"all\", \"general\", \"top\", \"merge\""
+    echo "                  or specify a specific project name]" >&2
 }
 
 FULL_GIT_REPO="no"
-while getopts ":f:" opt; do
+SPEC_PROJECT=""
+while getopts ":f:p:" opt; do
   case $opt in
     f) FULL_GIT_REPO="$OPTARG" ;;
+    p) SPEC_PROJECT="$OPTARG" ;;
     \?)
       echo "Invalid option: -$OPTARG" >&2
       usage $0
@@ -54,6 +65,11 @@ if [ "${FULL_GIT_REPO}" != "yes" ] && [ "${FULL_GIT_REPO}" != "no" ]; then
     exit 1
 fi
 
+if [ -z "${SPEC_PROJECT}" ]; then
+    echo "Invalid -p option. Cannot be empty. Choose: \"all\" or \"<project name>\"" >&2
+    exit 1
+fi
+
 alias get_repo='shallow_repo'
 if [ "${FULL_GIT_REPO}" == "yes" ]; then
 	alias get_repo='full_repo'
@@ -65,41 +81,113 @@ mkdir -p ${DEST_OPI_DIR}
 
 set +u
 
+UPDATE_PROJECTS="no"
+UPDATE_TOP_PROJECTS="no"
+UPDATE_MERGE_PROJECTS="no"
+LOCAL_PROJECTS=()
+LOCAL_TOP_PROJECTS=()
+LOCAL_MERGE_PROJECTS=()
+# Filter name repos according to command line
+case "${SPEC_PROJECT}" in
+    [Aa][Ll][Ll])
+        echo "Updating all projects"
+        UPDATE_PROJECTS="yes"
+        LOCAL_PROJECTS=("${PROJECTS[@]}")
+        UPDATE_TOP_PROJECTS="yes"
+        LOCAL_TOP_PROJECTS=("${TOP_PROJECTS[@]}")
+        UPDATE_MERGE_PROJECTS="yes"
+        LOCAL_MERGE_PROJECTS=("${MERGE_PROJECTS[@]}")
+        ;;
+    [Gg][En][Nn][Ee][Rr][Aa][Ll])
+        echo "Updating only General projects"
+        UPDATE_PROJECTS="yes"
+        LOCAL_PROJECTS=("${PROJECTS[@]}")
+        UPDATE_TOP_PROJECTS="no"
+        UPDATE_MERGE_PROJECTS="no"
+        ;;
+    [Tt][Oo][Pp])
+        echo "Updating only TOP projects"
+        UPDATE_PROJECTS="no"
+        UPDATE_TOP_PROJECTS="yes"
+        LOCAL_TOP_PROJECTS=("${TOP_PROJECTS[@]}")
+        UPDATE_MERGE_PROJECTS="no"
+        ;;
+    [Mm][Ee][Rr][Gg][Ee])
+        echo "Updating only MERGE projects"
+        UPDATE_PROJECTS="no"
+        UPDATE_TOP_PROJECTS="no"
+        UPDATE_MERGE_PROJECTS="yes"
+        LOCAL_MERGE_PROJECTS=("${MERGE_PROJECTS[@]}")
+        ;;
+    *)
+        if $(contains_element "${SPEC_PROJECT}" "${PROJECTS[@]}") ; then
+            echo "Updating General project ${SPEC_PROJECT}"
+            UPDATE_PROJECTS="yes"
+            LOCAL_PROJECTS=("${SPEC_PROJECT}")
+        elif $(contains_element "${SPEC_PROJECT}" "${TOP_PROJECTS[@]}") ; then
+            echo "Updating only TOP project ${SPEC_PROJECT}"
+            UPDATE_TOP_PROJECTS="yes"
+            LOCAL_TOP_PROJECTS=("${SPEC_PROJECT}")
+        elif $(contains_element "${SPEC_PROJECT}" "${MERGE_PROJECTS[@]}") ; then
+            echo "Updating only MERGE project ${SPEC_PROJECT}"
+            UPDATE_MERGE_PROJECTS="yes"
+            LOCAL_MERGE_PROJECTS=("${SPEC_PROJECT}")
+        else
+            echo "Not updating any project. No match for project ${SPEC_PROJECT}"
+            exit 0
+        fi
+        ;;
+esac
+
 # Get repos
-[[ ! -z "${PROJECTS}" ]] && echo "Building target OPI directory with remote repositories"
-for proj in "${PROJECTS[@]}"; do
-    copy_repo_opis ${proj} ${DEST_REPO_DIR} ${DEST_OPI_DIR}
-done
+if [ "${UPDATE_PROJECTS}" == "yes" ]; then
+    echo "Updating general projects"
+
+    [[ ! -z "${LOCAL_PROJECTS}" ]] && echo "Building target OPI directory with remote repositories"
+    for proj in "${LOCAL_PROJECTS[@]}"; do
+        copy_repo_opis ${proj} ${DEST_REPO_DIR} ${DEST_OPI_DIR}
+    done
+fi
 
 # Get local repos
-[[ ! -z "${TOP_PROJECTS}" ]] && echo "Building target OPI directory with local files"
-for proj in "${TOP_PROJECTS[@]}"; do
-    copy_local_opis ${proj} ${TOP} ${DEST_OPI_DIR}
-done
+if [ "${UPDATE_TOP_PROJECTS}" == "yes" ]; then
+    echo "Updating TOP projects"
+
+    [[ ! -z "${LOCAL_TOP_PROJECTS}" ]] && echo "Building target OPI directory with local files"
+    for proj in "${LOCAL_TOP_PROJECTS[@]}"; do
+        copy_local_opis ${proj} ${TOP} ${DEST_OPI_DIR}
+    done
+fi
 
 # Merge OPI folders
-[[ ! -z "${MERGE_PROJECTS}" ]] && echo "Merging tagged projects into target OPI directory"
-for merge in "${MERGE_PROJECTS[@]}"; do
-    _merge_repos_prefix="${merge}_REPOS_PREFIX[@]"
-    _merge_dest_prefix="${merge}_DEST_PREFIX"
+if [ "${UPDATE_MERGE_PROJECTS}" == "yes" ]; then
+    echo "Updating MERGE projects"
 
-    merge_repos_prefix=(${!_merge_repos_prefix})
-    merge_dest_prefix=${!_merge_dest_prefix}
+    [[ ! -z "${LOCAL_MERGE_PROJECTS}" ]] && echo "Merging tagged projects into target OPI directory"
+    for merge in "${LOCAL_MERGE_PROJECTS[@]}"; do
+        _merge_repos_prefix="${merge}_REPOS_PREFIX[@]"
+        _merge_dest_prefix="${merge}_DEST_PREFIX"
 
-    _merge_dest_opi_dir="${merge_dest_prefix}_OPI_DIR"
-    _merge_dest_proj="${merge_dest_prefix}_PROJECT"
-    merge_dest_opi_dir="${!_merge_dest_opi_dir}"
-    merge_dest_proj="${!_merge_dest_proj}"
+        merge_repos_prefix=(${!_merge_repos_prefix})
+        merge_dest_prefix=${!_merge_dest_prefix}
 
-    # Get repos
-    for proj in "${merge_repos_prefix[@]}"; do
-        # Copy source OPI into destination project
-        copy_repo_opis_2_top ${proj} ${DEST_REPO_DIR} ${DEST_OPI_DIR}/${merge_dest_proj}
+        _merge_dest_opi_dir="${merge_dest_prefix}_OPI_DIR"
+        _merge_dest_proj="${merge_dest_prefix}_PROJECT"
+        merge_dest_opi_dir="${!_merge_dest_opi_dir}"
+        merge_dest_proj="${!_merge_dest_proj}"
+
+        # Get repos
+        for proj in "${merge_repos_prefix[@]}"; do
+            # Copy source OPI into destination project
+            copy_repo_opis_2_top ${proj} ${DEST_REPO_DIR} ${DEST_OPI_DIR}/${merge_dest_proj}
+        done
     done
-done
+fi
 
-# Copy .project file as CSS on NFS apparently needs it, as it's read-only
-echo "Copying .project file to OPI directory"
-copy_project_file ${TOP_PROJECTS[0]} ${TOP} ${DEST_OPI_DIR}
+if [ "${UPDATE_TOP_PROJECTS}" == "yes" ]; then
+    # Copy .project file as CSS on NFS apparently needs it, as it's read-only
+    echo "Copying .project file to OPI directory"
+    copy_project_file ${TOP_PROJECTS[0]} ${TOP} ${DEST_OPI_DIR}
+fi
 
 set -u

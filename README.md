@@ -10,12 +10,16 @@ diagnostics screens used for Sirius.
 ## Usage
 
 ```bash
-./get-opis.sh -f [yes|no]
+./get-opis.sh -f [yes|no] -p [all|general|merge|top|<project_name>]
 ```
 
 where the options are:
 
-- `-f   [yes|no]`:        Get full git repository or not (optional)
+```bash
+ -f          Get full git repository [yes|no]
+ -p          Project name to update OPIs ["all", "general", "top", "merge"`
+                    or specify a specific project name]
+```
 
 ## Tip
 
