@@ -10,7 +10,7 @@
   <background_color>
     <color red="240" green="240" blue="240" />
   </background_color>
-  <boy_version>5.1.0.201708041818</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color red="192" green="192" blue="192" />
   </foreground_color>
@@ -803,7 +803,7 @@ $(pv_value)</tooltip>
       <horizon_profile_x_pv_value />
       <horizon_profile_y_pv_name></horizon_profile_y_pv_name>
       <horizon_profile_y_pv_value />
-      <maximum>0.0</maximum>
+      <maximum>10.0</maximum>
       <minimum>-120.0</minimum>
       <name>Intensity Graph</name>
       <pixel_info_pv_name></pixel_info_pv_name>
@@ -845,11 +845,15 @@ $(pv_value)</tooltip>
           <pv trig="true">$(P)$(R)SwePts-RB</pv>
         </rule>
         <rule name="Data_Height Rule" prop_id="data_height" out_exp="true">
-          <exp bool_exp="1">
+          <exp bool_exp="pv2&gt;(pv1/pv0)">
             <value>pv1/pv0</value>
+          </exp>
+          <exp bool_exp="1">
+            <value>pv2</value>
           </exp>
           <pv trig="true">$(P)$(R)SwePts-RB</pv>
           <pv trig="true">$(P)$(R)SpecArray-Mon.NELM</pv>
+          <pv trig="true">$(P)$(R)FrameCount-Mon</pv>
         </rule>
         <rule name="Y Max Rule" prop_id="y_axis_maximum" out_exp="true">
           <exp bool_exp="1">
@@ -896,7 +900,7 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <widget_type>Intensity Graph</widget_type>
       <width>316</width>
-      <wuid>-a0c2284:1687b774723:-7a5d</wuid>
+      <wuid>4ebe9bcd:16b321b8cbd:-385a</wuid>
       <x>0</x>
       <x_axis_axis_color>
         <color red="0" green="0" blue="0" />
@@ -1014,7 +1018,7 @@ $(pv_value)</tooltip>
       <horizon_profile_x_pv_value />
       <horizon_profile_y_pv_name></horizon_profile_y_pv_name>
       <horizon_profile_y_pv_value />
-      <maximum>0.0</maximum>
+      <maximum>10.0</maximum>
       <minimum>-120.0</minimum>
       <name>Intensity Graph</name>
       <pixel_info_pv_name></pixel_info_pv_name>
@@ -1056,11 +1060,15 @@ $(pv_value)</tooltip>
           <pv trig="true">$(P)$(R)SwePts-RB</pv>
         </rule>
         <rule name="Data_Height Rule" prop_id="data_height" out_exp="true">
-          <exp bool_exp="1">
+          <exp bool_exp="pv2&gt;(pv1/pv0)">
             <value>pv1/pv0</value>
+          </exp>
+          <exp bool_exp="1">
+            <value>pv2</value>
           </exp>
           <pv trig="true">$(P)$(R)SwePts-RB</pv>
           <pv trig="true">$(P)$(R)SpecArray-Mon.NELM</pv>
+          <pv trig="true">$(P)$(R)FrameCount-Mon</pv>
         </rule>
         <rule name="Y Max Rule" prop_id="y_axis_maximum" out_exp="true">
           <exp bool_exp="1">
@@ -1107,7 +1115,7 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <widget_type>Intensity Graph</widget_type>
       <width>316</width>
-      <wuid>-a0c2284:1687b774723:-7a39</wuid>
+      <wuid>4ebe9bcd:16b321b8cbd:-3824</wuid>
       <x>0</x>
       <x_axis_axis_color>
         <color red="0" green="0" blue="0" />
