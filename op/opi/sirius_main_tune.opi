@@ -811,10 +811,20 @@ $(pv_value)</tooltip>
       <pv_name>$(P)$(R)SpecArray-Mon</pv_name>
       <pv_value />
       <rgb_mode>false</rgb_mode>
+      <roi_0_h_pv_value />
+      <roi_0_height_pv>$(P_TUNE)$(R_TUNE)ROIHeightConv-SP</roi_0_height_pv>
+      <roi_0_title>ROI</roi_0_title>
+      <roi_0_visible>true</roi_0_visible>
+      <roi_0_w_pv_value />
+      <roi_0_width_pv>$(P_TUNE)$(R_TUNE)ROIWidthConv-SP</roi_0_width_pv>
+      <roi_0_x_pv>$(P_TUNE)$(R_TUNE)ROIOffXConv-SP</roi_0_x_pv>
+      <roi_0_x_pv_value />
+      <roi_0_y_pv>$(P_TUNE)$(R_TUNE)ROIOffYConv-SP</roi_0_y_pv>
+      <roi_0_y_pv_value />
       <roi_color>
         <color red="0" green="255" blue="255" />
       </roi_color>
-      <roi_count>0</roi_count>
+      <roi_count>1</roi_count>
       <rules>
         <rule name="X Min Rule" prop_id="x_axis_minimum" out_exp="true">
           <exp bool_exp="pv2==0">
@@ -900,7 +910,7 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <widget_type>Intensity Graph</widget_type>
       <width>316</width>
-      <wuid>4ebe9bcd:16b321b8cbd:-385a</wuid>
+      <wuid>-6429f2da:16bad71992e:-67f1</wuid>
       <x>0</x>
       <x_axis_axis_color>
         <color red="0" green="0" blue="0" />
@@ -1026,10 +1036,20 @@ $(pv_value)</tooltip>
       <pv_name>$(P)$(R)SpecArray-Mon</pv_name>
       <pv_value />
       <rgb_mode>false</rgb_mode>
+      <roi_0_h_pv_value />
+      <roi_0_height_pv>$(P_TUNE)$(R_TUNE)ROIHeightConv-SP</roi_0_height_pv>
+      <roi_0_title>ROI</roi_0_title>
+      <roi_0_visible>true</roi_0_visible>
+      <roi_0_w_pv_value />
+      <roi_0_width_pv>$(P_TUNE)$(R_TUNE)ROIWidthConv-SP</roi_0_width_pv>
+      <roi_0_x_pv>$(P_TUNE)$(R_TUNE)ROIOffXConv-SP</roi_0_x_pv>
+      <roi_0_x_pv_value />
+      <roi_0_y_pv>$(P_TUNE)$(R_TUNE)ROIOffYConv-SP</roi_0_y_pv>
+      <roi_0_y_pv_value />
       <roi_color>
         <color red="0" green="255" blue="255" />
       </roi_color>
-      <roi_count>0</roi_count>
+      <roi_count>1</roi_count>
       <rules>
         <rule name="X Min Rule" prop_id="x_axis_minimum" out_exp="true">
           <exp bool_exp="pv2==0">
@@ -1115,7 +1135,7 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <widget_type>Intensity Graph</widget_type>
       <width>316</width>
-      <wuid>4ebe9bcd:16b321b8cbd:-3824</wuid>
+      <wuid>-6429f2da:16bad71992e:-65a7</wuid>
       <x>0</x>
       <x_axis_axis_color>
         <color red="0" green="0" blue="0" />
