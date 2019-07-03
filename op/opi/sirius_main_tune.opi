@@ -400,10 +400,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>121</width>
+    <width>157</width>
     <wrap_words>false</wrap_words>
     <wuid>67bdec06:1675a718dc8:f02</wuid>
-    <x>276</x>
+    <x>258</x>
     <y>220</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -544,10 +544,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>170</width>
+    <width>252</width>
     <wrap_words>false</wrap_words>
     <wuid>67bdec06:1675a718dc8:f8e</wuid>
-    <x>253</x>
+    <x>211</x>
     <y>82</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
