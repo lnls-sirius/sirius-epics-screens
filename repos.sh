@@ -34,15 +34,15 @@ TIM_RX_OPI_DIR="op/opi"
 
 PROJECTS+=("${TIM_RX_PREFIX}")
 
-# IPMI_MGR will be merged to SIRIUS_BPM
-IPMI_MGR_PREFIX="IPMI_MGR"
-IPMI_MGR_GIT_URL="https://github.com"
-IPMI_MGR_ORG="lnls-dig"
-IPMI_MGR_PROJECT="ipmi-mgr-epics-ioc"
-IPMI_MGR_TAG="master"
-IPMI_MGR_OPI_DIR="op/opi"
+# MTCA_IPMI
+MTCA_IPMI_PREFIX="MTCA_IPMI"
+MTCA_IPMI_GIT_URL="https://gitlab.cnpem.br"
+MTCA_IPMI_ORG="DIG"
+MTCA_IPMI_PROJECT="mtca-ipmi-epics-ioc"
+MTCA_IPMI_TAG="master"
+MTCA_IPMI_OPI_DIR="op/opi"
 
-PROJECTS+=("${IPMI_MGR_PREFIX}")
+PROJECTS+=("${MTCA_IPMI_PREFIX}")
 
 # Sirius BPM
 SIRIUS_BPM_PREFIX="SIRIUS_BPM"
