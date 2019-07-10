@@ -3449,21 +3449,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE01-AREA)$(CRATE01-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE01-AREA)$(CRATE01-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE01-AREA)$(CRATE01-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -3537,21 +3531,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE02-AREA)$(CRATE02-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE02-AREA)$(CRATE02-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE02-AREA)$(CRATE02-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -3625,21 +3613,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE03-AREA)$(CRATE03-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE03-AREA)$(CRATE03-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE03-AREA)$(CRATE03-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -3713,21 +3695,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE04-AREA)$(CRATE04-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE04-AREA)$(CRATE04-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE04-AREA)$(CRATE04-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -3801,21 +3777,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE05-AREA)$(CRATE05-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE05-AREA)$(CRATE05-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE05-AREA)$(CRATE05-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -3889,21 +3859,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE06-AREA)$(CRATE06-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE06-AREA)$(CRATE06-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE06-AREA)$(CRATE06-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -3977,21 +3941,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE07-AREA)$(CRATE07-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE07-AREA)$(CRATE07-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE07-AREA)$(CRATE07-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -4065,21 +4023,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE08-AREA)$(CRATE08-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE08-AREA)$(CRATE08-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE08-AREA)$(CRATE08-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -4153,21 +4105,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE09-AREA)$(CRATE09-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE09-AREA)$(CRATE09-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE09-AREA)$(CRATE09-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -4241,21 +4187,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE10-AREA)$(CRATE10-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE10-AREA)$(CRATE10-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE10-AREA)$(CRATE10-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -4329,21 +4269,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE11-AREA)$(CRATE11-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE11-AREA)$(CRATE11-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE11-AREA)$(CRATE11-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -4417,21 +4351,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE12-AREA)$(CRATE12-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE12-AREA)$(CRATE12-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE12-AREA)$(CRATE12-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -4505,21 +4433,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE13-AREA)$(CRATE13-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE13-AREA)$(CRATE13-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE13-AREA)$(CRATE13-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -4593,21 +4515,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE14-AREA)$(CRATE14-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE14-AREA)$(CRATE14-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE14-AREA)$(CRATE14-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -4681,21 +4597,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE15-AREA)$(CRATE15-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE15-AREA)$(CRATE15-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE15-AREA)$(CRATE15-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -4769,21 +4679,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE16-AREA)$(CRATE16-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE16-AREA)$(CRATE16-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE16-AREA)$(CRATE16-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -4857,21 +4761,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE17-AREA)$(CRATE17-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE17-AREA)$(CRATE17-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE17-AREA)$(CRATE17-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -4945,21 +4843,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE18-AREA)$(CRATE18-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE18-AREA)$(CRATE18-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE18-AREA)$(CRATE18-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -5033,21 +4925,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE19-AREA)$(CRATE19-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE19-AREA)$(CRATE19-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE19-AREA)$(CRATE19-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -5121,21 +5007,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE20-AREA)$(CRATE20-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE20-AREA)$(CRATE20-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE20-AREA)$(CRATE20-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
@@ -5209,21 +5089,15 @@ $(pv_value)</tooltip>
       <rule name="Connectivity" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 == 0">
           <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pv1 == 0">
-          <value>
-            <color red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="!(pv0 == 0) &amp;&amp; !(pv1 == 0)">
-          <value>
             <color red="0" green="255" blue="0" />
           </value>
         </exp>
-        <pv trig="true">$(CRATE21-AREA)$(CRATE21-DEVICE)asyn.CNCT</pv>
-        <pv trig="true">$(CRATE21-AREA)$(CRATE21-DEVICE)asyn.ENBL</pv>
+        <exp bool_exp="!(pv0 == 0)">
+          <value>
+            <color red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">$(CRATE21-AREA)$(CRATE21-DEVICE)Hostname-Cte.STAT</pv>
       </rule>
     </rules>
     <scale_options>
