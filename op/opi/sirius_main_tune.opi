@@ -865,11 +865,17 @@ $(pv_value)</tooltip>
           <pv trig="true">$(P)$(R)SpecArray-Mon.NELM</pv>
           <pv trig="true">$(P)$(R)FrameCount-Mon</pv>
         </rule>
+        <rule name="Y Min Rule" prop_id="y_axis_minimum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTBeg-Mon</pv>
+        </rule>
         <rule name="Y Max Rule" prop_id="y_axis_maximum" out_exp="true">
           <exp bool_exp="1">
             <value>pv0</value>
           </exp>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTDelta-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTEnd-Mon</pv>
         </rule>
         <rule name="Max Rule" prop_id="maximum" out_exp="true">
           <exp bool_exp="1">
@@ -893,6 +899,15 @@ $(pv_value)</tooltip>
           </exp>
           <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
         </rule>
+        <rule name="ROI Visibility" prop_id="roi_0_visible" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>true</value>
+          </exp>
+          <pv trig="true">loc://$(P_TUNE)$(R_TUNE)ROIEnbl-Sel</pv>
+        </rule>
       </rules>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -910,7 +925,7 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <widget_type>Intensity Graph</widget_type>
       <width>316</width>
-      <wuid>-6429f2da:16bad71992e:-67f1</wuid>
+      <wuid>-3d984b22:16bdc33cd3e:-5dc6</wuid>
       <x>0</x>
       <x_axis_axis_color>
         <color red="0" green="0" blue="0" />
@@ -1090,11 +1105,17 @@ $(pv_value)</tooltip>
           <pv trig="true">$(P)$(R)SpecArray-Mon.NELM</pv>
           <pv trig="true">$(P)$(R)FrameCount-Mon</pv>
         </rule>
+        <rule name="Y Min Rule" prop_id="y_axis_minimum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTBeg-Mon</pv>
+        </rule>
         <rule name="Y Max Rule" prop_id="y_axis_maximum" out_exp="true">
           <exp bool_exp="1">
             <value>pv0</value>
           </exp>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTDelta-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTEnd-Mon</pv>
         </rule>
         <rule name="Max Rule" prop_id="maximum" out_exp="true">
           <exp bool_exp="1">
@@ -1118,6 +1139,15 @@ $(pv_value)</tooltip>
           </exp>
           <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
         </rule>
+        <rule name="ROI Visibility" prop_id="roi_0_visible" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>true</value>
+          </exp>
+          <pv trig="true">loc://$(P_TUNE)$(R_TUNE)ROIEnbl-Sel</pv>
+        </rule>
       </rules>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -1135,7 +1165,7 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <widget_type>Intensity Graph</widget_type>
       <width>316</width>
-      <wuid>-6429f2da:16bad71992e:-65a7</wuid>
+      <wuid>-3d984b22:16bdc33cd3e:-5d9a</wuid>
       <x>0</x>
       <x_axis_axis_color>
         <color red="0" green="0" blue="0" />
