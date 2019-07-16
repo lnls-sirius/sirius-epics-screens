@@ -95,7 +95,7 @@
       <color red="255" green="0" blue="0" />
     </foreground_color>
     <gradient>false</gradient>
-    <height>451</height>
+    <height>463</height>
     <horizontal_fill>true</horizontal_fill>
     <line_color>
       <color red="128" green="0" blue="255" />
@@ -117,7 +117,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>673</width>
+    <width>678</width>
     <wuid>-4107d8cc:15c0c501b11:-7781</wuid>
     <x>0</x>
     <y>18</y>
@@ -285,9 +285,9 @@ $(pv_value)</tooltip>
     <line_width>1</line_width>
     <name>Polyline_15</name>
     <points>
-      <point x="0" y="72" />
-      <point x="375" y="72" />
-      <point x="672" y="72" />
+      <point x="1" y="72" />
+      <point x="377" y="72" />
+      <point x="675" y="72" />
     </points>
     <pv_name></pv_name>
     <pv_value />
@@ -304,9 +304,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Polyline</widget_type>
-    <width>673</width>
+    <width>675</width>
     <wuid>67bdec06:1673cf9a1b9:-2f</wuid>
-    <x>0</x>
+    <x>1</x>
     <y>72</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
@@ -343,8 +343,8 @@ $(pv_value)</tooltip>
     <name>Polyline_1</name>
     <points>
       <point x="1" y="211" />
-      <point x="376" y="211" />
-      <point x="673" y="211" />
+      <point x="377" y="211" />
+      <point x="675" y="211" />
     </points>
     <pv_name></pv_name>
     <pv_value />
@@ -361,7 +361,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Polyline</widget_type>
-    <width>673</width>
+    <width>675</width>
     <wuid>67bdec06:1673cf9a1b9:-27</wuid>
     <x>1</x>
     <y>211</y>
@@ -723,10 +723,10 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <background_color>
-      <color red="180" green="204" blue="212" />
+      <color red="134" green="181" blue="217" />
     </background_color>
     <border_color>
-      <color red="180" green="204" blue="212" />
+      <color red="134" green="181" blue="217" />
     </border_color>
     <border_style>14</border_style>
     <border_width>2</border_width>
@@ -757,13 +757,13 @@ $(pv_value)</tooltip>
     <scripts />
     <show_scrollbar>false</show_scrollbar>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <visible>true</visible>
     <widget_type>Grouping Container</widget_type>
     <width>324</width>
     <wuid>67bdec06:1675a718dc8:3d07</wuid>
-    <x>4</x>
-    <y>277</y>
+    <x>13</x>
+    <y>294</y>
     <widget typeId="org.csstudio.opibuilder.widgets.intensityGraph" version="1.0.0">
       <actions hook="false" hook_all="false" />
       <alarm_pulsing>false</alarm_pulsing>
@@ -963,10 +963,10 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <background_color>
-      <color red="180" green="204" blue="212" />
+      <color red="216" green="134" blue="134" />
     </background_color>
     <border_color>
-      <color red="180" green="204" blue="212" />
+      <color red="216" green="134" blue="134" />
     </border_color>
     <border_style>14</border_style>
     <border_width>2</border_width>
@@ -997,13 +997,13 @@ $(pv_value)</tooltip>
     <scripts />
     <show_scrollbar>false</show_scrollbar>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <visible>true</visible>
     <widget_type>Grouping Container</widget_type>
     <width>324</width>
     <wuid>67bdec06:1675a718dc8:3d63</wuid>
-    <x>335</x>
-    <y>277</y>
+    <x>342</x>
+    <y>294</y>
     <widget typeId="org.csstudio.opibuilder.widgets.intensityGraph" version="1.0.0">
       <actions hook="false" hook_all="false" />
       <alarm_pulsing>false</alarm_pulsing>
@@ -1238,7 +1238,7 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <wuid>19bf187b:1679d449908:-70ff</wuid>
     <x>392</x>
-    <y>258</y>
+    <y>264</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -1278,6 +1278,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <wuid>19bf187b:1679d449908:-70f3</wuid>
     <x>63</x>
-    <y>258</y>
+    <y>264</y>
   </widget>
 </display>
