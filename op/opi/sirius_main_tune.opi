@@ -15,7 +15,7 @@
     <color red="192" green="192" blue="192" />
   </foreground_color>
   <grid_space>6</grid_space>
-  <height>600</height>
+  <height>640</height>
   <macros>
     <include_parent_macros>false</include_parent_macros>
     <TUNE_SI_H_AREA>SI-Glob:</TUNE_SI_H_AREA>
@@ -56,14 +56,14 @@
   <scripts />
   <show_close_button>true</show_close_button>
   <show_edit_range>true</show_edit_range>
-  <show_grid>true</show_grid>
+  <show_grid>false</show_grid>
   <show_ruler>true</show_ruler>
   <snap_to_geometry>true</snap_to_geometry>
   <widget_type>Display</widget_type>
-  <width>800</width>
+  <width>1024</width>
   <wuid>-4107d8cc:15c0c501b11:-7796</wuid>
-  <x>-1</x>
-  <y>-1</y>
+  <x>0</x>
+  <y>0</y>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <alarm_pulsing>false</alarm_pulsing>
@@ -71,16 +71,16 @@
     <anti_alias>true</anti_alias>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <background_color>
-      <color red="180" green="204" blue="212" />
+      <color red="230" green="230" blue="230" />
     </background_color>
     <bg_gradient_color>
       <color red="255" green="255" blue="255" />
     </bg_gradient_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_color>
-      <color red="0" green="0" blue="0" />
+      <color red="127" green="127" blue="127" />
     </border_color>
-    <border_style>4</border_style>
+    <border_style>14</border_style>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <fg_gradient_color>
@@ -95,7 +95,7 @@
       <color red="255" green="0" blue="0" />
     </foreground_color>
     <gradient>false</gradient>
-    <height>463</height>
+    <height>534</height>
     <horizontal_fill>true</horizontal_fill>
     <line_color>
       <color red="128" green="0" blue="255" />
@@ -117,10 +117,70 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Rectangle</widget_type>
-    <width>678</width>
-    <wuid>-4107d8cc:15c0c501b11:-7781</wuid>
-    <x>0</x>
-    <y>18</y>
+    <width>797</width>
+    <wuid>-3d984b22:16bdc33cd3e:-5922</wuid>
+    <x>6</x>
+    <y>13</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="75" green="101" blue="126" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="127" green="127" blue="127" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <corner_height>16</corner_height>
+    <corner_width>16</corner_width>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="229" green="229" blue="229" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>50</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+    <line_style>0</line_style>
+    <line_width>0</line_width>
+    <name>Rounded Rectangle</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rounded Rectangle</widget_type>
+    <width>797</width>
+    <wuid>-3d984b22:16bdc33cd3e:-5921</wuid>
+    <x>6</x>
+    <y>13</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -138,11 +198,11 @@ $(pv_value)</tooltip>
       <opifont.name fontName="Sans" height="30" style="1" pixels="false">Monitor Title</opifont.name>
     </font>
     <foreground_color>
-      <color red="0" green="0" blue="0" />
+      <color name="Gray Background" red="240" green="240" blue="240" />
     </foreground_color>
     <height>37</height>
     <horizontal_alignment>1</horizontal_alignment>
-    <name>Label_1</name>
+    <name>Label_9</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -156,11 +216,11 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>241</width>
+    <width>421</width>
     <wrap_words>false</wrap_words>
-    <wuid>-4107d8cc:15c0c501b11:-7698</wuid>
-    <x>216</x>
-    <y>30</y>
+    <wuid>-3d984b22:16bdc33cd3e:-5920</wuid>
+    <x>194</x>
+    <y>19</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -180,12 +240,12 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
-    <height>31</height>
+    <height>4</height>
     <lock_children>true</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
-    <name>Grouping Container_2</name>
+    <name>Grouping Container_6</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -198,10 +258,283 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Grouping Container</widget_type>
-    <width>97</width>
-    <wuid>-1ec6272f:166cf1a8e2b:-530e</wuid>
-    <x>13</x>
-    <y>222</y>
+    <width>797</width>
+    <wuid>-3d984b22:16bdc33cd3e:-591f</wuid>
+    <x>6</x>
+    <y>59</y>
+    <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <alarm_pulsing>false</alarm_pulsing>
+      <alpha>255</alpha>
+      <anti_alias>true</anti_alias>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="127" green="127" blue="127" />
+      </background_color>
+      <bg_gradient_color>
+        <color red="255" green="255" blue="255" />
+      </bg_gradient_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fg_gradient_color>
+        <color red="255" green="255" blue="255" />
+      </fg_gradient_color>
+      <fill_level>0.0</fill_level>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color red="255" green="0" blue="0" />
+      </foreground_color>
+      <gradient>false</gradient>
+      <height>2</height>
+      <horizontal_fill>true</horizontal_fill>
+      <line_color>
+        <color red="128" green="0" blue="255" />
+      </line_color>
+      <line_style>0</line_style>
+      <line_width>0</line_width>
+      <name>Rectangle_1</name>
+      <pv_name></pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <transparent>false</transparent>
+      <visible>true</visible>
+      <widget_type>Rectangle</widget_type>
+      <width>797</width>
+      <wuid>-3d984b22:16bdc33cd3e:-591e</wuid>
+      <x>0</x>
+      <y>2</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <alarm_pulsing>false</alarm_pulsing>
+      <alpha>255</alpha>
+      <anti_alias>true</anti_alias>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="75" green="101" blue="126" />
+      </background_color>
+      <bg_gradient_color>
+        <color red="255" green="255" blue="255" />
+      </bg_gradient_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fg_gradient_color>
+        <color red="255" green="255" blue="255" />
+      </fg_gradient_color>
+      <fill_level>0.0</fill_level>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color red="255" green="0" blue="0" />
+      </foreground_color>
+      <gradient>false</gradient>
+      <height>2</height>
+      <horizontal_fill>true</horizontal_fill>
+      <line_color>
+        <color red="128" green="0" blue="255" />
+      </line_color>
+      <line_style>0</line_style>
+      <line_width>0</line_width>
+      <name>Rectangle_2</name>
+      <pv_name></pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <transparent>false</transparent>
+      <visible>true</visible>
+      <widget_type>Rectangle</widget_type>
+      <width>797</width>
+      <wuid>-3d984b22:16bdc33cd3e:-591d</wuid>
+      <x>0</x>
+      <y>0</y>
+    </widget>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="127" green="127" blue="127" />
+    </border_color>
+    <border_style>13</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Sans" height="12" style="1" pixels="false">Header 3</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>328</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+    <line_style>0</line_style>
+    <line_width>0</line_width>
+    <name>Booster</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>797</width>
+    <wuid>-3d984b22:16bdc33cd3e:-58ce</wuid>
+    <x>6</x>
+    <y>73</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="127" green="127" blue="127" />
+    </border_color>
+    <border_style>13</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Sans" height="12" style="1" pixels="false">Header 3</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>135</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+    <line_style>0</line_style>
+    <line_width>0</line_width>
+    <name>Storage Ring</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>797</width>
+    <wuid>-3d984b22:16bdc33cd3e:-58cd</wuid>
+    <x>6</x>
+    <y>412</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <fc>false</fc>
+    <font>
+      <opifont.name fontName="Sans" height="12" style="1" pixels="false">Header 3</opifont.name>
+    </font>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>30</height>
+    <lock_children>true</lock_children>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <name>Grouping Container_7</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <show_scrollbar>false</show_scrollbar>
+    <tooltip></tooltip>
+    <transparent>true</transparent>
+    <visible>true</visible>
+    <widget_type>Grouping Container</widget_type>
+    <width>120</width>
+    <wuid>-3d984b22:16bdc33cd3e:-5890</wuid>
+    <x>23</x>
+    <y>68</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="true">
         <action type="OPEN_DISPLAY">
@@ -221,13 +554,13 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1" pixels="false">Default Bold</opifont.name>
+        <opifont.name fontName="Sans" height="12" style="1" pixels="false">Header 3</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
-        <color red="0" green="0" blue="0" />
+        <color name="IO Foreground" red="0" green="0" blue="0" />
       </foreground_color>
-      <height>31</height>
+      <height>30</height>
       <image></image>
       <name>Action Button</name>
       <push_action_index>0</push_action_index>
@@ -241,202 +574,45 @@ $(pv_value)</tooltip>
       </scale_options>
       <scripts />
       <style>1</style>
-      <text>Controls</text>
+      <text>Booster</text>
       <toggle_button>false</toggle_button>
       <tooltip></tooltip>
       <visible>true</visible>
       <widget_type>Action Button</widget_type>
-      <width>97</width>
-      <wuid>-1ec6272f:166cf1a8e2b:-530d</wuid>
+      <width>119</width>
+      <wuid>-3d984b22:16bdc33cd3e:-588f</wuid>
       <x>0</x>
       <y>0</y>
     </widget>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <alarm_pulsing>false</alarm_pulsing>
-    <alpha>255</alpha>
-    <anti_alias>true</anti_alias>
-    <arrow_length>20</arrow_length>
-    <arrows>0</arrows>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <background_color>
-      <color red="0" green="0" blue="0" />
-    </background_color>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fill_arrow>true</fill_arrow>
-    <fill_level>0.0</fill_level>
-    <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color red="255" green="0" blue="0" />
-    </foreground_color>
-    <height>1</height>
-    <horizontal_fill>true</horizontal_fill>
-    <line_style>1</line_style>
-    <line_width>1</line_width>
-    <name>Polyline_15</name>
-    <points>
-      <point x="1" y="72" />
-      <point x="377" y="72" />
-      <point x="675" y="72" />
-    </points>
-    <pv_name></pv_name>
-    <pv_value />
-    <rotation_angle>0.0</rotation_angle>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>true</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <transparent>false</transparent>
-    <visible>true</visible>
-    <widget_type>Polyline</widget_type>
-    <width>675</width>
-    <wuid>67bdec06:1673cf9a1b9:-2f</wuid>
-    <x>1</x>
-    <y>72</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <alarm_pulsing>false</alarm_pulsing>
-    <alpha>255</alpha>
-    <anti_alias>true</anti_alias>
-    <arrow_length>20</arrow_length>
-    <arrows>0</arrows>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="0" green="0" blue="0" />
-    </background_color>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fill_arrow>true</fill_arrow>
-    <fill_level>0.0</fill_level>
-    <font>
-      <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color red="255" green="0" blue="0" />
-    </foreground_color>
-    <height>1</height>
-    <horizontal_fill>true</horizontal_fill>
-    <line_style>1</line_style>
-    <line_width>1</line_width>
-    <name>Polyline_1</name>
-    <points>
-      <point x="1" y="211" />
-      <point x="377" y="211" />
-      <point x="675" y="211" />
-    </points>
-    <pv_name></pv_name>
-    <pv_value />
-    <rotation_angle>0.0</rotation_angle>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>true</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <transparent>false</transparent>
-    <visible>true</visible>
-    <widget_type>Polyline</widget_type>
-    <width>675</width>
-    <wuid>67bdec06:1673cf9a1b9:-27</wuid>
-    <x>1</x>
-    <y>211</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <auto_size>false</auto_size>
-    <background_color>
-      <color red="255" green="255" blue="255" />
+      <color red="134" green="181" blue="217" />
     </background_color>
     <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <opifont.name fontName="Sans" height="18" style="1" pixels="false">Header 1</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <height>35</height>
-    <horizontal_alignment>1</horizontal_alignment>
-    <name>Label_3</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <text>Booster</text>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <vertical_alignment>1</vertical_alignment>
-    <visible>true</visible>
-    <widget_type>Label</widget_type>
-    <width>157</width>
-    <wrap_words>false</wrap_words>
-    <wuid>67bdec06:1675a718dc8:f02</wuid>
-    <x>258</x>
-    <y>220</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <alarm_pulsing>false</alarm_pulsing>
-    <auto_size>false</auto_size>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="180" green="204" blue="212" />
-    </background_color>
-    <border_alarm_sensitive>true</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="0" blue="0" />
+      <color red="134" green="181" blue="217" />
     </border_color>
     <border_style>14</border_style>
     <border_width>2</border_width>
     <enabled>true</enabled>
+    <fc>false</fc>
     <font>
       <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
     </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
-      <color red="0" green="0" blue="0" />
+      <color red="192" green="192" blue="192" />
     </foreground_color>
-    <format_type>0</format_type>
-    <height>48</height>
-    <horizontal_alignment>0</horizontal_alignment>
-    <name>Text Update_1</name>
-    <precision>0</precision>
-    <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
-    <pv_value />
-    <rotation_angle>0.0</rotation_angle>
+    <height>235</height>
+    <lock_children>true</lock_children>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <P>$(TUNE_SPEC_ANA_BO_H_AREA)</P>
+      <R>$(TUNE_SPEC_ANA_BO_H_DEV)</R>
+      <P_TUNE>$(TUNE_BO_H_AREA)</P_TUNE>
+      <R_TUNE>$(TUNE_BO_H_DEV)</R_TUNE>
+    </macros>
+    <name>Grouping Container_8</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -444,51 +620,239 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <show_units>true</show_units>
-    <text>######</text>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <transparent>false</transparent>
-    <vertical_alignment>1</vertical_alignment>
+    <show_scrollbar>false</show_scrollbar>
+    <tooltip></tooltip>
+    <transparent>true</transparent>
     <visible>true</visible>
-    <widget_type>Text Update</widget_type>
-    <width>165</width>
-    <wrap_words>false</wrap_words>
-    <wuid>67bdec06:1675a718dc8:f30</wuid>
-    <x>84</x>
-    <y>150</y>
+    <widget_type>Grouping Container</widget_type>
+    <width>365</width>
+    <wuid>-3d984b22:16bdc33cd3e:-588e</wuid>
+    <x>32</x>
+    <y>135</y>
+    <widget typeId="org.csstudio.opibuilder.widgets.intensityGraph" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <alarm_pulsing>false</alarm_pulsing>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <color_map>
+        <interpolate>true</interpolate>
+        <autoscale>true</autoscale>
+        <map>2</map>
+      </color_map>
+      <crop_bottom>0</crop_bottom>
+      <crop_left>0</crop_left>
+      <crop_right>0</crop_right>
+      <crop_top>0</crop_top>
+      <data_height>316</data_height>
+      <data_width>101</data_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <graph_area_height>174</graph_area_height>
+      <graph_area_width>233</graph_area_width>
+      <height>225</height>
+      <horizon_profile_x_pv_name></horizon_profile_x_pv_name>
+      <horizon_profile_x_pv_value />
+      <horizon_profile_y_pv_name></horizon_profile_y_pv_name>
+      <horizon_profile_y_pv_value />
+      <maximum>10.0</maximum>
+      <minimum>-120.0</minimum>
+      <name>Intensity Graph</name>
+      <pixel_info_pv_name></pixel_info_pv_name>
+      <pixel_info_pv_value />
+      <pv_name>$(P)$(R)SpecArray-Mon</pv_name>
+      <pv_value />
+      <rgb_mode>false</rgb_mode>
+      <roi_0_h_pv_value />
+      <roi_0_height_pv>$(P_TUNE)$(R_TUNE)ROIHeightConv-SP</roi_0_height_pv>
+      <roi_0_title>ROI</roi_0_title>
+      <roi_0_visible>true</roi_0_visible>
+      <roi_0_w_pv_value />
+      <roi_0_width_pv>$(P_TUNE)$(R_TUNE)ROIWidthConv-SP</roi_0_width_pv>
+      <roi_0_x_pv>$(P_TUNE)$(R_TUNE)ROIOffXConv-SP</roi_0_x_pv>
+      <roi_0_x_pv_value />
+      <roi_0_y_pv>$(P_TUNE)$(R_TUNE)ROIOffYConv-SP</roi_0_y_pv>
+      <roi_0_y_pv_value />
+      <roi_color>
+        <color red="0" green="255" blue="255" />
+      </roi_color>
+      <roi_count>1</roi_count>
+      <rules>
+        <rule name="X Min Rule" prop_id="x_axis_minimum" out_exp="true">
+          <exp bool_exp="pv2==0">
+            <value>pv0</value>
+          </exp>
+          <exp bool_exp="pv2==1">
+            <value>pv1</value>
+          </exp>
+          <pv trig="true">$(P)$(R)FreqStartDisp-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneFracStart-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
+        </rule>
+        <rule name="X Max Rule" prop_id="x_axis_maximum" out_exp="true">
+          <exp bool_exp="pv2==0">
+            <value>pv0</value>
+          </exp>
+          <exp bool_exp="pv2==1">
+            <value>pv1</value>
+          </exp>
+          <pv trig="true">$(P)$(R)FreqStopDisp-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneFracStop-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
+        </rule>
+        <rule name="Data_Width Rule" prop_id="data_width" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P)$(R)SwePts-RB</pv>
+        </rule>
+        <rule name="Data_Height Rule" prop_id="data_height" out_exp="true">
+          <exp bool_exp="pv2&gt;(pv1/pv0)">
+            <value>pv1/pv0</value>
+          </exp>
+          <exp bool_exp="1">
+            <value>pv2</value>
+          </exp>
+          <pv trig="true">$(P)$(R)SwePts-RB</pv>
+          <pv trig="true">$(P)$(R)SpecArray-Mon.NELM</pv>
+          <pv trig="true">$(P)$(R)FrameCount-Mon</pv>
+        </rule>
+        <rule name="Y Min Rule" prop_id="y_axis_minimum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTBeg-Mon</pv>
+        </rule>
+        <rule name="Y Max Rule" prop_id="y_axis_maximum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTEnd-Mon</pv>
+        </rule>
+        <rule name="Max Rule" prop_id="maximum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P)$(R)RefLvl-RB</pv>
+        </rule>
+        <rule name="Min Rule" prop_id="minimum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv1-pv0</value>
+          </exp>
+          <pv trig="true">$(P)$(R)DispRange-RB</pv>
+          <pv trig="true">$(P)$(R)RefLvl-RB</pv>
+        </rule>
+        <rule name="X Label Rule" prop_id="x_axis_axis_title" out_exp="true">
+          <exp bool_exp="pv0==0">
+            <value>"Frequency [MHz]"</value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>"Fractional Tune"</value>
+          </exp>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
+        </rule>
+        <rule name="ROI Visibility" prop_id="roi_0_visible" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>true</value>
+          </exp>
+          <pv trig="true">loc://$(P_TUNE)$(R_TUNE)ROIEnbl-Sel</pv>
+        </rule>
+      </rules>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_ramp>true</show_ramp>
+      <single_line_profiling>false</single_line_profiling>
+      <tooltip>$(pv_name)</tooltip>
+      <vertial_profile_x_pv_value />
+      <vertial_profile_y_pv_value />
+      <vertical_profile_x_pv_name></vertical_profile_x_pv_name>
+      <vertical_profile_y_pv_name></vertical_profile_y_pv_name>
+      <visible>true</visible>
+      <widget_type>Intensity Graph</widget_type>
+      <width>355</width>
+      <wuid>-3d984b22:16bdc33cd3e:-588d</wuid>
+      <x>0</x>
+      <x_axis_axis_color>
+        <color red="0" green="0" blue="0" />
+      </x_axis_axis_color>
+      <x_axis_axis_title>Frequency</x_axis_axis_title>
+      <x_axis_major_tick_step_hint>100</x_axis_major_tick_step_hint>
+      <x_axis_maximum>100.0</x_axis_maximum>
+      <x_axis_minimum>50.0</x_axis_minimum>
+      <x_axis_scale_font>
+        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      </x_axis_scale_font>
+      <x_axis_show_minor_ticks>true</x_axis_show_minor_ticks>
+      <x_axis_title_font>
+        <opifont.name fontName="Sans" height="10" style="1" pixels="false">Default Bold</opifont.name>
+      </x_axis_title_font>
+      <x_axis_visible>true</x_axis_visible>
+      <y>0</y>
+      <y_axis_axis_color>
+        <color red="0" green="0" blue="0" />
+      </y_axis_axis_color>
+      <y_axis_axis_title>Time [ms]</y_axis_axis_title>
+      <y_axis_major_tick_step_hint>50</y_axis_major_tick_step_hint>
+      <y_axis_maximum>1000.0</y_axis_maximum>
+      <y_axis_minimum>0.0</y_axis_minimum>
+      <y_axis_scale_font>
+        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      </y_axis_scale_font>
+      <y_axis_show_minor_ticks>true</y_axis_show_minor_ticks>
+      <y_axis_title_font>
+        <opifont.name fontName="Sans" height="10" style="1" pixels="false">Default Bold</opifont.name>
+      </y_axis_title_font>
+      <y_axis_visible>true</y_axis_visible>
+    </widget>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <alarm_pulsing>false</alarm_pulsing>
-    <auto_size>false</auto_size>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <background_color>
-      <color red="180" green="204" blue="212" />
+      <color red="216" green="134" blue="134" />
     </background_color>
-    <border_alarm_sensitive>true</border_alarm_sensitive>
     <border_color>
-      <color red="0" green="0" blue="0" />
+      <color red="216" green="134" blue="134" />
     </border_color>
     <border_style>14</border_style>
     <border_width>2</border_width>
     <enabled>true</enabled>
+    <fc>false</fc>
     <font>
       <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
     </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
-      <color red="0" green="0" blue="0" />
+      <color red="192" green="192" blue="192" />
     </foreground_color>
-    <format_type>0</format_type>
-    <height>48</height>
-    <horizontal_alignment>0</horizontal_alignment>
-    <name>Text Update_1</name>
-    <precision>0</precision>
-    <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
-    <pv_value />
-    <rotation_angle>0.0</rotation_angle>
+    <height>235</height>
+    <lock_children>true</lock_children>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <P>$(TUNE_SPEC_ANA_BO_V_AREA)</P>
+      <R>$(TUNE_SPEC_ANA_BO_V_DEV)</R>
+      <P_TUNE>$(TUNE_BO_V_AREA)</P_TUNE>
+      <R_TUNE>$(TUNE_BO_V_DEV)</R_TUNE>
+    </macros>
+    <name>Grouping Container_9</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -496,59 +860,210 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <show_units>true</show_units>
-    <text>######</text>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <transparent>false</transparent>
-    <vertical_alignment>1</vertical_alignment>
-    <visible>true</visible>
-    <widget_type>Text Update</widget_type>
-    <width>165</width>
-    <wrap_words>false</wrap_words>
-    <wuid>67bdec06:1675a718dc8:f74</wuid>
-    <x>414</x>
-    <y>150</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <auto_size>false</auto_size>
-    <background_color>
-      <color red="255" green="255" blue="255" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <opifont.name fontName="Sans" height="18" style="1" pixels="false">Header 1</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <height>35</height>
-    <horizontal_alignment>1</horizontal_alignment>
-    <name>Label_4</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <text>Storage Ring</text>
+    <show_scrollbar>false</show_scrollbar>
     <tooltip></tooltip>
     <transparent>true</transparent>
-    <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
-    <widget_type>Label</widget_type>
-    <width>252</width>
-    <wrap_words>false</wrap_words>
-    <wuid>67bdec06:1675a718dc8:f8e</wuid>
-    <x>211</x>
-    <y>82</y>
+    <widget_type>Grouping Container</widget_type>
+    <width>365</width>
+    <wuid>-3d984b22:16bdc33cd3e:-588c</wuid>
+    <x>412</x>
+    <y>135</y>
+    <widget typeId="org.csstudio.opibuilder.widgets.intensityGraph" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <alarm_pulsing>false</alarm_pulsing>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <color_map>
+        <interpolate>true</interpolate>
+        <autoscale>true</autoscale>
+        <map>2</map>
+      </color_map>
+      <crop_bottom>0</crop_bottom>
+      <crop_left>0</crop_left>
+      <crop_right>0</crop_right>
+      <crop_top>0</crop_top>
+      <data_height>316</data_height>
+      <data_width>101</data_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <graph_area_height>174</graph_area_height>
+      <graph_area_width>233</graph_area_width>
+      <height>225</height>
+      <horizon_profile_x_pv_name></horizon_profile_x_pv_name>
+      <horizon_profile_x_pv_value />
+      <horizon_profile_y_pv_name></horizon_profile_y_pv_name>
+      <horizon_profile_y_pv_value />
+      <maximum>10.0</maximum>
+      <minimum>-120.0</minimum>
+      <name>Intensity Graph</name>
+      <pixel_info_pv_name></pixel_info_pv_name>
+      <pixel_info_pv_value />
+      <pv_name>$(P)$(R)SpecArray-Mon</pv_name>
+      <pv_value />
+      <rgb_mode>false</rgb_mode>
+      <roi_0_h_pv_value />
+      <roi_0_height_pv>$(P_TUNE)$(R_TUNE)ROIHeightConv-SP</roi_0_height_pv>
+      <roi_0_title>ROI</roi_0_title>
+      <roi_0_visible>true</roi_0_visible>
+      <roi_0_w_pv_value />
+      <roi_0_width_pv>$(P_TUNE)$(R_TUNE)ROIWidthConv-SP</roi_0_width_pv>
+      <roi_0_x_pv>$(P_TUNE)$(R_TUNE)ROIOffXConv-SP</roi_0_x_pv>
+      <roi_0_x_pv_value />
+      <roi_0_y_pv>$(P_TUNE)$(R_TUNE)ROIOffYConv-SP</roi_0_y_pv>
+      <roi_0_y_pv_value />
+      <roi_color>
+        <color red="0" green="255" blue="255" />
+      </roi_color>
+      <roi_count>1</roi_count>
+      <rules>
+        <rule name="X Min Rule" prop_id="x_axis_minimum" out_exp="true">
+          <exp bool_exp="pv2==0">
+            <value>pv0</value>
+          </exp>
+          <exp bool_exp="pv2==1">
+            <value>pv1</value>
+          </exp>
+          <pv trig="true">$(P)$(R)FreqStartDisp-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneFracStart-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
+        </rule>
+        <rule name="X Max Rule" prop_id="x_axis_maximum" out_exp="true">
+          <exp bool_exp="pv2==0">
+            <value>pv0</value>
+          </exp>
+          <exp bool_exp="pv2==1">
+            <value>pv1</value>
+          </exp>
+          <pv trig="true">$(P)$(R)FreqStopDisp-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneFracStop-Mon</pv>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
+        </rule>
+        <rule name="Data_Width Rule" prop_id="data_width" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P)$(R)SwePts-RB</pv>
+        </rule>
+        <rule name="Data_Height Rule" prop_id="data_height" out_exp="true">
+          <exp bool_exp="pv2&gt;(pv1/pv0)">
+            <value>pv1/pv0</value>
+          </exp>
+          <exp bool_exp="1">
+            <value>pv2</value>
+          </exp>
+          <pv trig="true">$(P)$(R)SwePts-RB</pv>
+          <pv trig="true">$(P)$(R)SpecArray-Mon.NELM</pv>
+          <pv trig="true">$(P)$(R)FrameCount-Mon</pv>
+        </rule>
+        <rule name="Y Min Rule" prop_id="y_axis_minimum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTBeg-Mon</pv>
+        </rule>
+        <rule name="Y Max Rule" prop_id="y_axis_maximum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTEnd-Mon</pv>
+        </rule>
+        <rule name="Max Rule" prop_id="maximum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">$(P)$(R)RefLvl-RB</pv>
+        </rule>
+        <rule name="Min Rule" prop_id="minimum" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv1-pv0</value>
+          </exp>
+          <pv trig="true">$(P)$(R)DispRange-RB</pv>
+          <pv trig="true">$(P)$(R)RefLvl-RB</pv>
+        </rule>
+        <rule name="X Label Rule" prop_id="x_axis_axis_title" out_exp="true">
+          <exp bool_exp="pv0==0">
+            <value>"Frequency [MHz]"</value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>"Fractional Tune"</value>
+          </exp>
+          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
+        </rule>
+        <rule name="ROI Visibility" prop_id="roi_0_visible" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>true</value>
+          </exp>
+          <pv trig="true">loc://$(P_TUNE)$(R_TUNE)ROIEnbl-Sel</pv>
+        </rule>
+      </rules>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_ramp>true</show_ramp>
+      <single_line_profiling>false</single_line_profiling>
+      <tooltip>$(pv_name)</tooltip>
+      <vertial_profile_x_pv_value />
+      <vertial_profile_y_pv_value />
+      <vertical_profile_x_pv_name></vertical_profile_x_pv_name>
+      <vertical_profile_y_pv_name></vertical_profile_y_pv_name>
+      <visible>true</visible>
+      <widget_type>Intensity Graph</widget_type>
+      <width>355</width>
+      <wuid>-3d984b22:16bdc33cd3e:-588b</wuid>
+      <x>0</x>
+      <x_axis_axis_color>
+        <color red="0" green="0" blue="0" />
+      </x_axis_axis_color>
+      <x_axis_axis_title>Frequency</x_axis_axis_title>
+      <x_axis_major_tick_step_hint>100</x_axis_major_tick_step_hint>
+      <x_axis_maximum>100.0</x_axis_maximum>
+      <x_axis_minimum>50.0</x_axis_minimum>
+      <x_axis_scale_font>
+        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      </x_axis_scale_font>
+      <x_axis_show_minor_ticks>true</x_axis_show_minor_ticks>
+      <x_axis_title_font>
+        <opifont.name fontName="Sans" height="10" style="1" pixels="false">Default Bold</opifont.name>
+      </x_axis_title_font>
+      <x_axis_visible>true</x_axis_visible>
+      <y>0</y>
+      <y_axis_axis_color>
+        <color red="0" green="0" blue="0" />
+      </y_axis_axis_color>
+      <y_axis_axis_title>Time [ms]</y_axis_axis_title>
+      <y_axis_major_tick_step_hint>50</y_axis_major_tick_step_hint>
+      <y_axis_maximum>1000.0</y_axis_maximum>
+      <y_axis_minimum>0.0</y_axis_minimum>
+      <y_axis_scale_font>
+        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      </y_axis_scale_font>
+      <y_axis_show_minor_ticks>true</y_axis_show_minor_ticks>
+      <y_axis_title_font>
+        <opifont.name fontName="Sans" height="10" style="1" pixels="false">Default Bold</opifont.name>
+      </y_axis_title_font>
+      <y_axis_visible>true</y_axis_visible>
+    </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -563,54 +1078,14 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="Sans" height="14" style="0" pixels="false">Monitor Small Data</opifont.name>
+      <opifont.name fontName="Sans" height="14" style="1" pixels="false">Header 2</opifont.name>
     </font>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>26</height>
     <horizontal_alignment>1</horizontal_alignment>
-    <name>Label_5</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <text>Horizontal</text>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <vertical_alignment>1</vertical_alignment>
-    <visible>true</visible>
-    <widget_type>Label</widget_type>
-    <width>208</width>
-    <wrap_words>false</wrap_words>
-    <wuid>67bdec06:1675a718dc8:faa</wuid>
-    <x>63</x>
-    <y>125</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <auto_size>false</auto_size>
-    <background_color>
-      <color red="255" green="255" blue="255" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <opifont.name fontName="Sans" height="14" style="0" pixels="false">Monitor Small Data</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <height>26</height>
-    <horizontal_alignment>1</horizontal_alignment>
-    <name>Label_6</name>
+    <name>Label_10</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -626,9 +1101,49 @@ $(pv_value)</tooltip>
     <widget_type>Label</widget_type>
     <width>210</width>
     <wrap_words>false</wrap_words>
-    <wuid>67bdec06:1675a718dc8:fab</wuid>
-    <x>392</x>
-    <y>125</y>
+    <wuid>-3d984b22:16bdc33cd3e:-588a</wuid>
+    <x>490</x>
+    <y>104</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <auto_size>false</auto_size>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="Sans" height="14" style="1" pixels="false">Header 2</opifont.name>
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>26</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <name>Label_11</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <text>Horizontal</text>
+    <tooltip></tooltip>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <visible>true</visible>
+    <widget_type>Label</widget_type>
+    <width>208</width>
+    <wrap_words>false</wrap_words>
+    <wuid>-3d984b22:16bdc33cd3e:-5889</wuid>
+    <x>111</x>
+    <y>104</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -646,14 +1161,14 @@ $(pv_value)</tooltip>
       <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
-      <color red="192" green="192" blue="192" />
+      <color name="IO Foreground" red="0" green="0" blue="0" />
     </foreground_color>
-    <height>31</height>
+    <height>30</height>
     <lock_children>true</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
-    <name>Grouping Container_3</name>
+    <name>Grouping Container_10</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -663,17 +1178,17 @@ $(pv_value)</tooltip>
     <scripts />
     <show_scrollbar>false</show_scrollbar>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <visible>true</visible>
     <widget_type>Grouping Container</widget_type>
-    <width>97</width>
-    <wuid>67bdec06:1675a718dc8:fbf</wuid>
-    <x>13</x>
-    <y>84</y>
+    <width>150</width>
+    <wuid>-3d984b22:16bdc33cd3e:-563b</wuid>
+    <x>23</x>
+    <y>406</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="true">
         <action type="OPEN_DISPLAY">
-          <path>tune-epics-ioc/tuneBO.opi</path>
+          <path></path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
@@ -689,13 +1204,13 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>false</enabled>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1" pixels="false">Default Bold</opifont.name>
+        <opifont.name fontName="Sans" height="12" style="1" pixels="false">Header 3</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
-        <color red="0" green="0" blue="0" />
+        <color name="IO Foreground" red="0" green="0" blue="0" />
       </foreground_color>
-      <height>31</height>
+      <height>30</height>
       <image></image>
       <name>Action Button</name>
       <push_action_index>0</push_action_index>
@@ -709,45 +1224,48 @@ $(pv_value)</tooltip>
       </scale_options>
       <scripts />
       <style>1</style>
-      <text>Controls</text>
+      <text>Storage Ring</text>
       <toggle_button>false</toggle_button>
       <tooltip></tooltip>
       <visible>true</visible>
       <widget_type>Action Button</widget_type>
-      <width>97</width>
-      <wuid>67bdec06:1675a718dc8:fc0</wuid>
+      <width>150</width>
+      <wuid>-3d984b22:16bdc33cd3e:-563a</wuid>
       <x>0</x>
       <y>0</y>
     </widget>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <auto_size>false</auto_size>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <background_color>
-      <color red="134" green="181" blue="217" />
+      <color red="180" green="204" blue="212" />
     </background_color>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
     <border_color>
-      <color red="134" green="181" blue="217" />
+      <color red="0" green="0" blue="0" />
     </border_color>
     <border_style>14</border_style>
     <border_width>2</border_width>
     <enabled>true</enabled>
-    <fc>false</fc>
     <font>
       <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
     </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
-      <color red="192" green="192" blue="192" />
+      <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>176</height>
-    <lock_children>true</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-      <P>$(TUNE_SPEC_ANA_BO_H_AREA)</P>
-      <R>$(TUNE_SPEC_ANA_BO_H_DEV)</R>
-      <P_TUNE>$(TUNE_BO_H_AREA)</P_TUNE>
-      <R_TUNE>$(TUNE_BO_H_DEV)</R_TUNE>
-    </macros>
-    <name>Grouping Container</name>
+    <format_type>0</format_type>
+    <height>48</height>
+    <horizontal_alignment>0</horizontal_alignment>
+    <name>Text Update_2</name>
+    <precision>0</precision>
+    <precision_from_pv>true</precision_from_pv>
+    <pv_name></pv_name>
+    <pv_value />
+    <rotation_angle>0.0</rotation_angle>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -755,239 +1273,51 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <show_scrollbar>false</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
+    <show_units>true</show_units>
+    <text>######</text>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>324</width>
-    <wuid>67bdec06:1675a718dc8:3d07</wuid>
-    <x>13</x>
-    <y>294</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.intensityGraph" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <alarm_pulsing>false</alarm_pulsing>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <color_map>
-        <interpolate>true</interpolate>
-        <autoscale>true</autoscale>
-        <map>2</map>
-      </color_map>
-      <crop_bottom>0</crop_bottom>
-      <crop_left>0</crop_left>
-      <crop_right>0</crop_right>
-      <crop_top>0</crop_top>
-      <data_height>316</data_height>
-      <data_width>101</data_width>
-      <enabled>true</enabled>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <graph_area_height>117</graph_area_height>
-      <graph_area_width>194</graph_area_width>
-      <height>168</height>
-      <horizon_profile_x_pv_name></horizon_profile_x_pv_name>
-      <horizon_profile_x_pv_value />
-      <horizon_profile_y_pv_name></horizon_profile_y_pv_name>
-      <horizon_profile_y_pv_value />
-      <maximum>10.0</maximum>
-      <minimum>-120.0</minimum>
-      <name>Intensity Graph</name>
-      <pixel_info_pv_name></pixel_info_pv_name>
-      <pixel_info_pv_value />
-      <pv_name>$(P)$(R)SpecArray-Mon</pv_name>
-      <pv_value />
-      <rgb_mode>false</rgb_mode>
-      <roi_0_h_pv_value />
-      <roi_0_height_pv>$(P_TUNE)$(R_TUNE)ROIHeightConv-SP</roi_0_height_pv>
-      <roi_0_title>ROI</roi_0_title>
-      <roi_0_visible>true</roi_0_visible>
-      <roi_0_w_pv_value />
-      <roi_0_width_pv>$(P_TUNE)$(R_TUNE)ROIWidthConv-SP</roi_0_width_pv>
-      <roi_0_x_pv>$(P_TUNE)$(R_TUNE)ROIOffXConv-SP</roi_0_x_pv>
-      <roi_0_x_pv_value />
-      <roi_0_y_pv>$(P_TUNE)$(R_TUNE)ROIOffYConv-SP</roi_0_y_pv>
-      <roi_0_y_pv_value />
-      <roi_color>
-        <color red="0" green="255" blue="255" />
-      </roi_color>
-      <roi_count>1</roi_count>
-      <rules>
-        <rule name="X Min Rule" prop_id="x_axis_minimum" out_exp="true">
-          <exp bool_exp="pv2==0">
-            <value>pv0</value>
-          </exp>
-          <exp bool_exp="pv2==1">
-            <value>pv1</value>
-          </exp>
-          <pv trig="true">$(P)$(R)FreqStartDisp-Mon</pv>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneFracStart-Mon</pv>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
-        </rule>
-        <rule name="X Max Rule" prop_id="x_axis_maximum" out_exp="true">
-          <exp bool_exp="pv2==0">
-            <value>pv0</value>
-          </exp>
-          <exp bool_exp="pv2==1">
-            <value>pv1</value>
-          </exp>
-          <pv trig="true">$(P)$(R)FreqStopDisp-Mon</pv>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneFracStop-Mon</pv>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
-        </rule>
-        <rule name="Data_Width Rule" prop_id="data_width" out_exp="true">
-          <exp bool_exp="1">
-            <value>pv0</value>
-          </exp>
-          <pv trig="true">$(P)$(R)SwePts-RB</pv>
-        </rule>
-        <rule name="Data_Height Rule" prop_id="data_height" out_exp="true">
-          <exp bool_exp="pv2&gt;(pv1/pv0)">
-            <value>pv1/pv0</value>
-          </exp>
-          <exp bool_exp="1">
-            <value>pv2</value>
-          </exp>
-          <pv trig="true">$(P)$(R)SwePts-RB</pv>
-          <pv trig="true">$(P)$(R)SpecArray-Mon.NELM</pv>
-          <pv trig="true">$(P)$(R)FrameCount-Mon</pv>
-        </rule>
-        <rule name="Y Min Rule" prop_id="y_axis_minimum" out_exp="true">
-          <exp bool_exp="1">
-            <value>pv0</value>
-          </exp>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTBeg-Mon</pv>
-        </rule>
-        <rule name="Y Max Rule" prop_id="y_axis_maximum" out_exp="true">
-          <exp bool_exp="1">
-            <value>pv0</value>
-          </exp>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTEnd-Mon</pv>
-        </rule>
-        <rule name="Max Rule" prop_id="maximum" out_exp="true">
-          <exp bool_exp="1">
-            <value>pv0</value>
-          </exp>
-          <pv trig="true">$(P)$(R)RefLvl-RB</pv>
-        </rule>
-        <rule name="Min Rule" prop_id="minimum" out_exp="true">
-          <exp bool_exp="1">
-            <value>pv1-pv0</value>
-          </exp>
-          <pv trig="true">$(P)$(R)DispRange-RB</pv>
-          <pv trig="true">$(P)$(R)RefLvl-RB</pv>
-        </rule>
-        <rule name="X Label Rule" prop_id="x_axis_axis_title" out_exp="true">
-          <exp bool_exp="pv0==0">
-            <value>"Frequency [MHz]"</value>
-          </exp>
-          <exp bool_exp="pv0==1">
-            <value>"Fractional Tune"</value>
-          </exp>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
-        </rule>
-        <rule name="ROI Visibility" prop_id="roi_0_visible" out_exp="false">
-          <exp bool_exp="pv0==0">
-            <value>false</value>
-          </exp>
-          <exp bool_exp="pv0==1">
-            <value>true</value>
-          </exp>
-          <pv trig="true">loc://$(P_TUNE)$(R_TUNE)ROIEnbl-Sel</pv>
-        </rule>
-      </rules>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_ramp>true</show_ramp>
-      <single_line_profiling>false</single_line_profiling>
-      <tooltip>$(pv_name)</tooltip>
-      <vertial_profile_x_pv_value />
-      <vertial_profile_y_pv_value />
-      <vertical_profile_x_pv_name></vertical_profile_x_pv_name>
-      <vertical_profile_y_pv_name></vertical_profile_y_pv_name>
-      <visible>true</visible>
-      <widget_type>Intensity Graph</widget_type>
-      <width>316</width>
-      <wuid>-3d984b22:16bdc33cd3e:-5dc6</wuid>
-      <x>0</x>
-      <x_axis_axis_color>
-        <color red="0" green="0" blue="0" />
-      </x_axis_axis_color>
-      <x_axis_axis_title>Frequency</x_axis_axis_title>
-      <x_axis_major_tick_step_hint>100</x_axis_major_tick_step_hint>
-      <x_axis_maximum>100.0</x_axis_maximum>
-      <x_axis_minimum>50.0</x_axis_minimum>
-      <x_axis_scale_font>
-        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
-      </x_axis_scale_font>
-      <x_axis_show_minor_ticks>true</x_axis_show_minor_ticks>
-      <x_axis_title_font>
-        <opifont.name fontName="Sans" height="10" style="1" pixels="false">Default Bold</opifont.name>
-      </x_axis_title_font>
-      <x_axis_visible>true</x_axis_visible>
-      <y>0</y>
-      <y_axis_axis_color>
-        <color red="0" green="0" blue="0" />
-      </y_axis_axis_color>
-      <y_axis_axis_title>Time [ms]</y_axis_axis_title>
-      <y_axis_major_tick_step_hint>50</y_axis_major_tick_step_hint>
-      <y_axis_maximum>1000.0</y_axis_maximum>
-      <y_axis_minimum>0.0</y_axis_minimum>
-      <y_axis_scale_font>
-        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
-      </y_axis_scale_font>
-      <y_axis_show_minor_ticks>true</y_axis_show_minor_ticks>
-      <y_axis_title_font>
-        <opifont.name fontName="Sans" height="10" style="1" pixels="false">Default Bold</opifont.name>
-      </y_axis_title_font>
-      <y_axis_visible>true</y_axis_visible>
-    </widget>
+    <widget_type>Text Update</widget_type>
+    <width>165</width>
+    <wrap_words>false</wrap_words>
+    <wuid>-3d984b22:16bdc33cd3e:-55e6</wuid>
+    <x>141</x>
+    <y>473</y>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <auto_size>false</auto_size>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <background_color>
-      <color red="216" green="134" blue="134" />
+      <color red="180" green="204" blue="212" />
     </background_color>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
     <border_color>
-      <color red="216" green="134" blue="134" />
+      <color red="0" green="0" blue="0" />
     </border_color>
     <border_style>14</border_style>
     <border_width>2</border_width>
     <enabled>true</enabled>
-    <fc>false</fc>
     <font>
       <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
     </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
-      <color red="192" green="192" blue="192" />
+      <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>176</height>
-    <lock_children>true</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-      <P>$(TUNE_SPEC_ANA_BO_V_AREA)</P>
-      <R>$(TUNE_SPEC_ANA_BO_V_DEV)</R>
-      <P_TUNE>$(TUNE_BO_V_AREA)</P_TUNE>
-      <R_TUNE>$(TUNE_BO_V_DEV)</R_TUNE>
-    </macros>
-    <name>Grouping Container_5</name>
+    <format_type>0</format_type>
+    <height>48</height>
+    <horizontal_alignment>0</horizontal_alignment>
+    <name>Text Update_3</name>
+    <precision>0</precision>
+    <precision_from_pv>true</precision_from_pv>
+    <pv_name></pv_name>
+    <pv_value />
+    <rotation_angle>0.0</rotation_angle>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -995,210 +1325,19 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <show_scrollbar>false</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
+    <show_units>true</show_units>
+    <text>######</text>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>324</width>
-    <wuid>67bdec06:1675a718dc8:3d63</wuid>
-    <x>342</x>
-    <y>294</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.intensityGraph" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <alarm_pulsing>false</alarm_pulsing>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <color_map>
-        <interpolate>true</interpolate>
-        <autoscale>true</autoscale>
-        <map>2</map>
-      </color_map>
-      <crop_bottom>0</crop_bottom>
-      <crop_left>0</crop_left>
-      <crop_right>0</crop_right>
-      <crop_top>0</crop_top>
-      <data_height>316</data_height>
-      <data_width>101</data_width>
-      <enabled>true</enabled>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <graph_area_height>117</graph_area_height>
-      <graph_area_width>194</graph_area_width>
-      <height>168</height>
-      <horizon_profile_x_pv_name></horizon_profile_x_pv_name>
-      <horizon_profile_x_pv_value />
-      <horizon_profile_y_pv_name></horizon_profile_y_pv_name>
-      <horizon_profile_y_pv_value />
-      <maximum>10.0</maximum>
-      <minimum>-120.0</minimum>
-      <name>Intensity Graph</name>
-      <pixel_info_pv_name></pixel_info_pv_name>
-      <pixel_info_pv_value />
-      <pv_name>$(P)$(R)SpecArray-Mon</pv_name>
-      <pv_value />
-      <rgb_mode>false</rgb_mode>
-      <roi_0_h_pv_value />
-      <roi_0_height_pv>$(P_TUNE)$(R_TUNE)ROIHeightConv-SP</roi_0_height_pv>
-      <roi_0_title>ROI</roi_0_title>
-      <roi_0_visible>true</roi_0_visible>
-      <roi_0_w_pv_value />
-      <roi_0_width_pv>$(P_TUNE)$(R_TUNE)ROIWidthConv-SP</roi_0_width_pv>
-      <roi_0_x_pv>$(P_TUNE)$(R_TUNE)ROIOffXConv-SP</roi_0_x_pv>
-      <roi_0_x_pv_value />
-      <roi_0_y_pv>$(P_TUNE)$(R_TUNE)ROIOffYConv-SP</roi_0_y_pv>
-      <roi_0_y_pv_value />
-      <roi_color>
-        <color red="0" green="255" blue="255" />
-      </roi_color>
-      <roi_count>1</roi_count>
-      <rules>
-        <rule name="X Min Rule" prop_id="x_axis_minimum" out_exp="true">
-          <exp bool_exp="pv2==0">
-            <value>pv0</value>
-          </exp>
-          <exp bool_exp="pv2==1">
-            <value>pv1</value>
-          </exp>
-          <pv trig="true">$(P)$(R)FreqStartDisp-Mon</pv>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneFracStart-Mon</pv>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
-        </rule>
-        <rule name="X Max Rule" prop_id="x_axis_maximum" out_exp="true">
-          <exp bool_exp="pv2==0">
-            <value>pv0</value>
-          </exp>
-          <exp bool_exp="pv2==1">
-            <value>pv1</value>
-          </exp>
-          <pv trig="true">$(P)$(R)FreqStopDisp-Mon</pv>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneFracStop-Mon</pv>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
-        </rule>
-        <rule name="Data_Width Rule" prop_id="data_width" out_exp="true">
-          <exp bool_exp="1">
-            <value>pv0</value>
-          </exp>
-          <pv trig="true">$(P)$(R)SwePts-RB</pv>
-        </rule>
-        <rule name="Data_Height Rule" prop_id="data_height" out_exp="true">
-          <exp bool_exp="pv2&gt;(pv1/pv0)">
-            <value>pv1/pv0</value>
-          </exp>
-          <exp bool_exp="1">
-            <value>pv2</value>
-          </exp>
-          <pv trig="true">$(P)$(R)SwePts-RB</pv>
-          <pv trig="true">$(P)$(R)SpecArray-Mon.NELM</pv>
-          <pv trig="true">$(P)$(R)FrameCount-Mon</pv>
-        </rule>
-        <rule name="Y Min Rule" prop_id="y_axis_minimum" out_exp="true">
-          <exp bool_exp="1">
-            <value>pv0</value>
-          </exp>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTBeg-Mon</pv>
-        </rule>
-        <rule name="Y Max Rule" prop_id="y_axis_maximum" out_exp="true">
-          <exp bool_exp="1">
-            <value>pv0</value>
-          </exp>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)SpecAnaTEnd-Mon</pv>
-        </rule>
-        <rule name="Max Rule" prop_id="maximum" out_exp="true">
-          <exp bool_exp="1">
-            <value>pv0</value>
-          </exp>
-          <pv trig="true">$(P)$(R)RefLvl-RB</pv>
-        </rule>
-        <rule name="Min Rule" prop_id="minimum" out_exp="true">
-          <exp bool_exp="1">
-            <value>pv1-pv0</value>
-          </exp>
-          <pv trig="true">$(P)$(R)DispRange-RB</pv>
-          <pv trig="true">$(P)$(R)RefLvl-RB</pv>
-        </rule>
-        <rule name="X Label Rule" prop_id="x_axis_axis_title" out_exp="true">
-          <exp bool_exp="pv0==0">
-            <value>"Frequency [MHz]"</value>
-          </exp>
-          <exp bool_exp="pv0==1">
-            <value>"Fractional Tune"</value>
-          </exp>
-          <pv trig="true">$(P_TUNE)$(R_TUNE)TuneXaxis-Sel</pv>
-        </rule>
-        <rule name="ROI Visibility" prop_id="roi_0_visible" out_exp="false">
-          <exp bool_exp="pv0==0">
-            <value>false</value>
-          </exp>
-          <exp bool_exp="pv0==1">
-            <value>true</value>
-          </exp>
-          <pv trig="true">loc://$(P_TUNE)$(R_TUNE)ROIEnbl-Sel</pv>
-        </rule>
-      </rules>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_ramp>true</show_ramp>
-      <single_line_profiling>false</single_line_profiling>
-      <tooltip>$(pv_name)</tooltip>
-      <vertial_profile_x_pv_value />
-      <vertial_profile_y_pv_value />
-      <vertical_profile_x_pv_name></vertical_profile_x_pv_name>
-      <vertical_profile_y_pv_name></vertical_profile_y_pv_name>
-      <visible>true</visible>
-      <widget_type>Intensity Graph</widget_type>
-      <width>316</width>
-      <wuid>-3d984b22:16bdc33cd3e:-5d9a</wuid>
-      <x>0</x>
-      <x_axis_axis_color>
-        <color red="0" green="0" blue="0" />
-      </x_axis_axis_color>
-      <x_axis_axis_title>Frequency</x_axis_axis_title>
-      <x_axis_major_tick_step_hint>100</x_axis_major_tick_step_hint>
-      <x_axis_maximum>100.0</x_axis_maximum>
-      <x_axis_minimum>50.0</x_axis_minimum>
-      <x_axis_scale_font>
-        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
-      </x_axis_scale_font>
-      <x_axis_show_minor_ticks>true</x_axis_show_minor_ticks>
-      <x_axis_title_font>
-        <opifont.name fontName="Sans" height="10" style="1" pixels="false">Default Bold</opifont.name>
-      </x_axis_title_font>
-      <x_axis_visible>true</x_axis_visible>
-      <y>0</y>
-      <y_axis_axis_color>
-        <color red="0" green="0" blue="0" />
-      </y_axis_axis_color>
-      <y_axis_axis_title>Time [ms]</y_axis_axis_title>
-      <y_axis_major_tick_step_hint>50</y_axis_major_tick_step_hint>
-      <y_axis_maximum>1000.0</y_axis_maximum>
-      <y_axis_minimum>0.0</y_axis_minimum>
-      <y_axis_scale_font>
-        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
-      </y_axis_scale_font>
-      <y_axis_show_minor_ticks>true</y_axis_show_minor_ticks>
-      <y_axis_title_font>
-        <opifont.name fontName="Sans" height="10" style="1" pixels="false">Default Bold</opifont.name>
-      </y_axis_title_font>
-      <y_axis_visible>true</y_axis_visible>
-    </widget>
+    <widget_type>Text Update</widget_type>
+    <width>165</width>
+    <wrap_words>false</wrap_words>
+    <wuid>-3d984b22:16bdc33cd3e:-55e5</wuid>
+    <x>502</x>
+    <y>473</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -1213,14 +1352,14 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="Sans" height="14" style="0" pixels="false">Monitor Small Data</opifont.name>
+      <opifont.name fontName="Sans" height="14" style="1" pixels="false">Header 2</opifont.name>
     </font>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>26</height>
     <horizontal_alignment>1</horizontal_alignment>
-    <name>Label_7</name>
+    <name>Label_12</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1236,9 +1375,9 @@ $(pv_value)</tooltip>
     <widget_type>Label</widget_type>
     <width>210</width>
     <wrap_words>false</wrap_words>
-    <wuid>19bf187b:1679d449908:-70ff</wuid>
-    <x>392</x>
-    <y>264</y>
+    <wuid>-3d984b22:16bdc33cd3e:-55da</wuid>
+    <x>480</x>
+    <y>444</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -1253,14 +1392,14 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="Sans" height="14" style="0" pixels="false">Monitor Small Data</opifont.name>
+      <opifont.name fontName="Sans" height="14" style="1" pixels="false">Header 2</opifont.name>
     </font>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>26</height>
     <horizontal_alignment>1</horizontal_alignment>
-    <name>Label_8</name>
+    <name>Label_13</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1276,8 +1415,8 @@ $(pv_value)</tooltip>
     <widget_type>Label</widget_type>
     <width>208</width>
     <wrap_words>false</wrap_words>
-    <wuid>19bf187b:1679d449908:-70f3</wuid>
-    <x>63</x>
-    <y>264</y>
+    <wuid>-3d984b22:16bdc33cd3e:-55d9</wuid>
+    <x>120</x>
+    <y>444</y>
   </widget>
 </display>
