@@ -58,7 +58,7 @@
   <show_edit_range>true</show_edit_range>
   <show_grid>false</show_grid>
   <show_ruler>true</show_ruler>
-  <snap_to_geometry>true</snap_to_geometry>
+  <snap_to_geometry>false</snap_to_geometry>
   <widget_type>Display</widget_type>
   <width>1024</width>
   <wuid>-4107d8cc:15c0c501b11:-7796</wuid>
@@ -95,7 +95,7 @@
       <color red="255" green="0" blue="0" />
     </foreground_color>
     <gradient>false</gradient>
-    <height>534</height>
+    <height>526</height>
     <horizontal_fill>true</horizontal_fill>
     <line_color>
       <color red="128" green="0" blue="255" />
@@ -493,7 +493,7 @@ $(pv_value)</tooltip>
     <width>797</width>
     <wuid>-3d984b22:16bdc33cd3e:-58cd</wuid>
     <x>6</x>
-    <y>412</y>
+    <y>404</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -1184,7 +1184,7 @@ $(pv_value)</tooltip>
     <width>150</width>
     <wuid>-3d984b22:16bdc33cd3e:-563b</wuid>
     <x>23</x>
-    <y>406</y>
+    <y>398</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="true">
         <action type="OPEN_DISPLAY">
@@ -1285,7 +1285,7 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <wuid>-3d984b22:16bdc33cd3e:-55e6</wuid>
     <x>141</x>
-    <y>473</y>
+    <y>465</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -1337,7 +1337,7 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <wuid>-3d984b22:16bdc33cd3e:-55e5</wuid>
     <x>502</x>
-    <y>473</y>
+    <y>465</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -1377,7 +1377,7 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <wuid>-3d984b22:16bdc33cd3e:-55da</wuid>
     <x>480</x>
-    <y>444</y>
+    <y>436</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -1417,6 +1417,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <wuid>-3d984b22:16bdc33cd3e:-55d9</wuid>
     <x>120</x>
-    <y>444</y>
+    <y>436</y>
   </widget>
 </display>
