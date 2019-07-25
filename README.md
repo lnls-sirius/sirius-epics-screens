@@ -38,5 +38,5 @@ Example:
 Example Sirius:
 
 ```bash
-cs-studio -consoleLog -pluginCustomization /home/opis/sirius-diagnostics-screens/cfg/combined_settings.ini -workspace_prompt /home/css-workspaces/diagnostics-work -share_link /home/opis/sirius-diagnostics-screens=/displays -workbench_xmi /home/opis/sirius-diagnostics-screens/cfg/diagnostics_workbench.xmi --launcher.appendVmargs -vmargs -Dorg.eclipse.swt.internal.gtk.cairoGraphics=false -Dorg.eclipse.swt.internal.gtk.useCairo=false -Dorg.eclipse.swt.browser.DefaultType=mozilla --launcher.openFile "/displays/sirius_main_all.opi"
+s-studio -consoleLog -pluginCustomization /home/opis/sirius-diagnostics-screens/cfg/combined_settings.ini -workspace_prompt /home/css-workspaces/diagnostics-work -share_link /home/opis/sirius-diagnostics-screens=/displays -workbench_xmi /home/opis/sirius-diagnostics-screens/cfg/diagnostics_workbench.xmi --launcher.appendVmargs -Dorg.eclipse.swt.internal.gtk.cairoGraphics=false -Dorg.eclipse.swt.internal.gtk.useCairo=false -Dorg.eclipse.swt.browser.DefaultType=mozilla --launcher.openFile "/displays/sirius_main_all.opi" &
 ```
