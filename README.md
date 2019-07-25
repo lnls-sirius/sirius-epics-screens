@@ -34,3 +34,9 @@ Example:
 ```bash
 ./cs-studio/css -data /home/lerwys/workspace-share -share_link /home/lerwys/Repos/sirius-diagnostics-epics-screens/build/op/opi=/displays --launcher.openFile "/displays/sirius_main_all.opi"
 ```
+
+Example Sirius:
+
+```bash
+cs-studio -consoleLog -pluginCustomization /home/opis/sirius-diagnostics-epics-screens/cfg/combined_settings.ini -workspace_prompt /home/css-workspaces/diagnostics-worl -share_link /home/opis/sirius-diagnostics-epics-screens=/displays -workbench_xmi /home/opis/sirius-diagnostics-epics-screens/cfg/diagnostics.xmi --launcher.appendVmargs -vmargs -Dorg.eclipse.swt.internal.gtk.cairoGraphics=false -Dorg.eclipse.swt.internal.gtk.useCairo=false -Dorg.eclipse.swt.browser.DefaultType=mozilla --launcher.openFile "/displays/sirius_main_all.opi"
+```
