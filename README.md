@@ -1,11 +1,11 @@
 # Sirius Diagnostics EPICS Screens
 
-Sirius EPICS IOC Screens for Diagnostics
+Sirius EPICS IOC Screens
 
 ## Description
 
 This repository acts like a reference point for all
-diagnostics screens used for Sirius.
+CSS screens used for Sirius.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Example:
 ```bash
 ./cs-studio/css \
     -data /home/lerwys/workspace-share \
-    -share_link /home/lerwys/Repos/sirius-diagnostics-screens/build/op/opi=/displays \
+    -share_link /home/lerwys/Repos/sirius-screens/build/op/opi=/displays \
     --launcher.openFile "/displays/sirius_main_all.opi"
 ```
 
@@ -46,10 +46,10 @@ Example Sirius:
 ```bash
 cs-studio \
     -consoleLog \
-    -pluginCustomization /home/opis/sirius-diagnostics-screens/cfg/combined_settings.ini \
+    -pluginCustomization /home/opis/sirius-screens/cfg/combined_settings.ini \
     -workspace_prompt /home/css-workspaces/diagnostics-work \
-    -share_link /home/opis/sirius-diagnostics-screens=/displays \
-    -workbench_xmi /home/opis/sirius-diagnostics-screens/cfg/diagnostics_workbench.xmi \
+    -share_link /home/opis/sirius-screens=/displays \
+    -workbench_xmi /home/opis/sirius-screens/cfg/diagnostics_workbench.xmi \
     --launcher.appendVmargs \
         -Dorg.eclipse.swt.internal.gtk.cairoGraphics=false \
         -Dorg.eclipse.swt.internal.gtk.useCairo=false \
