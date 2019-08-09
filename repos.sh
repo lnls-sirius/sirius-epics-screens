@@ -184,6 +184,36 @@ RSSMX100A_OPI_DIR="op/opi"
 
 PROJECTS+=("${RSSMX100A_PREFIX}")
 
+# RF System
+RFSYSTEM_PREFIX="RFSYSTEM"
+RFSYSTEM_GIT_URL="https://gitlab.cnpem.br"
+RFSYSTEM_ORG="david.daminelli"
+RFSYSTEM_PROJECT="RF_System_CSS"
+RFSYSTEM_TAG="master"
+RFSYSTEM_OPI_DIR="CSS"
+
+PROJECTS+=("${RFSYSTEM_PREFIX}")
+
+# RF System
+LLRF_PREFIX="LLRF"
+LLRF_GIT_URL="https://gitlab.cnpem.br"
+LLRF_ORG="con"
+LLRF_PROJECT="dllrf-css-screens"
+LLRF_TAG="master"
+LLRF_OPI_DIR="opis"
+
+PROJECTS+=("${LLRF_PREFIX}")
+
+# RF System
+RAD_PREFIX="RAD"
+RAD_GIT_URL="https://gitlab.cnpem.br"
+RAD_ORG="con"
+RAD_PROJECT="opi"
+RAD_TAG="master"
+RAD_OPI_DIR=""
+
+PROJECTS+=("${RAD_PREFIX}")
+
 ##################### Merge OPI Folders
 
 MERGE_PROJECTS=()
