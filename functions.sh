@@ -101,6 +101,7 @@ copy_opis()
     local git_proj=${!_git_proj}
     local git_tag=${!_git_tag}
     local opi_folder=${!_opi_folder}
+    local dest_project_name=""
 
     # This can be empty
     if [ -v _dest_project_name ]; then
