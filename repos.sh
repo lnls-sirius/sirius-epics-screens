@@ -191,6 +191,7 @@ RFSYSTEM_ORG="david.daminelli"
 RFSYSTEM_PROJECT="RF_System_CSS"
 RFSYSTEM_TAG="master"
 RFSYSTEM_OPI_DIR="CSS"
+RFSYSTEM_DEST_PROJECT_NAME="rf-system-epics-ioc"
 
 PROJECTS+=("${RFSYSTEM_PREFIX}")
 
@@ -201,6 +202,7 @@ LLRF_ORG="con"
 LLRF_PROJECT="dllrf-css-screens"
 LLRF_TAG="master"
 LLRF_OPI_DIR="opis"
+LLRF_DEST_PROJECT_NAME="llrf-epics-ioc"
 
 PROJECTS+=("${LLRF_PREFIX}")
 
@@ -211,6 +213,7 @@ RAD_ORG="con"
 RAD_PROJECT="opi"
 RAD_TAG="master"
 RAD_OPI_DIR=""
+RAD_DEST_PROJECT_NAME="rad-mon-epics-ioc"
 
 PROJECTS+=("${RAD_PREFIX}")
 
