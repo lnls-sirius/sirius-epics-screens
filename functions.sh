@@ -19,9 +19,10 @@ get_repo()
     local PROJECT_NAME=$3
     local TAG=$4
     local DEST_DIR=$5
-    local TYPE=$6
+    local DEST_PROJECT_NAME=$6
+    local TYPE=$7
 
-    local DEST_PROJ_NAME=$(dest_proj_name ${PROJECT_NAME} ${TAG})
+    local DEST_PROJ_NAME=$(dest_proj_name ${DEST_PROJECT_NAME} ${TAG})
     local FULL_GIT_URL=${GIT_URL}/${GIT_ORG}/${PROJECT_NAME}
     local DEST=${DEST_DIR}/${DEST_PROJ_NAME}
 
@@ -39,7 +40,7 @@ get_repo()
             )
         fi
     else
-        echo "Repository ${PROJECT_NAME} already exists. Updating the current one to tag: ${TAG}"
+        echo "Repository ${DEST_PROJECT_NAME} already exists. Updating the current one to tag: ${TAG}"
         ( \
             cd ${DEST} && \
             git remote set-branches origin "${TAG}"
@@ -53,12 +54,12 @@ get_repo()
 
 get_shallow_repo()
 {
-    get_repo "${@:1:5}" "shallow"
+    get_repo "${@:1:6}" "shallow"
 }
 
 get_full_repo()
 {
-    get_repo "${@:1:5}" "full"
+    get_repo "${@:1:6}" "full"
 }
 
 copy_and_create_dest()
@@ -93,6 +94,7 @@ copy_opis()
     local _git_proj="${PROJ_NAME}_PROJECT"
     local _git_tag="${PROJ_NAME}_TAG"
     local _opi_folder="${PROJ_NAME}_OPI_DIR"
+    local _dest_project_name="${PROJ_NAME}_DEST_PROJECT_NAME"
 
     local git_url=${!_git_url}
     local git_org=${!_git_org}
@@ -100,12 +102,21 @@ copy_opis()
     local git_tag=${!_git_tag}
     local opi_folder=${!_opi_folder}
 
+    # This can be empty
+    if [ -v _dest_project_name ]; then
+        dest_project_name=${!_dest_project_name}
+    fi
+
+    if [ -z ${dest_project_name} ]; then
+        dest_project_name=${git_proj}
+    fi
+
     if [ "${COPY_TYPE}" == "raw" ]; then
         copy_and_create_dest "${BASE_DIR}" "${DEST_OPI_DIR}"
     elif [ "${COPY_TYPE}" == "remote_project" ]; then
-        copy_and_create_dest "${BASE_DIR}/${git_proj}/${opi_folder}" "${DEST_OPI_DIR}/${git_proj}"
+        copy_and_create_dest "${BASE_DIR}/${dest_project_name}/${opi_folder}" "${DEST_OPI_DIR}/${dest_project_name}"
     elif [ "${COPY_TYPE}" == "remote_project_raw" ]; then
-        copy_and_create_dest "${BASE_DIR}/${git_proj}/${opi_folder}" "${DEST_OPI_DIR}"
+        copy_and_create_dest "${BASE_DIR}/${dest_project_name}/${opi_folder}" "${DEST_OPI_DIR}"
     elif [ "${COPY_TYPE}" == "local_project" ]; then
         copy_and_create_dest "${BASE_DIR}/${opi_folder}" "${DEST_OPI_DIR}"
     else
@@ -144,15 +155,26 @@ copy_repo()
     local _git_proj="${PROJ_NAME}_PROJECT"
     local _git_tag="${PROJ_NAME}_TAG"
     local _opi_folder="${PROJ_NAME}_OPI_DIR"
+    local _dest_project_name="${PROJ_NAME}_DEST_PROJECT_NAME"
 
     local git_url=${!_git_url}
     local git_org=${!_git_org}
     local git_proj=${!_git_proj}
     local git_tag=${!_git_tag}
     local opi_folder=${!_opi_folder}
+    local dest_project_name=""
+
+    # This can be empty
+    if [ -v _dest_project_name ]; then
+        dest_project_name=${!_dest_project_name}
+    fi
+
+    if [ -z ${dest_project_name} ]; then
+        dest_project_name=${git_proj}
+    fi
 
     # Get repo
-    get_shallow_repo ${git_url} ${git_org} ${git_proj} ${git_tag} ${DEST_REPO_DIR}
+    get_shallow_repo ${git_url} ${git_org} ${git_proj} ${git_tag} ${DEST_REPO_DIR} ${dest_project_name}
 }
 
 copy_repo_opis()
