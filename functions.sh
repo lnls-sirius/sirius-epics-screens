@@ -108,7 +108,7 @@ copy_opis()
         dest_project_name=${!_dest_project_name}
     fi
 
-    if [ -z ${dest_project_name} ]; then
+    if [ -z "${dest_project_name}" ]; then
         dest_project_name=${git_proj}
     fi
 
@@ -170,7 +170,7 @@ copy_repo()
         dest_project_name=${!_dest_project_name}
     fi
 
-    if [ -z ${dest_project_name} ]; then
+    if [ -z "${dest_project_name}" ]; then
         dest_project_name=${git_proj}
     fi
 
