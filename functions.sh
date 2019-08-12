@@ -104,7 +104,7 @@ copy_opis()
     local dest_project_name=""
 
     # This can be empty
-    if [ -v _dest_project_name ]; then
+    if [ -v "${_dest_project_name}" ]; then
         dest_project_name=${!_dest_project_name}
     fi
 
@@ -166,7 +166,7 @@ copy_repo()
     local dest_project_name=""
 
     # This can be empty
-    if [ -v _dest_project_name ]; then
+    if [ -v "${_dest_project_name}" ]; then
         dest_project_name=${!_dest_project_name}
     fi
 
