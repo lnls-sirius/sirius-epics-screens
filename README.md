@@ -47,7 +47,7 @@ Example Sirius:
 cs-studio \
     -consoleLog \
     -pluginCustomization /home/opis/sirius-screens/cfg/combined_settings.ini \
-    -workspace_prompt /home/css-workspaces/diagnostics-work \
+    -workspace_prompt ~/.ess-cs-studio/cs-studio-workspace \
     -share_link /home/opis/sirius-screens=/displays \
     -workbench_xmi /home/opis/sirius-screens/cfg/diagnostics_workbench.xmi \
     --launcher.appendVmargs \
