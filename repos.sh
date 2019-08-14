@@ -190,7 +190,7 @@ RFSYSTEM_GIT_URL="https://gitlab.cnpem.br"
 RFSYSTEM_ORG="david.daminelli"
 RFSYSTEM_PROJECT="RF_System_CSS"
 RFSYSTEM_TAG="master"
-RFSYSTEM_OPI_DIR="CSS"
+RFSYSTEM_OPI_DIR="opis"
 RFSYSTEM_DEST_PROJECT_NAME="rf-system-epics-ioc"
 
 PROJECTS+=("${RFSYSTEM_PREFIX}")
