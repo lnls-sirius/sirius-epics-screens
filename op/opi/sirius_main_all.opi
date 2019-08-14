@@ -1320,7 +1320,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>rf-system-epics-ioc/opis/Booster/Interlock/interlock-booster.opi</path>
+        <path>rf-system-epics-ioc/Booster/Interlock/interlock-booster.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <device>BR-RF-DLLRF-01</device>
@@ -1376,7 +1376,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>dllrf-css-screens/opis/menu.opi</path>
+        <path>llrf-epics-ioc/menu.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <device>BR-RF-DLLRF-01</device>
@@ -1432,7 +1432,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>rf-system-epics-ioc/opis/Booster/SSA Current/bo-ssa-currents.opi</path>
+        <path>rf-system-epics-ioc/Booster/SSA Current/bo-ssa-currents.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -1487,7 +1487,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>rf-system-epics-ioc/opis/Power Meter/power-meter-ini.opi</path>
+        <path>rf-system-epics-ioc/Power Meter/power-meter-ini.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <SI>RA-RaBO</SI>
@@ -1544,7 +1544,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>rf-system-epics-ioc/opis/Storage Ring/Interlock/interlock-storage-ring.opi</path>
+        <path>rf-system-epics-ioc/Storage Ring/Interlock/interlock-storage-ring.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -1599,7 +1599,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>dllrf-css-screens/opis/menu.opi</path>
+        <path>dllrf-css-screens/menu.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <device>BR-RF-DLLRF-02</device>
@@ -1655,7 +1655,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>rf-system-epics-ioc/opis/Storage Ring/SSA Current/si-ssa-currents.opi</path>
+        <path>rf-system-epics-ioc/Storage Ring/SSA Current/si-ssa-currents.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -1710,7 +1710,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>rf-system-epics-ioc/opis/Power Meter/power-meter-ini.opi</path>
+        <path>rf-system-epics-ioc/Power Meter/power-meter-ini.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <SI>RA-RaSIA</SI>
@@ -1767,7 +1767,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>rf-system-epics-ioc/opis/Storage Ring/SSA Current/si-ssa-currents.opi</path>
+        <path>rf-system-epics-ioc/Storage Ring/SSA Current/si-ssa-currents.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <SI>RA-ToSIA02</SI>
