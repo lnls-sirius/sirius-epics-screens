@@ -1599,10 +1599,10 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>dllrf-css-screens/menu.opi</path>
+        <path>llrf-epics-ioc/menu.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
-          <device>BR-RF-DLLRF-02</device>
+          <device>SR-RF-DLLRF-01</device>
         </macros>
         <mode>6</mode>
         <description>LLRF</description>
@@ -1658,9 +1658,13 @@ $(pv_value)</tooltip>
         <path>rf-system-epics-ioc/Storage Ring/SSA Current/si-ssa-currents.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
+          <SI>RA-ToSIA01</SI>
+          <MR>1</MR>
+          <TITLE>SI A 01</TITLE>
+          <PREFIX>RA-ToSIA01</PREFIX>
         </macros>
-        <mode>6</mode>
-        <description>SSA Currents</description>
+        <mode>8</mode>
+        <description>SSA 1 Currents</description>
       </action>
     </actions>
     <alarm_pulsing>false</alarm_pulsing>
