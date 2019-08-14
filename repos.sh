@@ -59,7 +59,7 @@ RSFSX_PREFIX="RSFSX"
 RSFSX_GIT_URL="https://github.com"
 RSFSX_ORG="lnls-dig"
 RSFSX_PROJECT="rsfsx-epics-ioc"
-RSFSX_TAG="devel"
+RSFSX_TAG="master"
 RSFSX_OPI_DIR="op/opi"
 
 PROJECTS+=("${RSFSX_PREFIX}")
