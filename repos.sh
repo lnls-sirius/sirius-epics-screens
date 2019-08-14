@@ -119,7 +119,7 @@ ARAMP_PREFIX="ARAMP"
 ARAMP_GIT_URL="https://github.com"
 ARAMP_ORG="lnls-dig"
 ARAMP_PROJECT="ar-amp-epics-ioc"
-ARAMP_TAG="devel"
+ARAMP_TAG="master"
 ARAMP_OPI_DIR="op/opi"
 
 PROJECTS+=("${ARAMP_PREFIX}")
