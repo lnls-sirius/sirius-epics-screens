@@ -6,8 +6,6 @@ set -ueo pipefail
 SCRIPTPATH="$( cd "$( dirname "${BASH_SOURCE[0]}"  )" && pwd  )"
 TOP="${SCRIPTPATH}"
 
-# Environment variables
-source ${SCRIPTPATH}/env-vars.sh
 # Source common functions
 source ${SCRIPTPATH}/functions.sh
 # Get all repositories
@@ -20,25 +18,46 @@ contains_element () {
   return 1
 }
 
-# Common paths
-DEST_REPO_DIR=${TOP}/${IOC_REPO_DIR}
-DEST_OPI_DIR=${TOP}/${OPI_DIR}
-
 usage () {
     echo "Usage:" >&2
-    echo "  $1 -f       [yes|no]" >&2
+    echo "  $1 -p       [\"all\", \"general\", \"top\", \"merge\""
+    echo "                          or specify a specific project name]" >&2
     echo >&2
     echo " Options:" >&2
     echo "  -f          Get full git repository [yes|no]" >&2
+    echo "  -b          Specify build directory <directory name>" >&2
+    echo "  -r          Specify IOCs target repository <directory name>." >&2
+    echo "                Defaults to <BUILD_DIR>/epics-iocs" >&2
+    echo "  -o          Specify OPIs target directory <directory name>." >&2
+    echo "                Defaults to <BUILD_DIR>/op/opi" >&2
     echo "  -p          Project name to update OPIs [\"all\", \"general\", \"top\", \"merge\""
     echo "                  or specify a specific project name]" >&2
 }
 
 FULL_GIT_REPO="no"
-SPEC_PROJECT=""
-while getopts ":f:p:" opt; do
+BUILD_DIR="build"
+IOC_REPO_DIR_REL="epics-iocs"
+OPI_DIR_REL="op/opi"
+IOC_REPO_DIR="${BUILD_DIR}/${IOC_REPO_DIR_REL}"
+OPI_DIR="${BUILD_DIR}/${OPI_DIR_REL}"
+BUILD_DIR_SET=0
+IOC_REPO_DIR_SET=0
+OPI_DIR_SET=0
+while getopts ":f:b:r:o:p:" opt; do
   case $opt in
     f) FULL_GIT_REPO="$OPTARG" ;;
+    b)
+        __BUILD_DIR="$OPTARG"
+        BUILD_DIR_SET=1
+      ;;
+    r)
+        __IOC_REPO_DIR="$OPTARG"
+        IOC_REPO_DIR_SET=1
+      ;;
+    o)
+        __OPI_DIR="$OPTARG"
+        OPI_DIR_SET=1
+      ;;
     p) SPEC_PROJECT="$OPTARG" ;;
     \?)
       echo "Invalid option: -$OPTARG" >&2
@@ -65,15 +84,36 @@ if [ "${FULL_GIT_REPO}" != "yes" ] && [ "${FULL_GIT_REPO}" != "no" ]; then
     exit 1
 fi
 
+set +u
 if [ -z "${SPEC_PROJECT}" ]; then
     echo "Invalid -p option. Cannot be empty. Choose: \"all\" or \"<project name>\"" >&2
     exit 1
+fi
+set -u
+
+# Set new repo relative to BUILD_DIR
+if [ "${BUILD_DIR_SET}" -eq 1 ]; then
+    BUILD_DIR="${__BUILD_DIR}"
+    IOC_REPO_DIR="${BUILD_DIR}/${IOC_REPO_DIR_REL}"
+    OPI_DIR="${BUILD_DIR}/${OPI_DIR_REL}"
+fi
+
+if [ "${IOC_REPO_DIR_SET}" -eq 1 ]; then
+    IOC_REPO_DIR="${__IOC_REPO_DIR}"
+fi
+
+if [ "${OPI_DIR_SET}" -eq 1 ]; then
+    OPI_DIR="${__OPI_DIR}"
 fi
 
 alias get_repo='shallow_repo'
 if [ "${FULL_GIT_REPO}" == "yes" ]; then
 	alias get_repo='full_repo'
 fi
+
+# Common paths
+DEST_REPO_DIR=${TOP}/${IOC_REPO_DIR}
+DEST_OPI_DIR=${TOP}/${OPI_DIR}
 
 # Create folders
 mkdir -p ${DEST_REPO_DIR}
