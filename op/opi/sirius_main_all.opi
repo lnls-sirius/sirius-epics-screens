@@ -1663,7 +1663,7 @@ $(pv_value)</tooltip>
           <TITLE>SI A 01</TITLE>
           <PREFIX>RA-ToSIA01</PREFIX>
         </macros>
-        <mode>8</mode>
+        <mode>6</mode>
         <description>SSA 1 Currents</description>
       </action>
     </actions>
