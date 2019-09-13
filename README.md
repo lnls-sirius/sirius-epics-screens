@@ -10,15 +10,21 @@ CSS screens used for Sirius.
 ## Usage
 
 ```bash
-./get-opis.sh -f [yes|no] -p [all|general|merge|top|<project_name>]
+./get-opis.sh -p [all|general|merge|top|<project_name>]
 ```
 
 where the options are:
 
 ```bash
- -f          Get full git repository [yes|no]
- -p          Project name to update OPIs ["all", "general", "top", "merge"`
-                    or specify a specific project name]
+  -h          Display help message
+  -f          Get full git repository [yes|no]
+  -b          Specify build directory <directory name>
+  -r          Specify IOCs target repository <directory name>.
+                Defaults to <BUILD_DIR>/epics-iocs
+  -o          Specify OPIs target directory <directory name>.
+                Defaults to <BUILD_DIR>/op/opi
+  -p          Project name to update OPIs ["all", "general", "top", "merge"
+                  or specify a specific project name]
 ```
 
 ## Tip
