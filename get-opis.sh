@@ -24,6 +24,7 @@ usage () {
     echo "                          or specify a specific project name]" >&2
     echo >&2
     echo " Options:" >&2
+    echo "  -h          Display help message" >&2
     echo "  -f          Get full git repository [yes|no]" >&2
     echo "  -b          Specify build directory <directory name>" >&2
     echo "  -r          Specify IOCs target repository <directory name>." >&2
@@ -43,7 +44,7 @@ OPI_DIR="${BUILD_DIR}/${OPI_DIR_REL}"
 BUILD_DIR_SET=0
 IOC_REPO_DIR_SET=0
 OPI_DIR_SET=0
-while getopts ":f:b:r:o:p:" opt; do
+while getopts ":f:b:r:o:p:h" opt; do
   case $opt in
     f) FULL_GIT_REPO="$OPTARG" ;;
     b)
@@ -59,6 +60,10 @@ while getopts ":f:b:r:o:p:" opt; do
         OPI_DIR_SET=1
       ;;
     p) SPEC_PROJECT="$OPTARG" ;;
+    h)
+      usage $0
+      exit 1
+      ;;
     \?)
       echo "Invalid option: -$OPTARG" >&2
       usage $0
