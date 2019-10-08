@@ -35,5 +35,11 @@ documentation/*.out
 documentation/*.toc
 documentation/*.pdf
 
+# Script files
+scripts/*.pdf
+scripts/*.json
+scripts/*.pickle
+
+
 # Build
 build/
