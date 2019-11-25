@@ -19,9 +19,9 @@
   <macros>
     <include_parent_macros>true</include_parent_macros>
     <P_VLIGHT_1>BO-50U:</P_VLIGHT_1>
-    <R_VLIGHT_1>DI-VLight:</R_VLIGHT_1>
+    <R_VLIGHT_1>DI-VLightCam:</R_VLIGHT_1>
     <P_VLIGHT_2>SI-01C2FE:</P_VLIGHT_2>
-    <R_VLIGHT_2>DI-VLight:</R_VLIGHT_2>
+    <R_VLIGHT_2>DI-VLightCam:</R_VLIGHT_2>
   </macros>
   <name></name>
   <rules />
