@@ -54,8 +54,6 @@
     <R_SCRN_9>DI-Scrn:</R_SCRN_9>
     <CTRL_PREFIX_SCRN_9>BO-02U:DI-ScrnCtrl:</CTRL_PREFIX_SCRN_9>
     <CAM_PREFIX_SCRN_9>BO-02U:DI-ScrnCam:</CAM_PREFIX_SCRN_9>
-    <P_VISIBLE_LIGHT_1>BO-50U:</P_VISIBLE_LIGHT_1>
-    <R_VISIBLE_LIGHT_1>DI-VLightCam:</R_VISIBLE_LIGHT_1>
     <P_SCRN_10>TS-01:</P_SCRN_10>
     <R_SCRN_10>DI-Scrn:</R_SCRN_10>
     <CTRL_PREFIX_SCRN_10>TS-01:DI-ScrnCtrl:</CTRL_PREFIX_SCRN_10>
@@ -125,7 +123,7 @@
       <color red="255" green="0" blue="0" />
     </foreground_color>
     <gradient>false</gradient>
-    <height>667</height>
+    <height>620</height>
     <horizontal_fill>true</horizontal_fill>
     <line_color>
       <color red="128" green="0" blue="255" />
@@ -901,7 +899,7 @@ $(pv_value)</tooltip>
       <color red="255" green="0" blue="0" />
     </foreground_color>
     <gradient>false</gradient>
-    <height>187</height>
+    <height>134</height>
     <horizontal_fill>true</horizontal_fill>
     <line_color>
       <color red="128" green="0" blue="255" />
@@ -926,7 +924,7 @@ $(pv_value)</tooltip>
     <width>535</width>
     <wuid>-779c1d6f:16788fec1f8:-7656</wuid>
     <x>24</x>
-    <y>294</y>
+    <y>299</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -971,7 +969,7 @@ $(pv_value)</tooltip>
     <width>191</width>
     <wuid>-779c1d6f:16788fec1f8:-7a2d</wuid>
     <x>84</x>
-    <y>318</y>
+    <y>323</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -1071,7 +1069,7 @@ $(pv_value)</tooltip>
     <width>191</width>
     <wuid>-779c1d6f:16788fec1f8:-798b</wuid>
     <x>306</x>
-    <y>318</y>
+    <y>323</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -1171,7 +1169,7 @@ $(pv_value)</tooltip>
     <width>191</width>
     <wuid>-779c1d6f:16788fec1f8:-7966</wuid>
     <x>84</x>
-    <y>366</y>
+    <y>371</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -1425,104 +1423,6 @@ $(pv_value)</tooltip>
       <y>0</y>
     </widget>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>37</height>
-    <lock_children>true</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-      <P>$(P_VISIBLE_LIGHT_1)</P>
-      <R>$(R_VISIBLE_LIGHT_1)</R>
-    </macros>
-    <name>screen_8_container_2</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>true</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>false</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>191</width>
-    <wuid>-39e7adfd:1690c70a663:-7fc8</wuid>
-    <x>84</x>
-    <y>414</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-      <actions hook="false" hook_all="false">
-        <action type="OPEN_DISPLAY">
-          <path>../displays/basler-acA1300-75gm-epics-ioc/basler.opi</path>
-          <macros>
-            <include_parent_macros>true</include_parent_macros>
-          </macros>
-          <mode>1</mode>
-          <description></description>
-        </action>
-      </actions>
-      <alarm_pulsing>false</alarm_pulsing>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Ubuntu" height="14" style="0" pixels="false" />
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>37</height>
-      <image></image>
-      <name>Action Button_18</name>
-      <push_action_index>0</push_action_index>
-      <pv_name></pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <style>0</style>
-      <text>$(P)$(R)</text>
-      <toggle_button>false</toggle_button>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <visible>true</visible>
-      <widget_type>Action Button</widget_type>
-      <width>191</width>
-      <wuid>-39e7adfd:1690c70a663:-7fc7</wuid>
-      <x>0</x>
-      <y>0</y>
-    </widget>
-  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <alarm_pulsing>false</alarm_pulsing>
@@ -1578,8 +1478,8 @@ $(pv_value)</tooltip>
     <widget_type>Rectangle</widget_type>
     <width>535</width>
     <wuid>-387c0de5:16cac09009b:-7b7e</wuid>
-    <x>27</x>
-    <y>475</y>
+    <x>24</x>
+    <y>431</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -1624,7 +1524,7 @@ $(pv_value)</tooltip>
     <width>191</width>
     <wuid>-387c0de5:16cac09009b:-7b4b</wuid>
     <x>84</x>
-    <y>504</y>
+    <y>461</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -1724,7 +1624,7 @@ $(pv_value)</tooltip>
     <width>191</width>
     <wuid>-387c0de5:16cac09009b:-7b49</wuid>
     <x>306</x>
-    <y>504</y>
+    <y>461</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -1824,7 +1724,7 @@ $(pv_value)</tooltip>
     <width>191</width>
     <wuid>-387c0de5:16cac09009b:-7b47</wuid>
     <x>84</x>
-    <y>552</y>
+    <y>509</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -1924,7 +1824,7 @@ $(pv_value)</tooltip>
     <width>191</width>
     <wuid>-387c0de5:16cac09009b:-7b45</wuid>
     <x>306</x>
-    <y>552</y>
+    <y>509</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -2024,7 +1924,7 @@ $(pv_value)</tooltip>
     <width>191</width>
     <wuid>-387c0de5:16cac09009b:-7b43</wuid>
     <x>84</x>
-    <y>600</y>
+    <y>557</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
@@ -2124,7 +2024,7 @@ $(pv_value)</tooltip>
     <width>191</width>
     <wuid>-387c0de5:16cac09009b:-7b41</wuid>
     <x>306</x>
-    <y>600</y>
+    <y>557</y>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="OPEN_DISPLAY">
