@@ -1384,7 +1384,7 @@ $(pv_value)</tooltip>
     <widget_type>Action Button</widget_type>
     <width>151</width>
     <wuid>-5d801f7c:16ef4dedaf2:-7857</wuid>
-    <x>192</x>
+    <x>210</x>
     <y>510</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -1449,7 +1449,7 @@ $(pv_value)</tooltip>
     <widget_type>Action Button</widget_type>
     <width>151</width>
     <wuid>-5d801f7c:16ef4dedaf2:-784b</wuid>
-    <x>192</x>
+    <x>210</x>
     <y>606</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -1855,7 +1855,7 @@ $(pv_value)</tooltip>
     <widget_type>Action Button</widget_type>
     <width>151</width>
     <wuid>-5d801f7c:16ef4dedaf2:-7377</wuid>
-    <x>192</x>
+    <x>210</x>
     <y>420</y>
   </widget>
 </display>
