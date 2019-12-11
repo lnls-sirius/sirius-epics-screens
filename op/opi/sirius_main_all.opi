@@ -1752,7 +1752,8 @@ $(pv_value)</tooltip>
         <path>rssmx100a-epics-ioc/SMA-100A.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
-          <P>RF-Gen</P>
+          <P>RF-Gen:</P>
+          <R></R>
         </macros>
         <mode>8</mode>
         <description>RF Generator</description>
@@ -1808,7 +1809,8 @@ $(pv_value)</tooltip>
         <path>rssmx100a-epics-ioc/SMA-100A.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
-          <P>RF-SI-Gen</P>
+          <P>RF-SI-Gen:</P>
+          <R></R>
         </macros>
         <mode>8</mode>
         <description>RF SI Generator</description>
