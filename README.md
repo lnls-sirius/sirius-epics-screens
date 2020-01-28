@@ -27,6 +27,38 @@ where the options are:
                   or specify a specific project name]
 ```
 
+Another option is to use the Makefile. It supports roughly the same options
+as the script via `make` variables , such as:
+
+
+```bash
+  PROJECT
+    Project name to update OPIs ["all", "general", "top", "merge"
+                or specify a specific project name]
+
+  BUILD_DIR
+    Specify build directory <directory name>
+
+  IOC_REPO_DIR
+    Specify IOCs target repository <directory name>.
+                Defaults to <BUILD_DIR>/epics-iocs
+  OPI_DIR
+    Specify OPIs target directory <directory name>.
+                Defaults to <BUILD_DIR>/op/opi
+```
+
+So, one can invoke make with:
+
+```bash
+make \
+    PROJECT=<project_dir> \
+    BUILD_DIR=<build_dir> \
+    IOC_REPO_DIR=<ioc_repo_dir> \
+    OPI_DIR=<opi_dir>
+
+```
+
+
 ## Tip
 
 It's possible to open CSS with the Main OPI being opened via the command-line with
