@@ -39,8 +39,8 @@ FULL_GIT_REPO="no"
 BUILD_DIR="build"
 IOC_REPO_DIR_REL="epics-iocs"
 OPI_DIR_REL="op/opi"
-IOC_REPO_DIR="${BUILD_DIR}/${IOC_REPO_DIR_REL}"
-OPI_DIR="${BUILD_DIR}/${OPI_DIR_REL}"
+IOC_REPO_DIR="${TOP}/${BUILD_DIR}/${IOC_REPO_DIR_REL}"
+OPI_DIR="${TOP}/${BUILD_DIR}/${OPI_DIR_REL}"
 BUILD_DIR_SET=0
 IOC_REPO_DIR_SET=0
 OPI_DIR_SET=0
@@ -116,9 +116,9 @@ if [ "${FULL_GIT_REPO}" == "yes" ]; then
 	alias get_repo='full_repo'
 fi
 
-# Common paths
-DEST_REPO_DIR=${TOP}/${IOC_REPO_DIR}
-DEST_OPI_DIR=${TOP}/${OPI_DIR}
+# Common paths. Only if not set overriden by the above
+DEST_REPO_DIR=${IOC_REPO_DIR}
+DEST_OPI_DIR=${OPI_DIR}
 
 # Create folders
 mkdir -p ${DEST_REPO_DIR}
