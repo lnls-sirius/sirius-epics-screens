@@ -27,10 +27,14 @@ else
 	EXTRA_OPTS +=
 endif
 
-.PHONY: all clean
+.PHONY: all clean install uninstall
 
 all:
 	./get-opis.sh $(EXTRA_OPTS)
+
+install: all
+
+uninstall: clean
 
 clean: BUILD_DIR ?= "build"
 clean:
