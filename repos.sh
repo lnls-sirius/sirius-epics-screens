@@ -21,7 +21,7 @@ BPM_PREFIX="BPM"
 BPM_GIT_URL="https://github.com"
 BPM_ORG="lnls-dig"
 BPM_PROJECT="bpm-epics-ioc"
-BPM_TAG="master"
+BPM_TAG="v2.7.11"
 BPM_OPI_DIR="op/opi"
 
 # Timing RX will me merged to SIRIUS_BPM
