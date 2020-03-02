@@ -45,7 +45,7 @@ get_repo()
         echo "Repository ${DEST_PROJECT_NAME} already exists. Updating the current one to tag: ${TAG}"
         ( \
             cd ${DEST} && \
-            git remote set-branches origin "${TAG}" && \
+            git remote set-branches origin '*' && \
             git fetch -q --all && \
             git checkout -q -f ${TAG} && \
             git reset -q --hard ${TAG}
