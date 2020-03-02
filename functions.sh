@@ -26,11 +26,13 @@ get_repo()
     local FULL_GIT_URL=${GIT_URL}/${GIT_ORG}/${PROJECT_NAME}
     local DEST=${DEST_DIR}/${DEST_PROJ_NAME}
 
+    set +e
     # Do git submodule init/update if not available
     if [ -z "$(find ${DEST} -type d -name ".git" 2>/dev/null)" ]; then
         if [  "${TYPE}" == "shallow" ]; then
             echo "Grabbing ${PROJECT_NAME} \"shallow\" repository at tag: ${TAG}"
-            git clone -q --branch ${TAG} --depth 1 ${FULL_GIT_URL} ${DEST}
+            git clone -q --branch ${TAG} --depth 1 ${FULL_GIT_URL} ${DEST} || \
+            (git clone -q ${FULL_GIT_URL} ${DEST} && git checkout ${TAG})
         elif [  "${TYPE}" == "full" ]; then
             echo "Grabbing ${PROJECT_NAME} \"full\" repository at tag: ${TAG}"
             git clone -q ${FULL_GIT_URL} ${DEST}
@@ -43,12 +45,13 @@ get_repo()
         echo "Repository ${DEST_PROJECT_NAME} already exists. Updating the current one to tag: ${TAG}"
         ( \
             cd ${DEST} && \
-            git remote set-branches origin "${TAG}"
+            git remote set-branches origin "${TAG}" && \
             git fetch -q --all && \
-            git checkout -q ${TAG} && \
-            git reset -q --hard origin/${TAG}
+            git checkout -q -f ${TAG} && \
+            git reset -q --hard ${TAG}
         )
     fi
+    set -e
 }
 
 
