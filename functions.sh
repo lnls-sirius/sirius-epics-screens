@@ -48,7 +48,8 @@ get_repo()
             git remote set-branches origin '*' && \
             git fetch -q --all && \
             git checkout -q -f ${TAG} && \
-            git reset -q --hard ${TAG}
+            (git reset -q --hard origin/${TAG} 2> /dev/null ||
+                git reset -q --hard ${TAG})
         )
     fi
     set -e
