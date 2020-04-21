@@ -20,12 +20,12 @@
     <include_parent_macros>true</include_parent_macros>
     <P_SCRAP_1>SI-01SA:</P_SCRAP_1>
     <R_SCRAP_1>DI-ScrapH:</R_SCRAP_1>
-    <CTRL_NEG_PREFIX_SCRAP_1>SI-01SA:DI-ScrapHCtrl-O:</CTRL_NEG_PREFIX_SCRAP_1>
-    <CTRL_POS_PREFIX_SCRAP_1>SI-01SA:DI-ScrapHCtrl-I:</CTRL_POS_PREFIX_SCRAP_1>
+    <CTRL_NEG_PREFIX_SCRAP_1>SI-01SA:DI-ScrapHCtrl-I:</CTRL_NEG_PREFIX_SCRAP_1>
+    <CTRL_POS_PREFIX_SCRAP_1>SI-01SA:DI-ScrapHCtrl-O:</CTRL_POS_PREFIX_SCRAP_1>
     <P_SCRAP_2>SI-01SA:</P_SCRAP_2>
     <R_SCRAP_2>DI-ScrapV:</R_SCRAP_2>
-    <CTRL_NEG_PREFIX_SCRAP_2>SI-01SA:DI-ScrapVCtrl-T:</CTRL_NEG_PREFIX_SCRAP_2>
-    <CTRL_POS_PREFIX_SCRAP_2>SI-01SA:DI-ScrapHCtrl-B:</CTRL_POS_PREFIX_SCRAP_2>
+    <CTRL_NEG_PREFIX_SCRAP_2>SI-01SA:DI-ScrapVCtrl-B:</CTRL_NEG_PREFIX_SCRAP_2>
+    <CTRL_POS_PREFIX_SCRAP_2>SI-01SA:DI-ScrapHCtrl-T:</CTRL_POS_PREFIX_SCRAP_2>
   </macros>
   <name></name>
   <rules />
@@ -242,7 +242,7 @@ $(pv_value)</tooltip>
       <R>$(R_SCRAP_1)</R>
       <CTRL_NEG_PREFIX>$(CTRL_NEG_PREFIX_SCRAP_1)</CTRL_NEG_PREFIX>
       <CTRL_POS_PREFIX>$(CTRL_POS_PREFIX_SCRAP_1)</CTRL_POS_PREFIX>
-      <TITLE>Scrapper</TITLE>
+      <TITLE>Scraper</TITLE>
     </macros>
     <name>scrapper_1_container</name>
     <rules />
@@ -343,7 +343,7 @@ $(pv_value)</tooltip>
       <R>$(R_SCRAP_2)</R>
       <CTRL_NEG_PREFIX>$(CTRL_NEG_PREFIX_SCRAP_2)</CTRL_NEG_PREFIX>
       <CTRL_POS_PREFIX>$(CTRL_POS_PREFIX_SCRAP_2)</CTRL_POS_PREFIX>
-      <TITLE>Scrapper</TITLE>
+      <TITLE>Scraper</TITLE>
     </macros>
     <name>scrapper_2_container</name>
     <rules />
@@ -446,7 +446,7 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>Scrapper</text>
+    <text>Scraper</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
