@@ -200,7 +200,7 @@ LLRF_PREFIX="LLRF"
 LLRF_GIT_URL="https://gitlab.cnpem.br"
 LLRF_ORG="con"
 LLRF_PROJECT="dllrf-css-screens"
-LLRF_TAG="7f1d58856e8cb431405af93e594bd26a470e109e"
+LLRF_TAG="fbb2da3151dbf80d35b9c12a3d61f6b75084e76d"
 LLRF_OPI_DIR="opis"
 LLRF_DEST_PROJECT_NAME="llrf-epics-ioc"
 
